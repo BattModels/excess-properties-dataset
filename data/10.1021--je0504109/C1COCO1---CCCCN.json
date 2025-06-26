@@ -1,0 +1,50 @@
+{
+  "name2": "Butylamine",
+  "doi": "10.1021/je0504109",
+  "smi2": "CCCCN",
+  "smi1": "C1COCO1",
+  "name1": "1,3-Dioxolane",
+  "pure_compound_data": {
+   "C1COCO1": {
+      "density": 1.0571,
+      "temperature": 298.15
+    },
+    "CCCCN": {
+      "density": 0.7319,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "units": "cm^3/mol",
+      "x1": [
+        0.0,
+        0.1001,
+        0.2001,
+        0.3002,
+        0.4002,
+        0.5002,
+        0.6002,
+        0.7002,
+        0.8001,
+        0.9001,
+        1.0
+      ],
+      "values": [
+        0.0,
+        0.013,
+        0.038,
+        0.065,
+        0.082,
+        0.085,
+        0.077,
+        0.058,
+        0.039,
+        0.021,
+        0.0
+      ],
+      "measurement": "excess molar volume",
+      "temperature": 298.15
+    }
+  ]
+}

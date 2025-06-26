@@ -1,0 +1,50 @@
+{
+  "name2": "2-Butanone",
+  "doi": "10.1021/je0504109",
+  "smi2": "CCC(=O)C",
+  "smi1": "C1COCO1",
+  "name1": "1,3-Dioxolane",
+  "pure_compound_data": {
+   "C1COCO1": {
+      "density": 1.0571,
+      "temperature": 298.15
+    },
+    "CCC(=O)C": {
+      "density": 0.7981,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "units": "cm^3/mol",
+      "x1": [
+        0.0,
+        0.0976,
+        0.1957,
+        0.2944,
+        0.3935,
+        0.4933,
+        0.5935,
+        0.6943,
+        0.7956,
+        0.8975,
+        1.0
+      ],
+      "values": [
+        0.0,
+        -0.084,
+        -0.133,
+        -0.164,
+        -0.185,
+        -0.201,
+        -0.207,
+        -0.173,
+        -0.113,
+        -0.045,
+        0.0
+      ],
+      "measurement": "excess molar volume",
+      "temperature": 298.15
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name2": "2-Butanone",
+  "doi": "10.1021/je0504109",
+  "smi2": "CCC(=O)C",
+  "smi1": "C1COCCO1",
+  "name1": "1,4-Dioxane",
+  "pure_compound_data": {
+   "C1COCCO1": {
+      "density": 1.0265,
+      "temperature": 298.15
+    },
+    "CCC(=O)C": {
+      "density": 0.7981,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "units": "cm^3/mol",
+      "x1": [
+        0.0,
+        0.0833,
+        0.1698,
+        0.2597,
+        0.353,
+        0.4501,
+        0.5511,
+        0.6563,
+        0.766,
+        0.8805,
+        1.0
+      ],
+      "values": [
+        0.0,
+        -0.077,
+        -0.124,
+        -0.16,
+        -0.186,
+        -0.202,
+        -0.205,
+        -0.167,
+        -0.111,
+        -0.044,
+        0.0
+      ],
+      "measurement": "excess molar volume",
+      "temperature": 298.15
+    }
+  ]
+}

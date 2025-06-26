@@ -1,0 +1,50 @@
+{
+  "name2": "Butyl Acetate",
+  "doi": "10.1021/je0504109",
+  "smi2": "CCCCOC(=O)C",
+  "smi1": "C1COCCO1",
+  "name1": "1,4-Dioxane",
+  "pure_compound_data": {
+   "C1COCCO1": {
+      "density": 1.0265,
+      "temperature": 298.15
+    },
+    "CCCCOC(=O)C": {
+      "density": 0.8744,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "units": "cm^3/mol",
+      "x1": [
+        0.0,
+        0.1278,
+        0.2479,
+        0.361,
+        0.4678,
+        0.5687,
+        0.6641,
+        0.7547,
+        0.8406,
+        0.9223,
+        1.0
+      ],
+      "values": [
+        0.0,
+        0.005,
+        0.014,
+        0.023,
+        0.032,
+        0.036,
+        0.036,
+        0.032,
+        0.022,
+        0.011,
+        0.0
+      ],
+      "measurement": "excess molar volume",
+      "temperature": 298.15
+    }
+  ]
+}
