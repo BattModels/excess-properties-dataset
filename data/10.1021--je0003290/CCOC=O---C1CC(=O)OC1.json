@@ -9,7 +9,7 @@
       "measurement": "density",
       "temperature": 298.15,
       "xtype": "mole fraction",
-      "units": "cm^3/mol",
+      "units": "g/cm^3",
       "x1": [
         0.0,
         0.0501,

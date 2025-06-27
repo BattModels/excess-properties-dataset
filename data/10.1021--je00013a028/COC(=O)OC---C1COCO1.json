@@ -4,10 +4,18 @@
   "smi2": "C1COCO1",
   "smi1": "COC(=O)OC",
   "name1": "Dimethyl Carbonate",
+  "pure_compound_data": {
+    "COC(=O)OC": {
+      "density": 1.06335
+    },
+    "C1COCO1": {
+      "density": 1.05864
+    }
+  },
   "mixture_data": [
     {
       "measurement": "density",
-      "units": "g/mol",
+      "units": "g/cm^3",
       "temperature": 298.15,
       "xtype": "mole fraction",
       "x1": [

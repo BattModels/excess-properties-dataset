@@ -5,7 +5,7 @@
   "smi1": "CC1COC(=O)O1",
   "name1": "Propylene Carbonate",
   "pure_compound_data": {
-   "CC1COC(=O)O1": {
+    "CC1COC(=O)O1": {
       "density": 1.19957,
       "temperature": 298.15
     },
@@ -37,13 +37,13 @@
         0.9387
       ],
       "values": [
-        155, 
-        288, 
-        486,  
-        784,  
-        972,  
-        1107, 
-        1264, 
+        155,
+        288,
+        486,
+        784,
+        972,
+        1107,
+        1264,
         1360,
         1365,
         1237,
@@ -58,7 +58,7 @@
     },
     {
       "measurement": "density",
-      "units": "cm^3/mol",
+      "units": "g/cm^3",
       "x1": [
         0.0148,
         0.0510,
