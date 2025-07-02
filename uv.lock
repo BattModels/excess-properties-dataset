@@ -134,6 +134,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pint" },
     { name = "pints" },
+    { name = "pubchempy" },
     { name = "pydantic" },
     { name = "rdkit" },
     { name = "typer" },
@@ -144,6 +145,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.0" },
     { name = "pint", specifier = ">=0.24.4" },
     { name = "pints", specifier = ">=0.5.0" },
+    { name = "pubchempy", specifier = ">=1.0.4" },
     { name = "pydantic", specifier = ">=2.11.7" },
     { name = "rdkit", specifier = ">=2025.3.3" },
     { name = "typer", specifier = ">=0.16.0" },
@@ -679,6 +681,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/fe/8b/3c73abc9c759ecd3f
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fe/39/979e8e21520d4e47a0bbe349e2713c0aac6f3d853d0e5b34d76206c439aa/platformdirs-4.3.8-py3-none-any.whl", hash = "sha256:ff7059bb7eb1179e2685604f4aaf157cfd9535242bd23742eadc3c13542139b4", size = 18567 },
 ]
+
+[[package]]
+name = "pubchempy"
+version = "1.0.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/aa/fb/8de3aa9804b614dbc8dc5c16ed061d819cc360e0ddecda3dcd01c1552339/PubChemPy-1.0.4.tar.gz", hash = "sha256:24e9dc2fc90ab153b2764bf805e510b1410700884faf0510a9e7cf0d61d8ed0e", size = 29767 }
 
 [[package]]
 name = "pydantic"

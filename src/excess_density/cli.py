@@ -1,11 +1,14 @@
 import re
+from typing import Annotated
+import pubchempy
 import typer
 from pathlib import Path
 import json
-from .data_model import MixtureRecord
+from .data_model import MixtureRecord, PureCompoundDatum, MixtureDatum
 from pydantic import ValidationError
 import pandas as pd
 from itertools import chain
+from rdkit import Chem
 
 app = typer.Typer()
 
@@ -33,6 +36,7 @@ def validate(file: Path):
 def cat(file: Path):
     assert file.is_file()
     print(MixtureRecord.parse_jsonfile(file))
+
 
 def compute_wide_dataframe_rowwise(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -62,109 +66,115 @@ def compute_wide_dataframe_rowwise(df: pd.DataFrame) -> pd.DataFrame:
          'ideal_density','density [unit]','excess density [unit]','excess molar density [unit]']
     """
     # Define keys and metadata
-    keys = ['inchi_key1', 'inchi_key2', 'temperature', 'x1', 'x2']
-    meta_cols = ['doi', 'smi1', 'smi2', 'name1', 'name2',
-                 'molecular_weight1', 'molecular_weight2']
+    keys = ["inchi_key1", "inchi_key2", "temperature", "x1", "x2"]
+    meta_cols = [
+        "doi",
+        "smi1",
+        "smi2",
+        "name1",
+        "name2",
+        "molecular_weight1",
+        "molecular_weight2",
+    ]
 
     # Map measurement to its units
     units_map = (
-        df[['measurement', 'measurement_units']]
-          .drop_duplicates()
-          .set_index('measurement')['measurement_units']
-          .to_dict()
+        df[["measurement", "measurement_units"]]
+        .drop_duplicates()
+        .set_index("measurement")["measurement_units"]
+        .to_dict()
     )
 
     # Pivot measurements to wide; this includes 'excess molar volume' if present
-    df_wide = df.pivot_table(index=keys, columns='measurement', values='value').reset_index()
+    df_wide = df.pivot_table(
+        index=keys, columns="measurement", values="value"
+    ).reset_index()
 
     # Merge in metadata and original pure densities
-    extras = (
-        df.drop_duplicates(subset=keys)
-          .loc[:, keys + meta_cols + ['density1 [g/cm^3]', 'density2 [g/cm^3]']]
-    )
-    df_wide = df_wide.merge(extras, on=keys, how='left')
+    extras = df.drop_duplicates(subset=keys).loc[
+        :, keys + meta_cols + ["density1 [g/cm^3]", "density2 [g/cm^3]"]
+    ]
+    df_wide = df_wide.merge(extras, on=keys, how="left")
 
-    pure1_map = (
-        df.loc[(df.measurement=="density") & (df.x1==1.0)]
-          .set_index(['inchi_key1','inchi_key2','temperature'])['value']
-    )
-    pure2_map = (
-        df.loc[(df.measurement=="density") & (df.x2==1.0)]
-          .set_index(['inchi_key1','inchi_key2','temperature'])['value']
-    )
+    pure1_map = df.loc[(df.measurement == "density") & (df.x1 == 1.0)].set_index(
+        ["inchi_key1", "inchi_key2", "temperature"]
+    )["value"]
+    pure2_map = df.loc[(df.measurement == "density") & (df.x2 == 1.0)].set_index(
+        ["inchi_key1", "inchi_key2", "temperature"]
+    )["value"]
 
     def fill_pure(row):
-        key = (row['inchi_key1'], row['inchi_key2'], row['temperature'])
+        key = (row["inchi_key1"], row["inchi_key2"], row["temperature"])
         # override density1 from mixture endpoints if available
         if key in pure1_map:
-            row['density1 [g/cm^3]'] = pure1_map[key]
+            row["density1 [g/cm^3]"] = pure1_map[key]
         # override density2 from mixture endpoints if available
         if key in pure2_map:
-            row['density2 [g/cm^3]'] = pure2_map[key]
+            row["density2 [g/cm^3]"] = pure2_map[key]
         return row
 
     df_wide = df_wide.apply(fill_pure, axis=1)
 
-
     # Compute mixture molecular weight and ideal density
-    df_wide['mw_mix'] = (
-        df_wide['x1'] * df_wide['molecular_weight1'] +
-        df_wide['x2'] * df_wide['molecular_weight2']
+    df_wide["mw_mix"] = (
+        df_wide["x1"] * df_wide["molecular_weight1"]
+        + df_wide["x2"] * df_wide["molecular_weight2"]
     )
-    df_wide['ideal density'] = (
-        df_wide['x1'] * df_wide['density1 [g/cm^3]'] +
-        df_wide['x2'] * df_wide['density2 [g/cm^3]']
+    df_wide["ideal density"] = (
+        df_wide["x1"] * df_wide["density1 [g/cm^3]"]
+        + df_wide["x2"] * df_wide["density2 [g/cm^3]"]
     )
 
     # Row-wise computation
     def compute_row(row):
         # Handle case: only excess molar volume provided
-        if pd.isna(row.get('density')) and not pd.isna(row.get('excess molar volume')):
+        if pd.isna(row.get("density")) and not pd.isna(row.get("excess molar volume")):
             # Compute pure molar volumes (cm3/mol)
-            V1 = row['molecular_weight1'] / row['density1 [g/cm^3]']
-            V2 = row['molecular_weight2'] / row['density2 [g/cm^3]']
-            V_id = row['x1'] * V1 + row['x2'] * V2
-            V_mix = V_id + row['excess molar volume']
+            V1 = row["molecular_weight1"] / row["density1 [g/cm^3]"]
+            V2 = row["molecular_weight2"] / row["density2 [g/cm^3]"]
+            V_id = row["x1"] * V1 + row["x2"] * V2
+            V_mix = V_id + row["excess molar volume"]
             # Compute mixture density (g/cm3)
-            row['density'] = row['mw_mix'] / V_mix
+            row["density"] = row["mw_mix"] / V_mix
 
         # Compute density if still missing via excess density
-        if pd.isna(row.get('density')) and not pd.isna(row.get('excess density')):
-            row['density'] = row['ideal density'] + row['excess density']
+        if pd.isna(row.get("density")) and not pd.isna(row.get("excess density")):
+            row["density"] = row["ideal density"] + row["excess density"]
 
         # Compute excess density if missing
-        if pd.isna(row.get('excess density')) and not pd.isna(row.get('density')):
-            row['excess density'] = row['density'] - row['ideal density']
+        if pd.isna(row.get("excess density")) and not pd.isna(row.get("density")):
+            row["excess density"] = row["density"] - row["ideal density"]
 
         # Compute molar densities
-        row['mixture molar volume'] = row["mw_mix"] / row['density']
-        row['pure1 molar volume'] = row['molecular_weight1'] / row['density1 [g/cm^3]']
-        row['pure2 molar volume'] = row['molecular_weight2'] / row['density2 [g/cm^3]']
-        row['ideal molar volume'] = (
-            row['x1'] * row['pure1 molar volume'] +
-            row['x2'] * row['pure2 molar volume']
+        row["mixture molar volume"] = row["mw_mix"] / row["density"]
+        row["pure1 molar volume"] = row["molecular_weight1"] / row["density1 [g/cm^3]"]
+        row["pure2 molar volume"] = row["molecular_weight2"] / row["density2 [g/cm^3]"]
+        row["ideal molar volume"] = (
+            row["x1"] * row["pure1 molar volume"]
+            + row["x2"] * row["pure2 molar volume"]
         )
 
         # Compute excess molar density
-        if pd.isna(row.get('excess molar volume')):
-            row['excess molar volume'] = (
-                row['mixture molar volume'] - row['ideal molar volume']
+        if pd.isna(row.get("excess molar volume")):
+            row["excess molar volume"] = (
+                row["mixture molar volume"] - row["ideal molar volume"]
             )
         return row
 
     df_wide = df_wide.apply(compute_row, axis=1)
 
     # Rename computed columns to include units
-    rename_map = {'ideal density': 'ideal_density'}
-    for meas in ['density', 'excess density', 'excess molar volume']:
+    rename_map = {"ideal density": "ideal_density"}
+    for meas in ["density", "excess density", "excess molar volume"]:
         if meas in df_wide.columns:
-            unit = units_map.get(meas, units_map.get('density', ''))
-            if meas == 'excess molar density' and not units_map.get(meas):
-                unit = 'mol/cm^3'
+            unit = units_map.get(meas, units_map.get("density", ""))
+            if meas == "excess molar density" and not units_map.get(meas):
+                unit = "mol/cm^3"
             rename_map[meas] = f"{meas} [{unit}]"
 
     df_wide = df_wide.rename(columns=rename_map)
     return df_wide
+
 
 def report_missing_entities(df_wide: pd.DataFrame) -> pd.DataFrame:
     """
@@ -173,14 +183,15 @@ def report_missing_entities(df_wide: pd.DataFrame) -> pd.DataFrame:
     and excess molar density.
     """
     # Regex to match our three target columns with units
-    pattern = re.compile(r'^(density|excess density|excess molar density) \[.*\]$')
+    pattern = re.compile(r"^(density|excess density|excess molar density) \[.*\]$")
     meas_cols = [c for c in df_wide.columns if pattern.match(c)]
 
     # Group and check if all values in these columns are NaN
-    grouped = df_wide.groupby(['doi', 'smi1', 'smi2'])
+    grouped = df_wide.groupby(["doi", "smi1", "smi2"])
     missing = grouped.apply(lambda g: g[meas_cols].isna().all().all())
-    missing_entities = missing[missing].reset_index()[['doi', 'smi1', 'smi2']]
+    missing_entities = missing[missing].reset_index()[["doi", "smi1", "smi2"]]
     return missing_entities
+
 
 def report_missing_entities_with_examples(df_wide: pd.DataFrame) -> pd.DataFrame:
     """
@@ -189,14 +200,12 @@ def report_missing_entities_with_examples(df_wide: pd.DataFrame) -> pd.DataFrame
     return one example row from that group.
     """
     # Identify the measurement columns (they include units in the heading)
-    pattern = re.compile(r'^(density|excess density|excess molar density) \[.*\]$')
+    pattern = re.compile(r"^(density|excess density|excess molar density) \[.*\]$")
     meas_cols = [c for c in df_wide.columns if pattern.match(c)]
 
     # Determine which groups are entirely missing those measurements
-    group_missing = (
-        df_wide
-        .groupby(['doi', 'smi1', 'smi2'])[meas_cols]
-        .apply(lambda g: g.isna().to_numpy().all())
+    group_missing = df_wide.groupby(["doi", "smi1", "smi2"])[meas_cols].apply(
+        lambda g: g.isna().to_numpy().all()
     )
 
     # Extract the index tuples (doi, smi1, smi2) for missing groups
@@ -206,9 +215,9 @@ def report_missing_entities_with_examples(df_wide: pd.DataFrame) -> pd.DataFrame
     examples = []
     for doi, smi1, smi2 in missing_groups:
         subset = df_wide[
-            (df_wide['doi'] == doi) &
-            (df_wide['smi1'] == smi1) &
-            (df_wide['smi2'] == smi2)
+            (df_wide["doi"] == doi)
+            & (df_wide["smi1"] == smi1)
+            & (df_wide["smi2"] == smi2)
         ]
         if not subset.empty:
             examples.append(subset.iloc[0])
@@ -226,7 +235,7 @@ def report_complete_counts(df_wide: pd.DataFrame) -> pd.DataFrame:
     Returns a DataFrame with columns: doi, smi1, smi2, complete_records.
     """
     # Identify the three measurement columns (they include units in the heading)
-    pattern = re.compile(r'^(density|excess density|excess molar density) \[.*\]$')
+    pattern = re.compile(r"^(density|excess density|excess molar density) \[.*\]$")
     meas_cols = [c for c in df_wide.columns if pattern.match(c)]
 
     # Boolean mask of rows that are “complete” (no NaNs in those columns)
@@ -235,25 +244,20 @@ def report_complete_counts(df_wide: pd.DataFrame) -> pd.DataFrame:
     # Count completes per group
     counts = (
         df_wide[is_complete]
-        .groupby(['doi', 'smi1', 'smi2'])
+        .groupby(["doi", "smi1", "smi2"])
         .size()
-        .reset_index(name='complete_records')
+        .reset_index(name="complete_records")
     )
 
     # Ensure every group appears, filling zeros where needed
-    all_groups = (
-        df_wide[['doi', 'smi1', 'smi2']]
-        .drop_duplicates()
-    )
+    all_groups = df_wide[["doi", "smi1", "smi2"]].drop_duplicates()
     result = (
-        all_groups
-        .merge(counts, on=['doi', 'smi1', 'smi2'], how='left')
-        .fillna({'complete_records': 0})
-        .astype({'complete_records': int})
+        all_groups.merge(counts, on=["doi", "smi1", "smi2"], how="left")
+        .fillna({"complete_records": 0})
+        .astype({"complete_records": int})
     )
     result = result.sort_values(
-        by=['complete_records', 'doi'],
-        ascending=[False, True]
+        by=["complete_records", "doi"], ascending=[False, True]
     ).reset_index(drop=True)
     return result
 
@@ -272,3 +276,50 @@ def export(path: Path, output: Path):
     df = pd.DataFrame(records)
     df = compute_wide_dataframe_rowwise(df)
     df.round(4).to_csv(output)
+
+
+def get_smiles(name: str) -> str | None:
+    results = pubchempy.get_compounds(name, namespace="name")
+    if len(results) == 0:
+        return None
+    names = results[0].synonyms
+    names = names[: (min(len(names), 5))]
+    smi = Chem.MolToSmiles(Chem.MolFromInchi(results[0].inchi))
+    print(f"Matched {name} to {', '.join(names)} -> {smi}")
+    return smi
+
+
+@app.command()
+def add(
+    doi: Annotated[str, typer.Option(prompt="DOI")],
+    name1: Annotated[str, typer.Option(prompt="Name of Compound 1 (Pure when x=1)")],
+    name2: Annotated[str, typer.Option(prompt="Name of Compound 2 (Pure when x=0)")],
+):
+    doi_path = Path("data", doi.replace("/", "--"))
+    doi_path.mkdir(exist_ok=True, parents=True)
+    smi1 = get_smiles(name1)
+    smi2 = get_smiles(name2)
+    record = {
+        "name1": name1,
+        "name2": name2,
+        "smi1": smi1,
+        "smi2": smi2,
+        "doi": doi,
+        "pure_compound_data": {
+            smi1: {"density": 0, "temperature": 298.15},
+            smi2: {"density": 0, "temperature": 298.15},
+        },
+        "mixture_data": [
+            {
+                "measurement": "density",
+                "units": "g/cm^3",
+                "temperature": 298.15,
+                "xtype": "mole fraction",
+                "x1": [],
+                "values": [],
+            }
+        ],
+    }
+    output = Path(doi_path, f"{smi1}--{smi2}.json")
+    _ = output.write_text(json.dumps(record, indent=2))
+    print("Wrote template file to: ", output)

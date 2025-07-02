@@ -11,6 +11,7 @@ dependencies = [
     "pandas>=2.3.0",
     "pint>=0.24.4",
     "pints>=0.5.0",
+    "pubchempy>=1.0.4",
     "pydantic>=2.11.7",
     "rdkit>=2025.3.3",
     "typer>=0.16.0",
