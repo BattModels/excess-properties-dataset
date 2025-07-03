@@ -8,6 +8,7 @@ from pint import Quantity
 from .chem import SMILES, inchi_key, molecular_weight
 from .utils import parse_jsonc
 
+
 class Measurement(BaseModel):
     value: float
     unit: UnitField
@@ -46,6 +47,13 @@ class PressureMeasurement(Measurement):
 class DensityMeasurement(Measurement):
     unit: str = "g/cm^3"
 
+    @model_validator(mode="after")
+    @classmethod
+    def check_range(cls, m: "DensityMeasurement"):
+        if m.value <= 0:
+            raise ValueError("Density must be >0")
+        return m
+
 
 class MixtureDatum(BaseModel):
     measurement: Literal[
@@ -72,13 +80,13 @@ class MixtureDatum(BaseModel):
     def check_units_with_pint(cls, datum):
         # define the expected dimensionality for each measurement
         expected = {
-            "density":             ureg("g/cm**3").dimensionality,
-            "excess density":      ureg("g/cm**3").dimensionality,
-            "excess molar density":ureg("mol/cm**3").dimensionality,
-            "excess molar enthalpy":ureg("J/mol").dimensionality,
+            "density": ureg("g/cm**3").dimensionality,
+            "excess density": ureg("g/cm**3").dimensionality,
+            "excess molar density": ureg("mol/cm**3").dimensionality,
+            "excess molar enthalpy": ureg("J/mol").dimensionality,
             "excess molar volume": ureg("cm**3/mol").dimensionality,
-            "molar volume":         ureg("cm**3/mol").dimensionality,
-            "molar enthalpy":      ureg("J/mol").dimensionality,
+            "molar volume": ureg("cm**3/mol").dimensionality,
+            "molar enthalpy": ureg("J/mol").dimensionality,
         }
 
         exp_dim = expected[datum.measurement]
@@ -99,7 +107,11 @@ class MixtureDatum(BaseModel):
     @classmethod
     def check_values_x1_len_match(cls, datum):
         if len(datum.x1) != len(datum.values):
-            raise ValueError("Different lengths for x1 and values: %d vs. %d", len(datum.x1), len(datum.values))
+            raise ValueError(
+                "Different lengths for x1 and values: %d vs. %d",
+                len(datum.x1),
+                len(datum.values),
+            )
         return datum
 
 
