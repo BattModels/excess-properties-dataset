@@ -1,0 +1,41 @@
+{
+  "name1": "propylene carbonate",
+  "name2": "Toluene",
+  "smi1": "CC1COC(=O)O1",
+  "smi2": "Cc1ccccc1",
+  "doi": "10.1021/je034204h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 303.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0,
+        0.1223,
+        0.2385,
+        0.3493,
+        0.4553,
+        0.5561,
+        0.6524,
+        0.7452,
+        0.8335,
+        0.9188,
+        1
+      ],
+      "values": [
+        0.8604,
+        0.8943,
+        0.9282,
+        0.9621,
+        0.996,
+        1.0295,
+        1.0626,
+        1.0957,
+        1.1285,
+        1.1616,
+        1.1945
+      ]
+    }
+  ]
+}

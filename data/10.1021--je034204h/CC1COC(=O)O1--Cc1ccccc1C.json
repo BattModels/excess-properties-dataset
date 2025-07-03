@@ -1,0 +1,41 @@
+{
+  "name1": "propylene carbonate",
+  "name2": "o-Xylene",
+  "smi1": "CC1COC(=O)O1",
+  "smi2": "Cc1ccccc1C",
+  "doi": "10.1021/je034204h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 303.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0,
+        0.1383,
+        0.2653,
+        0.3824,
+        0.4906,
+        0.5909,
+        0.6842,
+        0.7712,
+        0.8525,
+        0.9286,
+        1
+      ],
+      "values": [
+        0.8605,
+        0.8954,
+        0.9302,
+        0.9647,
+        0.9989,
+        1.0328,
+        1.0663,
+        1.0994,
+        1.132,
+        1.1637,
+        1.1945
+      ]
+    }
+  ]
+}
