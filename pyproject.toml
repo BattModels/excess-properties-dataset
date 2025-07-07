@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = [
+    "numpy>=2.2.6",
     "pandas>=2.3.0",
     "pint>=0.24.4",
     "pints>=0.5.0",
@@ -23,3 +24,14 @@ excess-density = "excess_density.cli:app"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+pythonpath = [".", "test"]
+addopts = "--color yes"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
+

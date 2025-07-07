@@ -3,7 +3,7 @@ from pathlib import Path
 from pydantic import BaseModel, Field, model_validator
 from typing import Literal, Any
 from collections.abc import Sequence
-from .units import UnitField, ureg
+from .units import UnitField, get_preferred_unit, ureg
 from pint import Quantity
 from .chem import SMILES, inchi_key, molecular_weight
 from .utils import parse_jsonc
@@ -33,19 +33,19 @@ class Measurement(BaseModel):
         return data
 
     def to_units(self, unit: str) -> float:
-        return self.value * ureg(self.unit).to(unit).magnitude
+        return self.quantity.to(unit).magnitude
 
 
 class TemperatureMeasurement(Measurement):
-    unit: UnitField = "K"
+    unit: UnitField = get_preferred_unit("temperature")
 
 
 class PressureMeasurement(Measurement):
-    unit: str = "MPa"
+    unit: str = get_preferred_unit("pressure")
 
 
 class DensityMeasurement(Measurement):
-    unit: str = "g/cm^3"
+    unit: str = get_preferred_unit("density")
 
     @model_validator(mode="after")
     @classmethod
@@ -207,17 +207,19 @@ class MixtureRecord(BaseModel):
 
         return mt
 
-    def get_pure_density(self, temperature: Quantity, units: str = "g/cm^3"):
+    def get_pure_density(
+        self, temperature: Quantity, units: str = get_preferred_unit("density")
+    ):
         if self.pure_compound_data is None:
-            return {f"density1 [{units}]": None, f"density2 [{units}]": None}
+            return {f"density1": None, f"density2": None}
         else:
             return {
-                f"density1 [{units}]": self.pure_compound_data[
-                    self.smi1
-                ].get_temperature_value(temperature, units),
-                f"density2 [{units}]": self.pure_compound_data[
-                    self.smi2
-                ].get_temperature_value(temperature, units),
+                f"density1": self.pure_compound_data[self.smi1].get_temperature_value(
+                    temperature, units
+                ),
+                f"density2": self.pure_compound_data[self.smi2].get_temperature_value(
+                    temperature, units
+                ),
             }
 
     @property
@@ -226,11 +228,11 @@ class MixtureRecord(BaseModel):
             "name1": self.name1,
             "smi1": self.smi1,
             "inchi_key1": inchi_key(self.smi1),
-            "molecular_weight1": molecular_weight(self.smi1),
+            "molecular_mass1": molecular_weight(self.smi1),
             "name2": self.name2,
             "smi2": self.smi2,
             "inchi_key2": inchi_key(self.smi2),
-            "molecular_weight2": molecular_weight(self.smi2),
+            "molecular_mass2": molecular_weight(self.smi2),
             "doi": self.doi,
         }
 
@@ -246,38 +248,41 @@ class MixtureRecord(BaseModel):
 
         return t
 
-    def get_measurements(self, measurement_type: str, temperature: Quantity):
+    def get_measurements(
+        self,
+        measurement_type: str,
+        temperature: Quantity,
+        units_map: dict[str, str] | None = None,
+    ):
+        m_units = get_preferred_unit(measurement_type, units_map)
         for m in self.mixture_data:
             if m.measurement != measurement_type:
                 continue
             if m.temperature.quantity != temperature:
                 continue
             for x1, value in zip(m.x1, m.values):
-                q = ureg.Quantity(value, m.units)
+                q = ureg.Quantity(value, m.units).to(m_units)
                 yield {
                     "measurement": m.measurement,
                     "value": q.magnitude,
-                    f"measurement_units": q.units,
+                    "measurement_units": str(q.units),
                     "temperature": temperature.magnitude,
-                    "temperature_unit": str(temperature.units),
+                    "temperature_units": str(temperature.units),
                     "xtype": m.xtype,
                     "x1": x1,
                     "x2": 1 - x1,
                 }
 
-    def as_records(self, temperature_unit: str = "K"):
-        records = []
+    def as_records(self, units_map: dict[str, str] | None = None):
+        temperature_unit = get_preferred_unit("temperature", units_map)
         for T in self.temperatures(temperature_unit):
-            temperature = ureg.Quantity(T, temperature_unit)
+            temperature = ureg.Quantity(T, temperature_unit).to(temperature_unit)
             pure_density = self.get_pure_density(temperature)
             for mtype in self.measurment_types:
-                for m_record in self.get_measurements(mtype, temperature=temperature):
-                    records.append(
-                        {
-                            **self.metadata,
-                            **m_record,
-                            **pure_density,
-                        }
-                    )
-
-        return records
+                for m_record in self.get_measurements(
+                    mtype, temperature=temperature, units_map=units_map
+                ):
+                    yield {
+                        **m_record,
+                        **pure_density,
+                    }
