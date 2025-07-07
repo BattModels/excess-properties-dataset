@@ -57,7 +57,7 @@
     },
     {
       "measurement": "density",
-      "units": "g/cm^3",
+      "units": "kg/m^3",
       "temperature": 293.15,
       "xtype": "mole fraction",
       "x1": [

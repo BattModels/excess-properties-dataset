@@ -1,6 +1,6 @@
 {
   "name2": "Octane",
-  "doi": "10.1016--S0378-3812(01)00809-3",
+  "doi": "10.1016/S0378-3812(01)00809-3",
   "smi2": "CCCCCCCC",
   "smi1": "COC(=O)OC",
   "name1": "Dimethyl Carbonate",
@@ -15,8 +15,8 @@
   },
   "mixture_data": [
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 278.15,
       "pressure": {
         "value": 0.1,
@@ -47,8 +47,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 283.15,
       "pressure": {
         "value": 0.1,
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 293.15,
       "pressure": {
         "value": 0.1,
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 303.15,
       "pressure": {
         "value": 0.1,
@@ -143,8 +143,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 313.15,
       "pressure": {
         "value": 0.1,
@@ -175,8 +175,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 323.15,
       "pressure": {
         "value": 0.1,
@@ -207,8 +207,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 333.15,
       "pressure": {
         "value": 0.1,
@@ -239,8 +239,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 343.15,
       "pressure": {
         "value": 0.1,
@@ -271,8 +271,8 @@
       ]
     },
     {
-      "measurement": "density",
-      "units": "g/cm^3",
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
       "temperature": 353.15,
       "pressure": {
         "value": 0.1,
