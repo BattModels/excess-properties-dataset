@@ -135,10 +135,14 @@ class PureCompoundDatum(BaseModel):
                     return data
                 elif isinstance(density, dict):
                     data["density"] = [
-                        DensityMeasurement(value=v) for v in density["values"]
+                        DensityMeasurement(value=v, unit=density.get("units", "g/cm^3"))
+                        for v in density["values"]
                     ]
                     data["temperature"] = [
-                        TemperatureMeasurement(value=v) for v in density["temperature"]
+                        TemperatureMeasurement(
+                            value=v, unit=density.get("temperature_units", "K")
+                        )
+                        for v in density["temperature"]
                     ]
                     return data
         raise ValueError(f"Invalid format: {data}")
