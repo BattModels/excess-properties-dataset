@@ -1,7 +1,7 @@
 {
-  "name2": "2-Butanol",
+  "name2": "Methanol",
   "doi": "10.1021/je960186a",
-  "smi2": "CCC(C)O",
+  "smi2": "CO",
   "smi1": "CC1COC(=O)O1",
   "name1": "Propylene Carbonate",
   "pure_compound_data": {
@@ -9,8 +9,8 @@
       "density": 1.19957,
       "temperature": 298.15
     },
-    "CCC(C)O": {
-      "density": 0.80249,
+    "CO": {
+      "density": 0.78655,
       "temperature": 298.15
     }
   },
