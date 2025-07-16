@@ -1,0 +1,121 @@
+{
+  "name1": "cis-1,2-Dichloroethene",
+  "name2": "2,2,4-Trimethylpentane",
+  "smi1": "Cl/C=C\\Cl",
+  "smi2": "CC(C)CC(C)(C)C",
+  "doi": "10.1021/je950317s",
+  "pure_compound_data": {
+    "Cl/C=C\\Cl": {
+      "density": {
+        "values": [
+          1.28802,
+          1.25496
+        ],
+        "temperature": [
+          293.15,
+          313.15
+        ],
+        "units": "g/cm^3"
+      }
+    },
+    "CC(C)CC(C)(C)C": {
+      "density": {
+        "values": [
+          0.69192,
+          0.67538
+        ],
+        "temperature": [
+          293.15,
+          313.15
+        ],
+        "units": "g/cm^3"
+      }
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 293.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.03954,
+        0.13831,
+        0.2925,
+        0.41384,
+        0.48471,
+        0.6083,
+        0.69797,
+        0.81749,
+        0.89475
+      ],
+      "values": [
+        0.049,
+        0.157,
+        0.247,
+        0.286,
+        0.284,
+        0.251,
+        0.219,
+        0.135,
+        0.079
+      ]
+    },
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 293.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.03954,
+        0.13831,
+        0.2925,
+        0.41384,
+        0.48471,
+        0.6083,
+        0.69797,
+        0.81749,
+        0.89475
+      ],
+      "values": [
+        0.056,
+        0.19,
+        0.325,
+        0.374,
+        0.365,
+        0.33,
+        0.284,
+        0.182,
+        0.109
+      ]
+    },
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 293.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.2119,
+        0.3627,
+        0.4911,
+        0.5812,
+        0.6622,
+        0.7314,
+        0.8061,
+        0.8696,
+        0.9434
+      ],
+      "values": [
+        596.0,
+        873.0,
+        952.0,
+        946.0,
+        878.0,
+        785.0,
+        649.0,
+        484.0,
+        237.0
+      ]
+    }
+  ]
+}
