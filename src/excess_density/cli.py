@@ -75,6 +75,7 @@ def add(
     doi: Annotated[str, typer.Option(prompt="DOI")],
     name1: Annotated[str, typer.Option(prompt="Name of Compound 1 (Pure when x=1)")],
     name2: Annotated[str, typer.Option(prompt="Name of Compound 2 (Pure when x=0)")],
+    multiple_temp: bool = False,
 ):
     doi_path = Path("data", doi.replace("/", "--"))
     doi_path.mkdir(exist_ok=True, parents=True)
@@ -82,6 +83,14 @@ def add(
     name2 = re.sub(r"\s+", " ", name2).strip()
     smi1 = get_smiles(name1) or input("smi1:")
     smi2 = get_smiles(name2) or input("smi2:")
+
+    if multiple_temp:
+        pure_template = {
+            "density": {"values": [0], "temperature": [298.15], "units": "g/cm^3"}
+        }
+    else:
+        pure_template = ({"density": 0, "temperature": 298.15},)
+
     record = {
         "name1": name1,
         "name2": name2,
@@ -89,8 +98,8 @@ def add(
         "smi2": smi2,
         "doi": doi,
         "pure_compound_data": {
-            smi1: {"density": 0, "temperature": 298.15},
-            smi2: {"density": 0, "temperature": 298.15},
+            smi1: pure_template,
+            smi2: pure_template,
         },
         "mixture_data": [
             {
@@ -103,6 +112,10 @@ def add(
             }
         ],
     }
+
+    # Clean up smiles for file system
+    smi1 = smi1.replace("/", "--").replace("\\", "---")
+    smi2 = smi2.replace("/", "--").replace("\\", "---")
     output = Path(doi_path, f"{smi1}--{smi2}.json")
     if output.exists():
         raise FileExistsError(output)
@@ -114,7 +127,7 @@ def add(
 def parse_round_robin_columns(text: str, names: list[str]) -> dict[str, list[float]]:
     # Match all floats, including ones with Unicode minus
 
-    pattern = re.compile(r"[+-]?\d+(?:\.\d+ ?\d+|\.\d+| ?\d+)?")
+    pattern = re.compile(r"[+-]?\d+(?:\.\d+ {0,2}\d+|\.\d+| ?\d+)?")
 
     text = unicodedata.normalize("NFKC", text)
     lines = text.strip().splitlines()

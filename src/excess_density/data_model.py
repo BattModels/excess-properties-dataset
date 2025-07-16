@@ -116,6 +116,16 @@ class MixtureDatum(BaseModel):
             )
         return datum
 
+    @model_validator(mode="after")
+    @classmethod
+    def check_x1_range(cls, datum):
+        if not all(0 <= x <= 1 for x in datum.x1):
+            raise ValueError(
+                "x1 values must be between 0 and 1: %s",
+                [x for x in datum.x1 if not 0 <= x <= 1],
+            )
+        return datum
+
 
 class PureCompoundDatum(BaseModel):
     density: list[DensityMeasurement]
