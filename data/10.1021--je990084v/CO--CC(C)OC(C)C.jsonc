@@ -1,0 +1,47 @@
+{
+  "name1": "methanol",
+  "name2": "DIPE",
+  "smi1": "CO",
+  "smi2": "CC(C)OC(C)C",
+  "doi": "10.1021/je990084v",
+  "pure_compound_data": {
+    "CO": {
+      "density": 0.787272, // Computed from molar volume of 40.7
+      "temperature": 298.15
+    },
+    "CC(C)OC(C)C": {
+      "density": 0.717031, // Computed from a molar volume of 142.5
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1336,
+        0.2154,
+        0.2773,
+        0.4055,
+        0.5057,
+        0.6172,
+        0.6963,
+        0.7996,
+        0.8851
+      ],
+      "values": [
+        0.557,
+        0.755,
+        0.892,
+        1.015,
+        1.007,
+        0.943,
+        0.849,
+        0.662,
+        0.424
+      ]
+    }
+  ]
+}

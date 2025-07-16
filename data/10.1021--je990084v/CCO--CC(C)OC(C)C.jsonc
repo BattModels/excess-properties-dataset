@@ -1,0 +1,47 @@
+{
+  "name1": "ethanol",
+  "name2": "DIPE",
+  "smi1": "CCO",
+  "smi2": "CC(C)OC(C)C",
+  "doi": "10.1021/je990084v",
+  "pure_compound_data": {
+    "CCO": {
+      "density": 0.784821, // Computed from molar volume of 58.7
+      "temperature": 298.15
+    },
+    "CC(C)OC(C)C": {
+      "density": 0.717031, // Computed from a molar volume of 142.5
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1024,
+        0.2186,
+        0.3091,
+        0.4139,
+        0.5136,
+        0.5923,
+        0.6965,
+        0.7954,
+        0.8922
+      ],
+      "values": [
+        0.415,
+        0.674,
+        0.782,
+        0.837,
+        0.851,
+        0.807,
+        0.71,
+        0.547,
+        0.325
+      ]
+    }
+  ]
+}

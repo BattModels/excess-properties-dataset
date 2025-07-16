@@ -1,0 +1,49 @@
+{
+  "name1": "2-propanol",
+  "name2": "Dibutyl ether",
+  "smi1": "CC(C)O",
+  "smi2": "CCCCOCCCC",
+  "doi": "10.1021/je990084v",
+  "pure_compound_data": {
+    "CC(C)O": {
+      "density": 0.780467, // Computed from a molar volume of 77.0
+      "temperature": 298.15
+    },
+    "CCCCOCCCC": {
+      "density": 0.763818, // Computed from a molar volume of 170.5
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.0606,
+        0.1538,
+        0.2304,
+        0.3154,
+        0.4163,
+        0.5107,
+        0.6069,
+        0.6951,
+        0.7945,
+        0.8949
+      ],
+      "values": [
+        0.055,
+        0.095,
+        0.119,
+        0.131,
+        0.136,
+        0.129,
+        0.108,
+        0.084,
+        0.059,
+        0.029
+      ]
+    }
+  ]
+}

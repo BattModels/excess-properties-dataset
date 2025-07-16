@@ -1,0 +1,77 @@
+{
+  "name1": "2-butanol",
+  "name2": "DIPE",
+  "smi1": "CCC(C)O",
+  "smi2": "CC(C)OC(C)C",
+  "doi": "10.1021/je990084v",
+  "pure_compound_data": {
+    "CCC(C)O": {
+      "density": 0.802196, // Computed from a molar volume of 92.4 
+      "temperature": 298.15
+    },
+    "CC(C)OC(C)C": {
+      "density": 0.717031, // Computed from a molar volume of 142.5
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1076,
+        0.2279,
+        0.3029,
+        0.4144,
+        0.4987,
+        0.6078,
+        0.6934,
+        0.7912,
+        0.8733
+      ],
+      "values": [
+        0.306,
+        0.522,
+        0.578,
+        0.631,
+        0.641,
+        0.603,
+        0.543,
+        0.427,
+        0.293
+      ]
+    },
+    {
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1112,
+        0.214,
+        0.3094,
+        0.4262,
+        0.5328,
+        0.6067,
+        0.6761,
+        0.72,
+        0.8223,
+        0.9153
+      ],
+      "values": [
+        468.6,
+        691.6,
+        791.9,
+        826.6,
+        780.9,
+        711.7,
+        611.1,
+        554.7,
+        372.5,
+        186.2
+      ]
+    }
+  ]
+}

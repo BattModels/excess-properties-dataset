@@ -1,0 +1,65 @@
+{
+  "name1": "methanol",
+  "name2": "Dibutyl ether",
+  "smi1": "CO",
+  "smi2": "CCCCOCCCC",
+  "doi": "10.1021/je990084v",
+  "pure_compound_data": {
+    "CO": {
+      "density": 0.787272, // Computed from a molar volume of 40.7
+      "temperature": 298.15
+    },
+    "CCCCOCCCC": {
+      "density": 0.763818, // Computed from a molar volume of 170.5
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar volume",
+      "units": "cm^3/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.08,
+        0.101,
+        0.1318,
+        0.194,
+        0.2513,
+        0.294,
+        0.391,
+        0.4155,
+        0.489,
+        0.543,
+        0.602,
+        0.6274,
+        0.698,
+        0.7131,
+        0.8,
+        0.8137,
+        0.899,
+        0.9241
+      ],
+      "values": [
+        0.056,
+        0.068,
+        0.099,
+        0.113,
+        0.149,
+        0.147,
+        0.17,
+        0.181,
+        0.183,
+        0.189,
+        0.186,
+        0.179,
+        0.175,
+        0.162,
+        0.145,
+        0.129,
+        0.091,
+        0.043
+      ]
+    }
+  ]
+}
