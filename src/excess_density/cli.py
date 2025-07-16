@@ -51,14 +51,6 @@ def cat(file: Path):
 def export(path: Path, output: Path | None = None):
     files = _get_files(path)
     df = mixture_records_df(files)
-    df["percent excess molar volume"] = (
-        100
-        * df["excess molar volume [centimeter ** 3 / mole]"]
-        / (
-            df["molar volume [centimeter ** 3 / mole]"]
-            - df["excess molar volume [centimeter ** 3 / mole]"]
-        )
-    )
 
     with pd.option_context("display.max_rows", None, "display.max_columns", None):
         print(df.describe().T)

@@ -1,11 +1,13 @@
 import json
-from pathlib import Path
-from pydantic import BaseModel, Field, model_validator
-from typing import Literal, Any
 from collections.abc import Sequence
-from .units import UnitField, get_preferred_unit, ureg
+from pathlib import Path
+from typing import Any, Literal
+
 from pint import Quantity
+from pydantic import BaseModel, Field, model_validator
+
 from .chem import SMILES, inchi_key, molecular_weight
+from .units import UnitField, get_preferred_unit, ureg
 from .utils import parse_jsonc
 
 
@@ -71,7 +73,7 @@ class MixtureDatum(BaseModel):
     pressure: PressureMeasurement = Field(
         default_factory=lambda: PressureMeasurement(value=0.1, unit="MPa")
     )
-    xtype: Literal["mole fraction"] = "mole fraction"
+    xtype: Literal["mole fraction", "mass fraction"] = "mole fraction"
     x1: Sequence[float]
     values: Sequence[float]
 
@@ -252,6 +254,18 @@ class MixtureRecord(BaseModel):
 
         return t
 
+    def as_mole_fraction(self, x1: list[float], xtype: str) -> list[float]:
+        if xtype == "mole fraction":
+            return x1
+        elif xtype == "mass fraction":
+            mw1 = molecular_weight(self.smi1)
+            mw2 = molecular_weight(self.smi2)
+            pw1 = (x / mw1 for x in x1)
+            pw2 = ((1 - x) / mw2 for x in x1)
+            return [pw1 / (pw1 + pw2) for pw1, pw2 in zip(pw1, pw2)]
+        else:
+            raise ValueError(f"Unknown xtype: {xtype}")
+
     def get_measurements(
         self,
         measurement_type: str,
@@ -264,7 +278,8 @@ class MixtureRecord(BaseModel):
                 continue
             if m.temperature.quantity != temperature:
                 continue
-            for x1, value in zip(m.x1, m.values):
+
+            for x1, value in zip(self.as_mole_fraction(m.x1, m.xtype), m.values):
                 q = ureg.Quantity(value, m.units).to(m_units)
                 yield {
                     "measurement": m.measurement,
