@@ -89,7 +89,7 @@ def add(
             "density": {"values": [0], "temperature": [298.15], "units": "g/cm^3"}
         }
     else:
-        pure_template = ({"density": 0, "temperature": 298.15},)
+        pure_template = {"density": 0, "temperature": 298.15}
 
     record = {
         "name1": name1,
