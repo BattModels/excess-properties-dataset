@@ -1,6 +1,7 @@
 import json
-import sys
 import re
+import sys
+import unicodedata
 from itertools import chain
 from pathlib import Path
 from typing import Annotated
@@ -116,12 +117,15 @@ def add(
 
 def parse_round_robin_columns(text: str, names: list[str]) -> dict[str, list[float]]:
     # Match all floats, including ones with Unicode minus
-    pattern = re.compile(r"[-−]?\d+\.\d+")
+
+    pattern = re.compile(r"[+-]?\d+(?:\.\d+ ?\d+|\.\d+| ?\d+)?")
+
+    text = unicodedata.normalize("NFKC", text)
     lines = text.strip().splitlines()
 
     # Parse all lines into rows of floats
     rows = [
-        [float(token.replace("−", "-")) for token in pattern.findall(line)]
+        [float(token.replace(" ", "")) for token in pattern.findall(line)]
         for line in text.strip().splitlines()
         if line.strip()
     ]
