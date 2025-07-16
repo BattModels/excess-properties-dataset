@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Annotated
 
 import pandas as pd
+from pandas.core.frame import rec_array_to_mgr
 import pubchempy
 import typer
 from pydantic import ValidationError
@@ -103,6 +104,9 @@ def add(
         ],
     }
     output = Path(doi_path, f"{smi1}--{smi2}.json")
+    if output.exists():
+        raise FileExistsError(output)
+
     _ = output.write_text(json.dumps(record, indent=2))
     print("Wrote template file to: ", output)
 
