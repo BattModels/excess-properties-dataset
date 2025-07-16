@@ -1,5 +1,6 @@
 import json
 import sys
+import re
 from itertools import chain
 from pathlib import Path
 from typing import Annotated
@@ -83,8 +84,10 @@ def add(
 ):
     doi_path = Path("data", doi.replace("/", "--"))
     doi_path.mkdir(exist_ok=True, parents=True)
-    smi1 = get_smiles(name1)
-    smi2 = get_smiles(name2)
+    name1 = re.sub(r"\s+", " ", name1).strip()
+    name2 = re.sub(r"\s+", " ", name2).strip()
+    smi1 = get_smiles(name1) or input("smi1:")
+    smi2 = get_smiles(name2) or input("smi2:")
     record = {
         "name1": name1,
         "name2": name2,
@@ -109,3 +112,35 @@ def add(
     output = Path(doi_path, f"{smi1}--{smi2}.json")
     _ = output.write_text(json.dumps(record, indent=2))
     print("Wrote template file to: ", output)
+
+
+def parse_round_robin_columns(text: str, names: list[str]) -> dict[str, list[float]]:
+    # Match all floats, including ones with Unicode minus
+    pattern = re.compile(r"[-−]?\d+\.\d+")
+    lines = text.strip().splitlines()
+
+    # Parse all lines into rows of floats
+    rows = [
+        [float(token.replace("−", "-")) for token in pattern.findall(line)]
+        for line in text.strip().splitlines()
+        if line.strip()
+    ]
+
+    n_fields = len(names)
+    result = {name: [] for name in names}
+
+    for col in range(len(rows[0])):
+        field = names[col % n_fields]
+        for row in rows:
+            if col < len(row):
+                result[field].append(row[col])
+
+    return result
+
+
+@app.command()
+def parse_data(columns: list[str]):
+    raw_text = sys.stdin.read()
+    result = parse_round_robin_columns(raw_text, columns)
+    for k, v in result.items():
+        print(f"{k}:", json.dumps(v))
