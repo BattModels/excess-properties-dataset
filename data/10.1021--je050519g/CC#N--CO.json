@@ -1,0 +1,43 @@
+{
+  "name1": "Acetonitrile",
+  "name2": "Methanol",
+  "smi1": "CC#N",
+  "smi2": "CO",
+  "doi": "10.1021/je050519g",
+  "pure_compound_data": {
+    "CC#N": {
+      "density": 0.77830,
+      "temperature": 293.15
+    },
+    "CO": {
+      "density": 0.78783,
+      "temperature": 293.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 293.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1001,
+        0.2011,
+        0.2996,
+        0.4997,
+        0.7012,
+        0.8009,
+        0.8956
+      ],
+      "values": [
+        0.78846,
+        0.78804,
+        0.78713,
+        0.78482,
+        0.78213,
+        0.78075,
+        0.77947
+      ]
+    }
+  ]
+}

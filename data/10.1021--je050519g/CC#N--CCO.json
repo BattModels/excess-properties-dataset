@@ -1,0 +1,43 @@
+{
+  "name1": "Acetonitrile",
+  "name2": "Ethanol",
+  "smi1": "CC#N",
+  "smi2": "CCO",
+  "doi": "10.1021/je050519g",
+  "pure_compound_data": {
+    "CC#N": {
+      "density": 0.77830,
+      "temperature": 298.15
+    },
+    "CCO": {
+      "density": 0.78644,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.0999,
+        0.2007,
+        0.3039,
+        0.5001,
+        0.6994,
+        0.8013,
+        0.8996
+      ],
+      "values": [
+        0.78657,
+        0.78599,
+        0.78505,
+        0.78308,
+        0.78089,
+        0.7798,
+        0.77891
+      ]
+    }
+  ]
+}

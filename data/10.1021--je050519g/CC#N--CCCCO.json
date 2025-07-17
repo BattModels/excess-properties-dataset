@@ -1,0 +1,43 @@
+{
+  "name1": "Acetonitrile",
+  "name2": "1-Butanol",
+  "smi1": "CC#N",
+  "smi2": "CCCCO",
+  "doi": "10.1021/je050519g",
+  "pure_compound_data": {
+    "CC#N": {
+      "density": 0.77830,
+      "temperature": 298.15
+    },
+    "CCCCO": {
+      "density": 0.80733,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1026,
+        0.2021,
+        0.302,
+        0.5024,
+        0.7014,
+        0.8007,
+        0.8995
+      ],
+      "values": [
+        0.80536,
+        0.80318,
+        0.8008,
+        0.79542,
+        0.78923,
+        0.7857,
+        0.78201
+      ]
+    }
+  ]
+}

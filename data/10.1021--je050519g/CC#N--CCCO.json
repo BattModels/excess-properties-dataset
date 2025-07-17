@@ -1,0 +1,43 @@
+{
+  "name1": "Acetonitrile",
+  "name2": "1-Propanol",
+  "smi1": "CC#N",
+  "smi2": "CCCO",
+  "doi": "10.1021/je050519g",
+  "pure_compound_data": {
+    "CC#N": {
+      "density": 0.77830,
+      "temperature": 298.15
+    },
+    "CCCO": {
+      "density": 0.8013,
+      "temperature": 298.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.1004,
+        0.2018,
+        0.3013,
+        0.5004,
+        0.7003,
+        0.8002,
+        0.8997
+      ],
+      "values": [
+        0.79954,
+        0.79763,
+        0.79562,
+        0.79105,
+        0.78597,
+        0.78329,
+        0.78068
+      ]
+    }
+  ]
+}
