@@ -90,8 +90,8 @@
       ]
     },
     {
-      "measurement": "excess molar volume",
-      "units": "cm^3/mol",
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
       "temperature": 293.15,
       "xtype": "mole fraction",
       "x1": [
