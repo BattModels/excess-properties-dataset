@@ -134,6 +134,8 @@ def parse_round_robin_columns(text: str, names: list[str]) -> dict[str, list[flo
         .replace("–", "-")  # EN DASH (U+2013)
         .replace("—", "-")  # EM DASH (U+2014)
         .replace("‒", "-")  # FIGURE DASH (U+2012)
+        .replace("−", "-")  # MINUS SIGN (U+2212)
+        .replace("＋", "+")  # FULLWIDTH PLUS (U+FF0B)
     )
     lines = text.strip().splitlines()
 
