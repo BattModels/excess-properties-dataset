@@ -129,7 +129,12 @@ def parse_round_robin_columns(text: str, names: list[str]) -> dict[str, list[flo
 
     pattern = re.compile(r"[+-]?\d+(?:\.\d+ {0,2}\d+|\.\d+| ?\d+)?")
 
-    text = unicodedata.normalize("NFKC", text)
+    text = (
+        unicodedata.normalize("NFKC", text)
+        .replace("–", "-")  # EN DASH (U+2013)
+        .replace("—", "-")  # EM DASH (U+2014)
+        .replace("‒", "-")  # FIGURE DASH (U+2012)
+    )
     lines = text.strip().splitlines()
 
     # Parse all lines into rows of floats
