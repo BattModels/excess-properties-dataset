@@ -1,0 +1,97 @@
+{
+  "name1": "Dimethyl Sulfoxide",
+  "name2": "propylene carbonate",
+  "smi1": "CS(C)=O",
+  "smi2": "CC1COC(=O)O1",
+  "doi": "10.1021/je050444g",
+  "pure_compound_data": {
+    "CS(C)=O": {
+      "density": 1.08533,
+      "temperature": 308.15
+    },
+    "CC1COC(=O)O1": {
+      "density": 1.19956,
+      "temperature": 308.15
+    }
+  },
+  "mixture_data": [
+    {
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
+      "temperature": 308.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.0571,
+        0.108,
+        0.1538,
+        0.195,
+        0.2666,
+        0.3264,
+        0.4209,
+        0.492,
+        0.5924,
+        0.6857,
+        0.7441,
+        0.8135,
+        0.8532,
+        0.8971,
+        0.9208,
+        0.9458,
+        0.9721
+      ],
+      "values": [
+        78.0,
+        139.0,
+        191.0,
+        228.0,
+        294.0,
+        336.0,
+        383.0,
+        414.0,
+        420.0,
+        397.0,
+        358.0,
+        298.0,
+        253.0,
+        197.0,
+        158.0,
+        110.0,
+        58.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "g/cm^3",
+      "temperature": 308.15,
+      "xtype": "mole fraction",
+      "x1": [
+        0.0506,
+        0.1139,
+        0.2014,
+        0.2976,
+        0.382,
+        0.4759,
+        0.5376,
+        0.6343,
+        0.7176,
+        0.7898,
+        0.8643,
+        0.9376
+      ],
+      "values": [
+        1.18396,
+        1.17777,
+        1.16886,
+        1.15906,
+        1.15036,
+        1.14059,
+        1.1341,
+        1.12392,
+        1.11511,
+        1.10746,
+        1.09957, // Corrected typo in paper, originally reported as 10.09957
+        1.09185
+      ]
+    }
+  ]
+}
