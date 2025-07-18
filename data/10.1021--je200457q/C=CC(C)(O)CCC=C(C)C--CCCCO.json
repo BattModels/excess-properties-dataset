@@ -8,7 +8,7 @@
     {
       "measurement": "excess molar enthalpy",
       "units": "J/mol",
-      "temperature": 218.15,
+      "temperature": 283.15,
       "xtype": "mole fraction",
       "x1": [
         0.042,
