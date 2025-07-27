@@ -1,0 +1,88 @@
+{
+  "name1": "1-methylethyl ethanoate",
+  "smi1": "CC(=O)OC(C)C",
+  "name2": "1-methyl-3-octylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.fluid.2009.09.015",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0415,
+        0.0984,
+        0.1644,
+        0.2055,
+        0.301,
+        0.3956,
+        0.4996,
+        0.5837,
+        0.7048,
+        0.8036,
+        0.8991
+      ],
+      "values": [
+        1314.43,
+        1305.77,
+        1294.72,
+        1287.14,
+        1267.67,
+        1244.7,
+        1214.3,
+        1184.3,
+        1129.3,
+        1068.7,
+        988.9
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0415,
+        0.0984,
+        0.1644,
+        0.2055,
+        0.301,
+        0.3956,
+        0.4996,
+        0.5837,
+        0.7048,
+        0.8036,
+        0.8991
+      ],
+      "values": [
+        0.0818,
+        0.0703,
+        0.05816,
+        0.05189,
+        0.03825,
+        0.02657,
+        0.01709,
+        0.01142,
+        0.00579,
+        0.002993,
+        0.001389
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

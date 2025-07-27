@@ -1,0 +1,127 @@
+{
+  "name1": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "name2": "1-butyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1021/acs.jced.8b00784",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        1052.1,
+        1066.3,
+        1080.4,
+        1094.3,
+        1107.9,
+        1122.1,
+        1137.0,
+        1152.6,
+        1168.1,
+        1184.2,
+        1201.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        1043.1,
+        1057.2,
+        1071.5,
+        1085.6,
+        1099.2,
+        1113.3,
+        1128.4,
+        1144.2,
+        1159.7,
+        1175.9,
+        1193.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        1037.0,
+        1051.1,
+        1065.3,
+        1079.3,
+        1092.9,
+        1107.1,
+        1122.1,
+        1137.7,
+        1153.4,
+        1169.2,
+        1186.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

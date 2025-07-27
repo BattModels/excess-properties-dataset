@@ -1,0 +1,33 @@
+{
+  "name1": "triethylene glycol",
+  "smi1": "OCCOCCOCCO",
+  "name2": "methyltriphenylphosphonium bromide",
+  "smi2": "C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]",
+  "doi": "10.1016/j.fluid.2013.06.050",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.84,
+        0.8,
+        0.75
+      ],
+      "values": [
+        1186.0,
+        1199.0,
+        1216.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

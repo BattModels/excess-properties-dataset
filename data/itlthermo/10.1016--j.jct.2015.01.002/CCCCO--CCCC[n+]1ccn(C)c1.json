@@ -1,0 +1,127 @@
+{
+  "name1": "butan-1-ol",
+  "smi1": "CCCCO",
+  "name2": "1-butyl-3-methylimidazolium L-lactate",
+  "smi2": "CCCC[n+]1ccn(C)c1.C[C@H](O)C(=O)[O-]",
+  "doi": "10.1016/j.jct.2015.01.002",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9001,
+        0.8004,
+        0.697,
+        0.6002,
+        0.5,
+        0.3998,
+        0.2999,
+        0.2,
+        0.1001,
+        0.0
+      ],
+      "values": [
+        805.7,
+        875.7,
+        927.3,
+        968.1,
+        997.8,
+        1024.2,
+        1044.6,
+        1060.8,
+        1076.4,
+        1091.8,
+        1111.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9001,
+        0.8004,
+        0.697,
+        0.6002,
+        0.5,
+        0.3998,
+        0.2999,
+        0.2,
+        0.1001,
+        0.0
+      ],
+      "values": [
+        798.0,
+        868.3,
+        920.3,
+        960.8,
+        990.5,
+        1017.2,
+        1037.4,
+        1053.9,
+        1069.0,
+        1084.2,
+        1104.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9001,
+        0.8004,
+        0.697,
+        0.6002,
+        0.5,
+        0.3998,
+        0.2999,
+        0.2,
+        0.1001,
+        0.0
+      ],
+      "values": [
+        790.1,
+        859.6,
+        913.0,
+        953.9,
+        983.4,
+        1010.1,
+        1030.9,
+        1047.5,
+        1062.0,
+        1077.3,
+        1097.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,55 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-ethyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1016/j.fluid.2011.03.008",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.96,
+        0.9403,
+        0.92,
+        0.9001,
+        0.8,
+        0.7,
+        0.6,
+        0.5,
+        0.4002,
+        0.3007,
+        0.1995,
+        0.0991,
+        0.0
+      ],
+      "values": [
+        786.0,
+        839.0,
+        863.0,
+        886.0,
+        906.0,
+        995.0,
+        1065.0,
+        1113.0,
+        1150.0,
+        1180.0,
+        1205.0,
+        1227.0,
+        1246.0,
+        1263.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

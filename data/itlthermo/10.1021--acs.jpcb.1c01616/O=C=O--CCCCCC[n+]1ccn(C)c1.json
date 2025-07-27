@@ -1,0 +1,713 @@
+{
+  "name1": "carbon dioxide",
+  "smi1": "O=C=O",
+  "name2": "1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jpcb.1c01616",
+  "mixture_data": [
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 6416.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.76
+      ],
+      "values": [
+        5.2e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.11,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 6422.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0
+      ],
+      "values": [
+        1.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 172.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.042
+      ],
+      "values": [
+        6.1e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 260.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.06
+      ],
+      "values": [
+        6.1e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 327.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.075
+      ],
+      "values": [
+        6.6e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 2064.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.424
+      ],
+      "values": [
+        6e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 2617.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        6.2e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 3554.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.59
+      ],
+      "values": [
+        5.9e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 286.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.052
+      ],
+      "values": [
+        5.7e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 606.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.139
+      ],
+      "values": [
+        6.4e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 612.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.176
+      ],
+      "values": [
+        5.5e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 873.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.232
+      ],
+      "values": [
+        7.5e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 1770.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.399
+      ],
+      "values": [
+        6.2e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 4885.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.68
+      ],
+      "values": [
+        6.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 1217.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.303
+      ],
+      "values": [
+        5.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.06,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 10863.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.73
+      ],
+      "values": [
+        6.9e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.07,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 8817.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.68
+      ],
+      "values": [
+        6.5e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.17,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 6039.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.6
+      ],
+      "values": [
+        6.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.19,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 261.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.041
+      ],
+      "values": [
+        6e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 2691.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.411
+      ],
+      "values": [
+        6.4e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 4178.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.511
+      ],
+      "values": [
+        5.5e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.21,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 522.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125
+      ],
+      "values": [
+        6e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.22,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 552.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.133
+      ],
+      "values": [
+        5.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.22,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 1610.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.296
+      ],
+      "values": [
+        6.1e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 323.23,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 1093.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.23
+      ],
+      "values": [
+        5.9e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.11,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 6107.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.496
+      ],
+      "values": [
+        5.9e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.12,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 2452.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.274
+      ],
+      "values": [
+        5.81e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.12,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 3808.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.374
+      ],
+      "values": [
+        5.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 3967.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.386
+      ],
+      "values": [
+        6.1e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.14,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 8933.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.57
+      ],
+      "values": [
+        5.5e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 386.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.077
+      ],
+      "values": [
+        6.5e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 1532.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.183
+      ],
+      "values": [
+        5.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 6088.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.489
+      ],
+      "values": [
+        5.8e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.16,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 7412.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.525
+      ],
+      "values": [
+        6.1e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.23,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 730.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.118
+      ],
+      "values": [
+        6.2e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.26,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 233.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.04
+      ],
+      "values": [
+        5.96e-8
+      ]
+    },
+    {
+      "measurement": "thermal diffusivity",
+      "units": "m**2/s",
+      "temperature": {
+        "value": 348.27,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 1259.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.156
+      ],
+      "values": [
+        5.5e-8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

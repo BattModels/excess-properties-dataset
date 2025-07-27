@@ -1,0 +1,217 @@
+{
+  "name1": "1-methyl-3-octylimidazolium bromide",
+  "smi1": "CCCCCCCCn1cc[n+](C)c1.[Br-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1007/s10953-017-0608-9",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        999.23,
+        999.3,
+        999.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        997.2,
+        997.3,
+        997.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        994.1,
+        994.42,
+        994.3
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        0.02895,
+        0.05574,
+        0.08221
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        0.03529,
+        0.06958,
+        0.1011
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        0.04263,
+        0.08463,
+        0.1217
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        0.001141,
+        0.00115,
+        0.001158
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        0.000896,
+        0.000904,
+        0.000912
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.002,
+        0.003
+      ],
+      "values": [
+        0.000725,
+        0.00073,
+        0.000736
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,47 @@
+{
+  "name1": "decan-1-ol",
+  "smi1": "CCCCCCCCCCO",
+  "name2": "1-butyl-3-methylimidazolium octyl sulfate",
+  "smi2": "CCCCCCCCOS(=O)(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-005-9002-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9373,
+        0.822,
+        0.7454,
+        0.665,
+        0.5731,
+        0.4568,
+        0.3414,
+        0.2496,
+        0.1596,
+        0.0277
+      ],
+      "values": [
+        852.6,
+        892.4,
+        915.2,
+        936.5,
+        958.8,
+        984.6,
+        1008.3,
+        1025.9,
+        1041.9,
+        1064.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

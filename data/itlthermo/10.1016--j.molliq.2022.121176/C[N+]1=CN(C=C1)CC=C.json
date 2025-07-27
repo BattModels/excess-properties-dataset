@@ -1,0 +1,33 @@
+{
+  "name1": "1-allyl-3-methylimidazolium iodide",
+  "smi1": "C[N+]1=CN(C=C1)CC=C.[I-]",
+  "name2": "iodine",
+  "smi2": "II",
+  "doi": "10.1016/j.molliq.2022.121176",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.25,
+        0.2
+      ],
+      "values": [
+        3.82,
+        4.21,
+        4.07
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,35 @@
+{
+  "name1": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "name2": "methanol",
+  "smi2": "CO",
+  "doi": "10.1007/s10973-016-5267-3",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.05,
+        0.1,
+        0.15,
+        0.2
+      ],
+      "values": [
+        0.598,
+        0.884,
+        1.16,
+        1.35
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

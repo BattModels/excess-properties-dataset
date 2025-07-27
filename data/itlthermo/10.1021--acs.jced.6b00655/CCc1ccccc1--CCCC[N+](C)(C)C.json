@@ -1,0 +1,43 @@
+{
+  "name1": "ethylbenzene",
+  "smi1": "CCc1ccccc1",
+  "name2": "butyltrimethylammonium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jced.6b00655",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.037,
+        0.099,
+        0.245,
+        0.309,
+        0.397,
+        0.448,
+        0.498
+      ],
+      "values": [
+        1348.0,
+        1345.0,
+        1331.0,
+        1296.0,
+        1272.0,
+        1243.0,
+        1222.0,
+        1201.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

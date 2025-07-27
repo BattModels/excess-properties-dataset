@@ -1,0 +1,220 @@
+{
+  "name1": "dimethylformamide",
+  "smi1": "CN(C)C=O",
+  "name2": "1-butyl-3-methylimidazolium chloride",
+  "smi2": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1021/je900733j",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9668,
+        0.9165,
+        0.8697,
+        0.8178,
+        0.7711,
+        0.6931,
+        0.6121,
+        0.5512
+      ],
+      "values": [
+        948.63,
+        961.92,
+        978.0,
+        990.54,
+        1002.71,
+        1012.04,
+        1025.51,
+        1037.1,
+        1044.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9668,
+        0.9165,
+        0.8697,
+        0.8178,
+        0.7711,
+        0.6931,
+        0.6121,
+        0.5512
+      ],
+      "values": [
+        943.86,
+        957.33,
+        973.63,
+        986.33,
+        998.67,
+        1008.12,
+        1021.78,
+        1033.5,
+        1041.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9668,
+        0.9165,
+        0.8697,
+        0.8178,
+        0.7711,
+        0.6931,
+        0.6121,
+        0.5512
+      ],
+      "values": [
+        939.08,
+        952.73,
+        969.25,
+        982.13,
+        994.62,
+        1004.21,
+        1018.05,
+        1030.0,
+        1037.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9668,
+        0.9165,
+        0.8697,
+        0.8178,
+        0.7711,
+        0.6931,
+        0.6121,
+        0.5512
+      ],
+      "values": [
+        934.29,
+        948.12,
+        964.87,
+        977.91,
+        990.58,
+        1000.3,
+        1014.34,
+        1026.4,
+        1034.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9668,
+        0.9165,
+        0.8697,
+        0.8178,
+        0.7711,
+        0.6931,
+        0.6121,
+        0.5512
+      ],
+      "values": [
+        929.48,
+        943.52,
+        960.48,
+        973.71,
+        986.54,
+        996.4,
+        1010.63,
+        1022.9,
+        1030.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9668,
+        0.9165,
+        0.8697,
+        0.8178,
+        0.7711,
+        0.6931,
+        0.6121,
+        0.5512
+      ],
+      "values": [
+        924.68,
+        938.89,
+        956.09,
+        969.5,
+        982.51,
+        992.5,
+        1006.94,
+        1019.4,
+        1027.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

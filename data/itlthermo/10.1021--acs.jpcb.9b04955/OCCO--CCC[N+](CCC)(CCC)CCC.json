@@ -1,0 +1,124 @@
+{
+  "name1": "1,2-ethanediol",
+  "smi1": "OCCO",
+  "name2": "tetrapropylammonium bromide",
+  "smi2": "CCC[N+](CCC)(CCC)CCC.[Br-]",
+  "doi": "10.1021/acs.jpcb.9b04955",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        0.0725
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        0.042
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        0.026
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 328.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        0.017
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 338.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        0.0125
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 348.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        0.009
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,43 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium acetate",
+  "smi1": "CC(=O)[O-].CC[n+]1ccn(C)c1",
+  "name2": "1-methylbutyl butanoate",
+  "smi2": "CCCC(=O)OC(C)CCC",
+  "doi": "10.1016/j.dib.2018.04.127",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.6131,
+        0.7001,
+        0.7502,
+        0.7993,
+        0.8498,
+        0.8924,
+        0.9501,
+        1.0
+      ],
+      "values": [
+        1061.8,
+        1068.8,
+        1073.0,
+        1077.0,
+        1081.5,
+        1085.3,
+        1090.0,
+        1094.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

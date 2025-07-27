@@ -1,0 +1,35 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "2-hydroxy-N,N,N-trimethylethanaminium L-prolinate",
+  "smi2": "C[N+](C)(C)CCO.O=C([O-])[C@@H]1CCCN1",
+  "doi": "10.1016/j.fluid.2017.04.001",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.95,
+        0.9,
+        0.8,
+        0.7
+      ],
+      "values": [
+        0.00089,
+        0.00106,
+        0.00149,
+        0.0022
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

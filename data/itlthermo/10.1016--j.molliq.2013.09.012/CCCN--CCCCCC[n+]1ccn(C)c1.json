@@ -1,0 +1,88 @@
+{
+  "name1": "propan-1-amine",
+  "smi1": "CCCN",
+  "name2": "1-hexyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.molliq.2013.09.012",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9012,
+        0.8066,
+        0.7005,
+        0.5991,
+        0.5052,
+        0.3803,
+        0.2959,
+        0.1949,
+        0.1525,
+        0.0
+      ],
+      "values": [
+        711.0,
+        818.91,
+        894.39,
+        958.25,
+        1005.03,
+        1039.28,
+        1075.19,
+        1094.83,
+        1114.6,
+        1121.98,
+        1145.22
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9012,
+        0.8066,
+        0.7005,
+        0.5991,
+        0.5052,
+        0.3803,
+        0.2959,
+        0.1949,
+        0.1525,
+        0.0
+      ],
+      "values": [
+        0.000358,
+        0.001672,
+        0.004466,
+        0.0101,
+        0.0177,
+        0.02908,
+        0.0503,
+        0.0692,
+        0.0973,
+        0.11,
+        0.1718
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

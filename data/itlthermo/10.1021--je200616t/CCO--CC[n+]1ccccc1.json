@@ -1,0 +1,73 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-ethylpyridinium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/je200616t",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9572,
+        0.9449,
+        0.9245,
+        0.9119,
+        0.8865,
+        0.8634,
+        0.8211,
+        0.7904,
+        0.766,
+        0.7463,
+        0.7219,
+        0.6971,
+        0.6388,
+        0.5596,
+        0.5156,
+        0.4463,
+        0.4052,
+        0.3582,
+        0.2989,
+        0.24,
+        0.1772,
+        0.1155,
+        0.0
+      ],
+      "values": [
+        0.803,
+        0.956,
+        1.162,
+        1.265,
+        1.43,
+        1.538,
+        1.667,
+        1.712,
+        1.728,
+        1.73,
+        1.722,
+        1.704,
+        1.637,
+        1.513,
+        1.436,
+        1.31,
+        1.24,
+        1.157,
+        1.053,
+        0.954,
+        0.858,
+        0.769,
+        0.629
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

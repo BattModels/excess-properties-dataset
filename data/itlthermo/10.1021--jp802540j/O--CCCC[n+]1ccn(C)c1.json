@@ -1,0 +1,160 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium nitrate",
+  "smi2": "CCCC[n+]1ccn(C)c1.O=[N+]([O-])[O-]",
+  "doi": "10.1021/jp802540j",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 292.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1305,
+        0.1946,
+        0.2775
+      ],
+      "values": [
+        1157.3,
+        1154.7,
+        1152.9,
+        1150.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 302.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1305,
+        0.1946,
+        0.2775
+      ],
+      "values": [
+        1150.8,
+        1148.1,
+        1146.2,
+        1143.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 312.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1305,
+        0.1946,
+        0.2775
+      ],
+      "values": [
+        1144.5,
+        1141.7,
+        1139.9,
+        1136.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 322.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1305,
+        0.1946,
+        0.2775
+      ],
+      "values": [
+        1138.2,
+        1135.4,
+        1133.5,
+        1130.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 332.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1305,
+        0.1946,
+        0.2775
+      ],
+      "values": [
+        1132.0,
+        1129.2,
+        1127.4,
+        1124.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 342.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1305,
+        0.1946,
+        0.2775
+      ],
+      "values": [
+        1126.0,
+        1123.1,
+        1121.2,
+        1118.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

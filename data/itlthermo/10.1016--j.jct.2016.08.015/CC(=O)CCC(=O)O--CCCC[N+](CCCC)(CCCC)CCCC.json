@@ -1,0 +1,86 @@
+{
+  "name1": "4-oxopentanoic acid",
+  "smi1": "CC(=O)CCC(=O)O",
+  "name2": "tetrabutylammonium chloride",
+  "smi2": "CCCC[N+](CCCC)(CCCC)CCCC.[Cl-]",
+  "doi": "10.1016/j.jct.2016.08.015",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        1027.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        1020.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        1013.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.75
+      ],
+      "values": [
+        1006.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

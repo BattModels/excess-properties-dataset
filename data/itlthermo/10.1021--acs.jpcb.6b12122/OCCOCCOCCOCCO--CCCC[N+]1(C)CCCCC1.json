@@ -1,0 +1,33 @@
+{
+  "name1": "tetraethylene glycol",
+  "smi1": "OCCOCCOCCOCCO",
+  "name2": "1-butyl-1-methylpiperidinium bis(trifluoromethanesulfonyl)imide",
+  "smi2": "CCCC[N+]1(C)CCCCC1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jpcb.6b12122",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "values": [
+        0.1785,
+        0.0795,
+        0.0458
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

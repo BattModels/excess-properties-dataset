@@ -1,0 +1,79 @@
+{
+  "name1": "2-hydroxy-N,N,N-trimethylethanaminium L-alaninate",
+  "smi1": "C[C@H](N)C(=O)[O-].C[N+](C)(C)CCO",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2022.120983",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4
+      ],
+      "values": [
+        0.033,
+        0.0091,
+        0.005
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4
+      ],
+      "values": [
+        0.0182,
+        0.0057,
+        0.00318
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4
+      ],
+      "values": [
+        0.0102,
+        0.00364,
+        0.00227
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

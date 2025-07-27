@@ -1,0 +1,274 @@
+{
+  "name1": "propan-1-ol",
+  "smi1": "CCCO",
+  "name2": "1-ethyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1016/j.jct.2017.02.022",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        800.0,
+        864.0,
+        1003.0,
+        1090.0,
+        1156.0,
+        1223.0,
+        1264.0,
+        1292.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        796.0,
+        859.0,
+        998.0,
+        1085.0,
+        1152.0,
+        1219.0,
+        1260.0,
+        1289.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        792.0,
+        855.0,
+        993.0,
+        1080.0,
+        1148.0,
+        1215.0,
+        1257.0,
+        1285.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        789.0,
+        851.0,
+        989.0,
+        1076.0,
+        1143.0,
+        1211.0,
+        1253.0,
+        1282.0
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        1208.0,
+        1247.0,
+        1377.0,
+        1487.0,
+        1588.0,
+        1681.0,
+        1730.0,
+        1762.0
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 303.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        1191.0,
+        1230.0,
+        1362.0,
+        1473.0,
+        1574.0,
+        1668.0,
+        1717.0,
+        1750.0
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 308.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        1174.0,
+        1214.0,
+        1347.0,
+        1458.0,
+        1560.0,
+        1654.0,
+        1704.0,
+        1739.0
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 313.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.772,
+        0.625,
+        0.476,
+        0.28,
+        0.126,
+        0.0
+      ],
+      "values": [
+        1158.0,
+        1197.0,
+        1332.0,
+        1443.0,
+        1546.0,
+        1641.0,
+        1692.0,
+        1727.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

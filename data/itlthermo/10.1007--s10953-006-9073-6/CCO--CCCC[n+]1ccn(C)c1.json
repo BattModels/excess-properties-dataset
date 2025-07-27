@@ -1,0 +1,80 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-butyl-3-methylimidazolium chloride",
+  "smi2": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1007/s10953-006-9073-6",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1874,
+        0.2532,
+        0.4815,
+        0.6209,
+        0.7217,
+        0.8485,
+        0.8982,
+        0.9373,
+        1.0
+      ],
+      "values": [
+        1062.63,
+        1053.69,
+        1014.24,
+        979.7,
+        946.87,
+        891.65,
+        863.4,
+        837.5,
+        785.45
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1874,
+        0.2532,
+        0.4815,
+        0.6209,
+        0.7217,
+        0.8485,
+        0.8982,
+        0.9373,
+        1.0
+      ],
+      "values": [
+        1744.8,
+        1711.8,
+        1598.2,
+        1515.0,
+        1443.0,
+        1332.2,
+        1279.1,
+        1232.5,
+        1146.3
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

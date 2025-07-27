@@ -1,0 +1,55 @@
+{
+  "name1": "diethyl carbonate",
+  "smi1": "CCOC(=O)OCC",
+  "name2": "1-hexyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2005.07.020",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9902,
+        0.8702,
+        0.8546,
+        0.8011,
+        0.7012,
+        0.6005,
+        0.5025,
+        0.3948,
+        0.2981,
+        0.1986,
+        0.1003,
+        0.0502,
+        0.0
+      ],
+      "values": [
+        969.2,
+        976.1,
+        1052.1,
+        1060.7,
+        1088.2,
+        1131.7,
+        1167.5,
+        1196.5,
+        1223.6,
+        1244.3,
+        1262.9,
+        1278.8,
+        1286.2,
+        1293.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

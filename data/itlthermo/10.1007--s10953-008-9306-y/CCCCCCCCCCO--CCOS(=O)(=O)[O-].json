@@ -1,0 +1,49 @@
+{
+  "name1": "decan-1-ol",
+  "smi1": "CCCCCCCCCCO",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-008-9306-y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9542,
+        0.8874,
+        0.7774,
+        0.6479,
+        0.5215,
+        0.3654,
+        0.2555,
+        0.1568,
+        0.0689,
+        0.0
+      ],
+      "values": [
+        826.03,
+        844.35,
+        871.18,
+        915.7,
+        968.3,
+        1019.81,
+        1084.22,
+        1129.82,
+        1171.5,
+        1208.3,
+        1238.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

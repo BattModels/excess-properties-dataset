@@ -1,0 +1,74 @@
+{
+  "name1": "butan-1-ol",
+  "smi1": "CCCCO",
+  "name2": "1-butyl-4-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.02.019",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.4052,
+        0.308,
+        0.261,
+        0.2149,
+        0.1084
+      ],
+      "values": [
+        1094.4,
+        1120.2,
+        1131.5,
+        1141.8,
+        1163.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9452,
+        0.8831,
+        0.7699,
+        0.6594,
+        0.5529,
+        0.436,
+        0.3242,
+        0.2144,
+        0.1573,
+        0.113
+      ],
+      "values": [
+        833.2,
+        875.7,
+        940.7,
+        992.1,
+        1033.5,
+        1071.4,
+        1102.2,
+        1128.1,
+        1140.0,
+        1148.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

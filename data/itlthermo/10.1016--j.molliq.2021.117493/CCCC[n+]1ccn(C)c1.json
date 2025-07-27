@@ -1,0 +1,52 @@
+{
+  "name1": "1-butyl-3-methylimidazolium chloride",
+  "smi1": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "name2": "1,2-ethanediol",
+  "smi2": "OCCO",
+  "doi": "10.1016/j.molliq.2021.117493",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5
+      ],
+      "values": [
+        1092.0,
+        1086.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5
+      ],
+      "values": [
+        0.966,
+        1.056
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

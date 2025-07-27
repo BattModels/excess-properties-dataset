@@ -1,0 +1,88 @@
+{
+  "name1": "acetone",
+  "smi1": "CC(C)=O",
+  "name2": "1-ethyl-3-methylimidazolium thiocyanate",
+  "smi2": "CC[n+]1ccn(C)c1.N#C[S-]",
+  "doi": "10.1016/j.molliq.2021.118292",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1125,
+        0.1889,
+        0.3058,
+        0.3917,
+        0.5127,
+        0.6,
+        0.6892,
+        0.7842,
+        0.9008,
+        1.0
+      ],
+      "values": [
+        1115.1,
+        1102.0,
+        1089.9,
+        1072.2,
+        1055.8,
+        1028.0,
+        1003.1,
+        972.5,
+        930.7,
+        864.2,
+        784.8
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1125,
+        0.1889,
+        0.3058,
+        0.3917,
+        0.5127,
+        0.6,
+        0.6892,
+        0.7842,
+        0.9008,
+        1.0
+      ],
+      "values": [
+        1851.0,
+        1824.0,
+        1798.0,
+        1758.0,
+        1720.0,
+        1652.0,
+        1590.0,
+        1513.0,
+        1417.0,
+        1286.0,
+        1166.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,235 @@
+{
+  "name1": "1-butyl-3-methylimidazolium bromide",
+  "smi1": "CCCC[n+]1ccn(C)c1.[Br-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2017.08.056",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        999.1,
+        999.2,
+        999.3,
+        999.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        997.0,
+        997.2,
+        997.2,
+        997.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        994.0,
+        994.2,
+        994.2,
+        994.4
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        0.0001006,
+        0.03111,
+        0.04545,
+        0.06124
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        0.00015,
+        0.03886,
+        0.05676,
+        0.07593
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        0.000216,
+        0.04661,
+        0.06902,
+        0.09154
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        0.001133,
+        0.001136,
+        0.001138,
+        0.001139
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        0.00089,
+        0.000891,
+        0.000892,
+        0.000894
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0008,
+        0.0012,
+        0.0016
+      ],
+      "values": [
+        0.000719,
+        0.000727,
+        0.000731,
+        0.000735
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,29 @@
+{
+  "name1": "methylcyclohexane",
+  "smi1": "CC1CCCCC1",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1016/j.jct.2010.12.014",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.026
+      ],
+      "values": [
+        1232.26
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

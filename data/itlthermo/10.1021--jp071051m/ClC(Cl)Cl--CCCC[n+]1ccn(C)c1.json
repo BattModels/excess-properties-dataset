@@ -1,0 +1,133 @@
+{
+  "name1": "trichloromethane",
+  "smi1": "ClC(Cl)Cl",
+  "name2": "1-butyl-3-methylimidazolium trifluoroacetate",
+  "smi2": "CCCC[n+]1ccn(C)c1.O=C([O-])C(F)(F)F",
+  "doi": "10.1021/jp071051m",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0918,
+        0.1815,
+        0.2793,
+        0.3861,
+        0.482,
+        0.5804,
+        0.6467,
+        0.6812,
+        0.729,
+        0.7847,
+        0.8677
+      ],
+      "values": [
+        1212.8,
+        1225.3,
+        1238.0,
+        1256.2,
+        1276.5,
+        1297.4,
+        1321.5,
+        1340.0,
+        1350.0,
+        1366.3,
+        1384.7,
+        1418.6
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0918,
+        0.1815,
+        0.2793,
+        0.3861,
+        0.482,
+        0.5804,
+        0.6467,
+        0.6812,
+        0.729,
+        0.7847,
+        0.8677
+      ],
+      "values": [
+        0.455,
+        0.507,
+        0.558,
+        0.618,
+        0.692,
+        0.766,
+        0.85,
+        0.89,
+        0.9,
+        0.89,
+        0.826,
+        0.603
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0918,
+        0.1815,
+        0.2793,
+        0.3861,
+        0.482,
+        0.5804,
+        0.6467,
+        0.6812,
+        0.729,
+        0.7847,
+        0.8677
+      ],
+      "values": [
+        0.0529,
+        0.0464,
+        0.0404,
+        0.0337,
+        0.0259,
+        0.0193,
+        0.013,
+        0.0097,
+        0.00785,
+        0.00606,
+        0.00402,
+        0.00202
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

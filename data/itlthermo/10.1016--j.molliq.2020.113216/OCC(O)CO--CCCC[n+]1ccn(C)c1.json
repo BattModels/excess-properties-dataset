@@ -1,0 +1,200 @@
+{
+  "name1": "glycerol",
+  "smi1": "OCC(O)CO",
+  "name2": "1-butyl-3-methylimidazolium chloride",
+  "smi2": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1016/j.molliq.2020.113216",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1170.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1167.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1164.7
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1161.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1158.5
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1851.3
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1838.8
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1826.5
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1814.4
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1802.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

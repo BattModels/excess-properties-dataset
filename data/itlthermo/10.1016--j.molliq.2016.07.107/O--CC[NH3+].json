@@ -1,0 +1,45 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "ethylammonium nitrate",
+  "smi2": "CC[NH3+].O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.molliq.2016.07.107",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9059,
+        0.8444,
+        0.8213,
+        0.7762,
+        0.6606,
+        0.3969,
+        0.2565,
+        0.12,
+        0.0594
+      ],
+      "values": [
+        1083.7,
+        1114.8,
+        1123.6,
+        1138.1,
+        1163.0,
+        1191.1,
+        1199.0,
+        1204.5,
+        1206.3
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

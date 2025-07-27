@@ -1,0 +1,41 @@
+{
+  "name1": "butan-1-ol",
+  "smi1": "CCCCO",
+  "name2": "1-butyl-3-methylimidazolium octyl sulfate",
+  "smi2": "CCCCCCCCOS(=O)(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1016/j.jcis.2008.02.039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.839,
+        0.697,
+        0.5569,
+        0.3849,
+        0.2663,
+        0.151,
+        0.0798
+      ],
+      "values": [
+        913.3,
+        966.2,
+        1000.2,
+        1028.4,
+        1043.3,
+        1055.6,
+        1062.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

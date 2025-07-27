@@ -1,0 +1,45 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "n-butylammonium nitrate",
+  "smi2": "CCCC[NH3+].O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.molliq.2016.07.107",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.8976,
+        0.8384,
+        0.7925,
+        0.7526,
+        0.6659,
+        0.5775,
+        0.4482,
+        0.3412,
+        0.2091
+      ],
+      "values": [
+        855.8,
+        887.8,
+        909.9,
+        927.4,
+        961.5,
+        989.8,
+        1024.8,
+        1048.9,
+        1073.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

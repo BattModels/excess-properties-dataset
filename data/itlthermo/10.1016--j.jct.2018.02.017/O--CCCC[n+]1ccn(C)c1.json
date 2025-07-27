@@ -1,0 +1,126 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium dicyanamide",
+  "smi2": "CCCC[n+]1ccn(C)c1.N#C[N-]C#N",
+  "doi": "10.1016/j.jct.2018.02.017",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9992,
+        0.9988,
+        0.9984,
+        0.9981,
+        0.9977
+      ],
+      "values": [
+        999.45,
+        999.8,
+        1000.14,
+        1000.47,
+        1000.79,
+        1001.11
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9992,
+        0.9988,
+        0.9984,
+        0.9981,
+        0.9977
+      ],
+      "values": [
+        997.35,
+        997.65,
+        997.93,
+        998.21,
+        998.48,
+        998.75
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9992,
+        0.9988,
+        0.9984,
+        0.9981,
+        0.9977
+      ],
+      "values": [
+        994.29,
+        994.54,
+        994.79,
+        995.02,
+        995.25,
+        995.48
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9992,
+        0.9988,
+        0.9984,
+        0.9981,
+        0.9977
+      ],
+      "values": [
+        990.43,
+        990.65,
+        990.85,
+        991.06,
+        991.25,
+        991.45
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

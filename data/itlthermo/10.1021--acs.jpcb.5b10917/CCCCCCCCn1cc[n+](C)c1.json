@@ -1,0 +1,72 @@
+{
+  "name1": "1-methyl-3-octylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi1": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "benzene",
+  "smi2": "c1ccccc1",
+  "doi": "10.1021/acs.jpcb.5b10917",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.8,
+        0.6,
+        0.4,
+        0.2,
+        0.1,
+        0.0
+      ],
+      "values": [
+        1329.0,
+        1298.0,
+        1260.0,
+        1209.0,
+        1111.0,
+        1022.0,
+        873.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.8,
+        0.6,
+        0.4,
+        0.2,
+        0.1,
+        0.0
+      ],
+      "values": [
+        0.113,
+        0.0744,
+        0.0462,
+        0.0235,
+        0.00734,
+        0.00321,
+        0.000641
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

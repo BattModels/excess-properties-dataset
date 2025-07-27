@@ -1,0 +1,49 @@
+{
+  "name1": "propan-1-ol",
+  "smi1": "CCCO",
+  "name2": "1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/je700621d",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.965,
+        0.869,
+        0.798,
+        0.704,
+        0.627,
+        0.483,
+        0.336,
+        0.315,
+        0.116,
+        0.0
+      ],
+      "values": [
+        799.0,
+        878.2,
+        1036.2,
+        1116.5,
+        1194.1,
+        1243.5,
+        1311.8,
+        1361.9,
+        1368.0,
+        1422.0,
+        1436.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

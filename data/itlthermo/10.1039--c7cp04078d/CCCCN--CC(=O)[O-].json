@@ -1,0 +1,80 @@
+{
+  "name1": "1-butanamine",
+  "smi1": "CCCCN",
+  "name2": "tetrabutylammonium acetate",
+  "smi2": "CC(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC",
+  "doi": "10.1039/c7cp04078d",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.33,
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        958.0,
+        943.0,
+        926.0,
+        903.0,
+        871.0,
+        831.0,
+        794.0,
+        764.0,
+        729.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.33,
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        0.68,
+        0.39,
+        0.188,
+        0.078,
+        0.028,
+        0.016,
+        0.011,
+        0.009,
+        0.009
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

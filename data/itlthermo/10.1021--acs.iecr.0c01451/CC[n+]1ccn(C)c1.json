@@ -1,0 +1,60 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium chloride",
+  "smi1": "CC[n+]1ccn(C)c1.[Cl-]",
+  "name2": "1H-imidazole",
+  "smi2": "c1c[nH]cn1",
+  "doi": "10.1021/acs.iecr.0c01451",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.333,
+        0.5,
+        0.667
+      ],
+      "values": [
+        1118.76,
+        1122.77,
+        1128.81,
+        1133.92
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.333,
+        0.5,
+        0.667
+      ],
+      "values": [
+        0.0387,
+        0.0475,
+        0.0825,
+        0.198
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

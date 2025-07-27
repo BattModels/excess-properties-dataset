@@ -1,0 +1,49 @@
+{
+  "name1": "octan-1-ol",
+  "smi1": "CCCCCCCCO",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-008-9306-y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.8171,
+        0.748,
+        0.6459,
+        0.551,
+        0.4759,
+        0.3633,
+        0.2529,
+        0.1324,
+        0.0288,
+        0.0
+      ],
+      "values": [
+        821.74,
+        909.02,
+        940.11,
+        984.34,
+        1025.39,
+        1056.93,
+        1103.21,
+        1147.15,
+        1191.8,
+        1228.9,
+        1238.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

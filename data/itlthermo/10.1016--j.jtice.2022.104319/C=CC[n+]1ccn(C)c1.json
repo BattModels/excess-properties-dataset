@@ -1,0 +1,213 @@
+{
+  "name1": "1-allyl-3-methylimidazolium dicyanamide",
+  "smi1": "C=CC[n+]1ccn(C)c1.N#C[N-]C#N",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.jtice.2022.104319",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1261.7,
+        1261.3,
+        1260.7,
+        1260.4,
+        1260.0,
+        1259.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1258.2,
+        1257.7,
+        1257.2,
+        1256.9,
+        1256.5,
+        1255.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1254.6,
+        1254.2,
+        1253.6,
+        1253.3,
+        1252.9,
+        1252.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1251.1,
+        1250.7,
+        1250.1,
+        1249.8,
+        1249.4,
+        1248.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1247.6,
+        1247.2,
+        1246.6,
+        1246.3,
+        1245.9,
+        1245.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1244.1,
+        1243.7,
+        1243.1,
+        1242.9,
+        1242.4,
+        1241.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.9985,
+        0.9969,
+        0.9956,
+        0.9941,
+        0.9924
+      ],
+      "values": [
+        1240.7,
+        1240.2,
+        1239.7,
+        1239.4,
+        1239.0,
+        1238.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

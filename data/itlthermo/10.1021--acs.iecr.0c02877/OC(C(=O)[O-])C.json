@@ -1,0 +1,64 @@
+{
+  "name1": "2-(2-(dimethylamino)ethoxy)-N,N-dimethylethanaminium 2-hydroxypropanoate",
+  "smi1": "OC(C(=O)[O-])C.CN(CCOCC[NH+](C)C)C",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1021/acs.iecr.0c02877",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.196,
+        0.301,
+        0.399,
+        0.498,
+        0.603
+      ],
+      "values": [
+        1038.0,
+        1056.0,
+        1074.0,
+        1124.0,
+        1135.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.196,
+        0.301,
+        0.399,
+        0.498,
+        0.603
+      ],
+      "values": [
+        0.0012,
+        0.00128,
+        0.00176,
+        0.00286,
+        0.00658
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,115 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methylimidazolium octyl sulfate",
+  "smi2": "CCCCCCCCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/je2012633",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9947,
+        0.8998,
+        0.6077,
+        0.4037,
+        0.2627,
+        0.2253,
+        0.1455,
+        0.0629,
+        0.0
+      ],
+      "values": [
+        1005.3,
+        1060.6,
+        1086.3,
+        1090.5,
+        1092.1,
+        1092.4,
+        1093.0,
+        1093.5,
+        1093.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9947,
+        0.8998,
+        0.6077,
+        0.4037,
+        0.2627,
+        0.2253,
+        0.1455,
+        0.0629,
+        0.0
+      ],
+      "values": [
+        1001.8,
+        1054.0,
+        1079.6,
+        1083.8,
+        1085.5,
+        1085.7,
+        1086.4,
+        1086.9,
+        1087.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9947,
+        0.8998,
+        0.6077,
+        0.4037,
+        0.2627,
+        0.2253,
+        0.1455,
+        0.0629,
+        0.0
+      ],
+      "values": [
+        997.3,
+        1047.4,
+        1072.9,
+        1077.2,
+        1079.1,
+        1079.2,
+        1079.9,
+        1080.4,
+        1080.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

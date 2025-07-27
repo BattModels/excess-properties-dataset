@@ -1,0 +1,158 @@
+{
+  "name1": "1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi1": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "trichloromethane",
+  "smi2": "ClC(Cl)Cl",
+  "doi": "10.1021/acs.jpcb.6b06974",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 288.5,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.018,
+        0.137,
+        0.196,
+        0.297,
+        0.604,
+        0.713,
+        0.848,
+        0.911,
+        0.97,
+        0.986
+      ],
+      "values": [
+        0.021,
+        0.302,
+        0.462,
+        0.46,
+        0.255,
+        0.211,
+        0.169,
+        0.153,
+        0.146,
+        0.137
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.034,
+        0.167,
+        0.256,
+        0.379,
+        0.562,
+        0.732,
+        0.87,
+        0.924,
+        0.962,
+        0.992
+      ],
+      "values": [
+        0.076,
+        0.477,
+        0.582,
+        0.524,
+        0.369,
+        0.295,
+        0.245,
+        0.233,
+        0.221,
+        0.213
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.019,
+        0.123,
+        0.214,
+        0.318,
+        0.4,
+        0.585,
+        0.807,
+        0.905,
+        0.949,
+        0.985
+      ],
+      "values": [
+        0.04,
+        0.501,
+        0.686,
+        0.701,
+        0.652,
+        0.431,
+        0.378,
+        0.327,
+        0.336,
+        0.326
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 318.5,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.03,
+        0.2,
+        0.247,
+        0.335,
+        0.446,
+        0.684,
+        0.815,
+        0.92,
+        0.956,
+        0.994
+      ],
+      "values": [
+        0.072,
+        0.785,
+        0.835,
+        0.845,
+        0.788,
+        0.55,
+        0.529,
+        0.479,
+        0.469,
+        0.459
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

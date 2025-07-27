@@ -1,0 +1,48 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "trihexyltetradecylphosphonium decanoate",
+  "smi2": "CCCCCCCCCC(=O)[O-].CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "doi": "10.1021/acs.jced.9b00057",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.162
+      ],
+      "values": [
+        900.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.162
+      ],
+      "values": [
+        0.096
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

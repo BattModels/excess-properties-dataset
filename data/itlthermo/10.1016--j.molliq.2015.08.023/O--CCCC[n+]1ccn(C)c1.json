@@ -1,0 +1,102 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.molliq.2015.08.023",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9993,
+        0.999
+      ],
+      "values": [
+        0.02172,
+        0.03195,
+        0.03917
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9993,
+        0.999
+      ],
+      "values": [
+        0.02806,
+        0.03605,
+        0.05046
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9993,
+        0.999
+      ],
+      "values": [
+        0.03493,
+        0.04368,
+        0.0658
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9993,
+        0.999
+      ],
+      "values": [
+        0.04016,
+        0.05216,
+        0.0942
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

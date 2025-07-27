@@ -1,0 +1,53 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",
+  "smi2": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "doi": "10.1002/cjce.20546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0404,
+        0.1098,
+        0.198,
+        0.3,
+        0.3979,
+        0.5029,
+        0.6008,
+        0.7013,
+        0.8001,
+        0.9002,
+        0.95,
+        1.0
+      ],
+      "values": [
+        886.4,
+        886.4,
+        886.4,
+        886.3,
+        886.3,
+        886.1,
+        885.7,
+        884.9,
+        883.1,
+        879.0,
+        866.42,
+        847.93,
+        786.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

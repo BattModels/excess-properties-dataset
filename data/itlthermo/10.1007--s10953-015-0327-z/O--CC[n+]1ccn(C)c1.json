@@ -1,0 +1,64 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methylimidazolium thiocyanate",
+  "smi2": "CC[n+]1ccn(C)c1.N#C[S-]",
+  "doi": "10.1007/s10953-015-0327-z",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.019,
+        0.045,
+        0.153,
+        0.204,
+        0.24
+      ],
+      "values": [
+        1121.9,
+        1122.5,
+        1120.9,
+        1119.0,
+        1117.7
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.019,
+        0.045,
+        0.153,
+        0.204,
+        0.24
+      ],
+      "values": [
+        1851.8,
+        1850.0,
+        1848.1,
+        1847.8,
+        1847.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

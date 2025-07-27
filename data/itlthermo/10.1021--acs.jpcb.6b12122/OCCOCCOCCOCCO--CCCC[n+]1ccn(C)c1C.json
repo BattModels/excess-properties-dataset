@@ -1,0 +1,33 @@
+{
+  "name1": "tetraethylene glycol",
+  "smi1": "OCCOCCOCCOCCO",
+  "name2": "1-butyl-2,3-dimethylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1C.F[B-](F)(F)F",
+  "doi": "10.1021/acs.jpcb.6b12122",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "values": [
+        0.573,
+        0.0821,
+        0.0456
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

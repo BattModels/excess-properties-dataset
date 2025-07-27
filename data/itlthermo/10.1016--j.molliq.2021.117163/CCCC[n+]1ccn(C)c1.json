@@ -1,0 +1,53 @@
+{
+  "name1": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "name2": "propylene carbonate",
+  "smi2": "CC1COC(=O)O1",
+  "doi": "10.1016/j.molliq.2021.117163",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        0.0027,
+        0.0036,
+        0.0044,
+        0.0052,
+        0.0069,
+        0.01,
+        0.015,
+        0.022,
+        0.0314,
+        0.0445,
+        0.0635,
+        0.0813,
+        0.1072
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

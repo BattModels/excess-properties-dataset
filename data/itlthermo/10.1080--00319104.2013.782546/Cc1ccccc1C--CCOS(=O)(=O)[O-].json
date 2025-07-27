@@ -1,0 +1,45 @@
+{
+  "name1": "1,2-dimethylbenzene",
+  "smi1": "Cc1ccccc1C",
+  "name2": "1-ethyl-3-methylpyridinium ethylsulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1cccc(C)c1",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0495,
+        0.1048,
+        0.1561,
+        0.2007,
+        0.232,
+        0.2524,
+        0.2554,
+        1.0
+      ],
+      "values": [
+        1230.73,
+        1222.07,
+        1212.4,
+        1201.71,
+        1192.44,
+        1186.9,
+        1182.39,
+        1182.01,
+        888.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

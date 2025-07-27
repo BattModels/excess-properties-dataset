@@ -1,0 +1,332 @@
+{
+  "name1": "2-aminoethan-1-ol",
+  "smi1": "NCCO",
+  "name2": "methyltriphenylphosphonium bromide",
+  "smi2": "C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]",
+  "doi": "10.1016/j.fluid.2017.03.008",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1092.9,
+        1099.8,
+        1107.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1085.0,
+        1091.9,
+        1100.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1077.1,
+        1083.8,
+        1092.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1068.9,
+        1075.8,
+        1084.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1060.8,
+        1067.6,
+        1076.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1052.7,
+        1059.4,
+        1068.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 358.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        1044.7,
+        1051.1,
+        1059.8
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.0277,
+        0.028,
+        0.0355
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.02,
+        0.02,
+        0.0207
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.0136,
+        0.0131,
+        0.0136
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.0095,
+        0.0091,
+        0.01
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.007,
+        0.0069,
+        0.0075
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.0054,
+        0.0054,
+        0.0056
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 358.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.89,
+        0.87,
+        0.86
+      ],
+      "values": [
+        0.0047,
+        0.0048,
+        0.0049
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

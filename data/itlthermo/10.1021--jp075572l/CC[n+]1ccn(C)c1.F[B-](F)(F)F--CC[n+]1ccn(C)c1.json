@@ -1,0 +1,37 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium tetrafluoroborate",
+  "smi1": "CC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "name2": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/jp075572l",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.5,
+        0.75,
+        0.9,
+        0.95
+      ],
+      "values": [
+        1520.0,
+        1480.0,
+        1420.0,
+        1350.0,
+        1300.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

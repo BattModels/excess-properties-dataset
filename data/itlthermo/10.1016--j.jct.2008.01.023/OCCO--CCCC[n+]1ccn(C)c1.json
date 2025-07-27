@@ -1,0 +1,55 @@
+{
+  "name1": "1,2-ethanediol",
+  "smi1": "OCCO",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.01.023",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9483,
+        0.862,
+        0.8072,
+        0.7433,
+        0.7,
+        0.6676,
+        0.598,
+        0.5838,
+        0.5003,
+        0.4197,
+        0.368,
+        0.304,
+        0.1955,
+        0.0917
+      ],
+      "values": [
+        1123.11,
+        1138.78,
+        1146.51,
+        1154.22,
+        1158.72,
+        1161.86,
+        1167.89,
+        1168.98,
+        1175.1,
+        1180.22,
+        1183.29,
+        1186.82,
+        1192.48,
+        1197.33
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

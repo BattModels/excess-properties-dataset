@@ -1,0 +1,100 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-hexyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je800468h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9959,
+        0.9916,
+        0.9826,
+        0.9618,
+        0.9351,
+        0.9024,
+        0.8601,
+        0.8057,
+        0.7288,
+        0.6093,
+        0.4098,
+        0.2565,
+        0.1111,
+        0.0
+      ],
+      "values": [
+        784.24,
+        791.63,
+        806.26,
+        836.42,
+        869.76,
+        903.86,
+        939.67,
+        975.94,
+        1014.86,
+        1056.74,
+        1100.5,
+        1122.1,
+        1137.2,
+        1146.3
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9959,
+        0.9916,
+        0.9826,
+        0.9618,
+        0.9351,
+        0.9024,
+        0.8601,
+        0.8057,
+        0.7288,
+        0.6093,
+        0.4098,
+        0.2565,
+        0.1111,
+        0.0
+      ],
+      "values": [
+        0.838,
+        1.442,
+        2.35,
+        3.51,
+        4.13,
+        4.25,
+        3.96,
+        3.37,
+        2.53,
+        1.543,
+        0.656,
+        0.344,
+        0.192,
+        0.1228
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

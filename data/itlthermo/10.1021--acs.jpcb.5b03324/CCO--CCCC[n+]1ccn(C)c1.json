@@ -1,0 +1,35 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-butyl-3-methylimidazolium thiocyanate",
+  "smi2": "CCCC[n+]1ccn(C)c1.N#C[S-]",
+  "doi": "10.1021/acs.jpcb.5b03324",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.41,
+        0.2
+      ],
+      "values": [
+        925.0,
+        991.0,
+        1026.0,
+        1053.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,49 @@
+{
+  "name1": "1,2-dimethylbenzene",
+  "smi1": "Cc1ccccc1C",
+  "name2": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.052,
+        0.1008,
+        0.1995,
+        0.3002,
+        0.3978,
+        0.453,
+        0.5055,
+        0.5062,
+        0.5929,
+        1.0
+      ],
+      "values": [
+        1534.04,
+        1518.74,
+        1503.76,
+        1470.64,
+        1432.05,
+        1389.12,
+        1362.39,
+        1334.27,
+        1333.7,
+        1283.06,
+        888.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

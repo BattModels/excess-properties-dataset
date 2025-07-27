@@ -1,0 +1,41 @@
+{
+  "name1": "pentan-1-ol",
+  "smi1": "CCCCCO",
+  "name2": "1-butyl-4-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.02.019",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.4349,
+        0.3965,
+        0.3285,
+        0.2399,
+        0.1959,
+        0.1384,
+        0.088
+      ],
+      "values": [
+        1060.4,
+        1072.1,
+        1091.9,
+        1115.3,
+        1126.1,
+        1139.6,
+        1150.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

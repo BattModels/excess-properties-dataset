@@ -1,0 +1,49 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-methyl-3-propylimidazolium bromide",
+  "smi2": "CCCn1cc[n+](C)c1.[Br-]",
+  "doi": "10.1016/j.molliq.2005.06.001",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9998,
+        0.98,
+        0.96,
+        0.93,
+        0.88,
+        0.79,
+        0.51,
+        0.36,
+        0.22,
+        0.22,
+        0.0
+      ],
+      "values": [
+        0.16,
+        6.44,
+        8.92,
+        9.89,
+        9.16,
+        6.23,
+        1.22,
+        0.46,
+        0.14,
+        0.17,
+        0.03
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

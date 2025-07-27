@@ -1,0 +1,88 @@
+{
+  "name1": "ethyl acetate",
+  "smi1": "CCOC(C)=O",
+  "name2": "1-methyl-3-octylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/je800899w",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0493,
+        0.1112,
+        0.1546,
+        0.2125,
+        0.3102,
+        0.404,
+        0.4779,
+        0.5967,
+        0.7035,
+        0.8233,
+        0.9016
+      ],
+      "values": [
+        1314.9,
+        1307.3,
+        1301.5,
+        1293.1,
+        1276.6,
+        1257.5,
+        1239.9,
+        1203.86,
+        1160.22,
+        1089.62,
+        1022.64
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0493,
+        0.1112,
+        0.1546,
+        0.2125,
+        0.3102,
+        0.404,
+        0.4779,
+        0.5967,
+        0.7035,
+        0.8233,
+        0.9016
+      ],
+      "values": [
+        0.0789,
+        0.06593,
+        0.05825,
+        0.04882,
+        0.03478,
+        0.02415,
+        0.01754,
+        0.00979,
+        0.005384,
+        0.002284,
+        0.001233
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

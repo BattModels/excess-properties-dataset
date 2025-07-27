@@ -1,0 +1,37 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-butyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1021/je1007235",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.089,
+        0.213,
+        0.389,
+        0.593,
+        1.0
+      ],
+      "values": [
+        0.148,
+        0.027,
+        0.005,
+        0.002,
+        0.00034
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

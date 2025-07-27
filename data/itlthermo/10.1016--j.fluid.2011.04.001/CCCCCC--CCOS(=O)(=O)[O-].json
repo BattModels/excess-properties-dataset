@@ -1,0 +1,29 @@
+{
+  "name1": "hexane",
+  "smi1": "CCCCCC",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1016/j.fluid.2011.04.001",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.015
+      ],
+      "values": [
+        1234.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

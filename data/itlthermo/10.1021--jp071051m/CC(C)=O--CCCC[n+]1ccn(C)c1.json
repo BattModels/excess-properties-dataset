@@ -1,0 +1,127 @@
+{
+  "name1": "acetone",
+  "smi1": "CC(C)=O",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1021/jp071051m",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1006,
+        0.1935,
+        0.3033,
+        0.3988,
+        0.4972,
+        0.6016,
+        0.6992,
+        0.7839,
+        0.8433,
+        0.8853
+      ],
+      "values": [
+        1364.0,
+        1355.0,
+        1333.0,
+        1302.6,
+        1271.9,
+        1239.5,
+        1189.8,
+        1125.5,
+        1061.3,
+        1000.8,
+        958.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1006,
+        0.1935,
+        0.3033,
+        0.3988,
+        0.4972,
+        0.6016,
+        0.6992,
+        0.7839,
+        0.8433,
+        0.8853
+      ],
+      "values": [
+        0.157,
+        0.256,
+        0.389,
+        0.612,
+        0.89,
+        1.28,
+        1.81,
+        2.38,
+        2.86,
+        3.11,
+        3.12
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1006,
+        0.1935,
+        0.3033,
+        0.3988,
+        0.4972,
+        0.6016,
+        0.6992,
+        0.7839,
+        0.8433,
+        0.8853
+      ],
+      "values": [
+        0.26,
+        0.148,
+        0.089,
+        0.0484,
+        0.0274,
+        0.0147,
+        0.00736,
+        0.00376,
+        0.00205,
+        0.00134,
+        0.00102
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,35 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1021/je0502501",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0001,
+        0.0015,
+        0.0089,
+        0.016
+      ],
+      "values": [
+        1358.7,
+        1357.6,
+        1347.3,
+        1335.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

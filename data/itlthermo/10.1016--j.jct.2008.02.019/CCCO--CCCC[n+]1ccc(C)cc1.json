@@ -1,0 +1,90 @@
+{
+  "name1": "propan-1-ol",
+  "smi1": "CCCO",
+  "name2": "1-butyl-4-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.02.019",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9846,
+        0.9729,
+        0.7012,
+        0.6013,
+        0.5035,
+        0.4028,
+        0.3111,
+        0.304,
+        0.2188,
+        0.1159
+      ],
+      "values": [
+        815.6,
+        827.2,
+        1006.8,
+        1047.4,
+        1079.8,
+        1107.8,
+        1129.1,
+        1130.6,
+        1147.9,
+        1165.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9451,
+        0.8992,
+        0.8031,
+        0.6897,
+        0.6172,
+        0.5619,
+        0.5466,
+        0.5099,
+        0.3961,
+        0.3274,
+        0.1752,
+        0.1033,
+        0.0809
+      ],
+      "values": [
+        837.6,
+        875.1,
+        939.6,
+        997.6,
+        1027.5,
+        1047.4,
+        1052.4,
+        1064.0,
+        1095.2,
+        1111.2,
+        1141.4,
+        1156.9,
+        1153.3
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

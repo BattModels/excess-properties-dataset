@@ -1,0 +1,37 @@
+{
+  "name1": "1-butyl-3-methylimidazolium iodide",
+  "smi1": "CCCC[n+]1ccn(C)c1.[I-]",
+  "name2": "iodine",
+  "smi2": "II",
+  "doi": "10.1016/j.molliq.2022.121176",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.5,
+        0.333,
+        0.25,
+        0.2
+      ],
+      "values": [
+        0.035,
+        0.735,
+        3.07,
+        4.31,
+        5.13
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

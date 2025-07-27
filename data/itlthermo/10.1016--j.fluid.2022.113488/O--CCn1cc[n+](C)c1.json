@@ -1,0 +1,41 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methyl-1H-imidazol-3-ium 1,1,2,2,3,3,4,4,4-nonafluorobutane-1-sulfonate",
+  "smi2": "CCn1cc[n+](C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+  "doi": "10.1016/j.fluid.2022.113488",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.325,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.997,
+        0.9891,
+        0.9755,
+        0.9616,
+        0.9,
+        0.8,
+        0.6646
+      ],
+      "values": [
+        0.001038,
+        0.001111,
+        0.001091,
+        0.001164,
+        0.001367,
+        0.00196,
+        0.00303
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

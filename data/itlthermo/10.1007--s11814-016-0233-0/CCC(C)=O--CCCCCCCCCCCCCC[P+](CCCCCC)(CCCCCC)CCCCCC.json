@@ -1,0 +1,49 @@
+{
+  "name1": "butanone",
+  "smi1": "CCC(C)=O",
+  "name2": "trihexyl(tetradecyl)phosphonium chloride",
+  "smi2": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]",
+  "doi": "10.1007/s11814-016-0233-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0471,
+        0.0996,
+        0.198,
+        0.2994,
+        0.3986,
+        0.4996,
+        0.5997,
+        0.6991,
+        0.7992,
+        0.9001,
+        0.95
+      ],
+      "values": [
+        889.1,
+        888.6,
+        887.1,
+        885.4,
+        883.3,
+        880.3,
+        876.1,
+        870.0,
+        860.1,
+        842.0,
+        826.3
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

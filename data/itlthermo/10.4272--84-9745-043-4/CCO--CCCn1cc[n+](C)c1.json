@@ -1,0 +1,72 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-methyl-3-propylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.4272/84-9745-043-4",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.019,
+        0.035,
+        0.082,
+        0.133,
+        0.186,
+        0.267,
+        0.55
+      ],
+      "values": [
+        1433.96,
+        1414.83,
+        1362.5,
+        1309.15,
+        1256.95,
+        1183.97,
+        983.52
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.019,
+        0.035,
+        0.082,
+        0.133,
+        0.186,
+        0.267,
+        0.55
+      ],
+      "values": [
+        1433.96,
+        1414.83,
+        1362.5,
+        1309.15,
+        1256.95,
+        1183.97,
+        983.52
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

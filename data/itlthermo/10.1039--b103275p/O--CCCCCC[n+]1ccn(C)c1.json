@@ -1,0 +1,48 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-hexyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1039/b103275p",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0088
+      ],
+      "values": [
+        1240.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0088
+      ],
+      "values": [
+        0.452
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

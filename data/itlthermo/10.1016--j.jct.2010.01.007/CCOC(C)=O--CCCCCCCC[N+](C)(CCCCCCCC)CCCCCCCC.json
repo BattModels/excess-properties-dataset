@@ -1,0 +1,91 @@
+{
+  "name1": "ethyl acetate",
+  "smi1": "CCOC(C)=O",
+  "name2": "methyltrioctylammonium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",
+  "smi2": "CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2010.01.007",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5577,
+        0.4564,
+        0.2956,
+        0.2002,
+        0.0749
+      ],
+      "values": [
+        1074.9,
+        1085.3,
+        1096.5,
+        1101.2,
+        1105.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5577,
+        0.4564,
+        0.2956,
+        0.2002,
+        0.0749
+      ],
+      "values": [
+        1070.6,
+        1081.0,
+        1092.3,
+        1097.0,
+        1101.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5577,
+        0.4564,
+        0.2956,
+        0.2002,
+        0.0749
+      ],
+      "values": [
+        1062.5,
+        1073.4,
+        1084.8,
+        1089.8,
+        1093.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

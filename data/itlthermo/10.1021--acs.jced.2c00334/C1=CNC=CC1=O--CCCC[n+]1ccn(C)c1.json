@@ -1,0 +1,31 @@
+{
+  "name1": ".gamma.-hydroxypyridine",
+  "smi1": "C1=CNC=CC1=O",
+  "name2": "1-butyl-3-methylimidazolium chloride",
+  "smi2": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1021/acs.jced.2c00334",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5
+      ],
+      "values": [
+        0.302,
+        0.261
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

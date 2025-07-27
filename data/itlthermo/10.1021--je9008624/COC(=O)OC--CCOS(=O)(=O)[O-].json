@@ -1,0 +1,47 @@
+{
+  "name1": "dimethyl carbonate",
+  "smi1": "COC(=O)OC",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/je9008624",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0502,
+        0.0999,
+        0.1987,
+        0.2999,
+        0.3994,
+        0.5006,
+        0.5999,
+        0.7001,
+        1.0
+      ],
+      "values": [
+        1236.33,
+        1233.17,
+        1229.81,
+        1223.27,
+        1215.47,
+        1206.15,
+        1194.57,
+        1180.67,
+        1163.11,
+        1063.28
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

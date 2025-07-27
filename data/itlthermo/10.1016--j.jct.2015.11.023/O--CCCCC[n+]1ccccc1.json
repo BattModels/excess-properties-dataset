@@ -1,0 +1,226 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-pentylpyridinium dicyanamide",
+  "smi2": "CCCCC[n+]1ccccc1.N#C[N-]C#N",
+  "doi": "10.1016/j.jct.2015.11.023",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1049.9,
+        1049.8,
+        1049.7,
+        1049.6,
+        1049.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1046.9,
+        1046.8,
+        1046.7,
+        1046.6,
+        1046.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1043.9,
+        1043.8,
+        1043.7,
+        1043.6,
+        1043.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1040.9,
+        1040.8,
+        1040.7,
+        1040.6,
+        1040.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1038.0,
+        1037.8,
+        1037.7,
+        1037.6,
+        1037.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1035.0,
+        1034.9,
+        1034.8,
+        1034.6,
+        1034.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1032.0,
+        1031.9,
+        1031.8,
+        1031.7,
+        1031.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1029.1,
+        1029.0,
+        1028.9,
+        1028.7,
+        1028.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

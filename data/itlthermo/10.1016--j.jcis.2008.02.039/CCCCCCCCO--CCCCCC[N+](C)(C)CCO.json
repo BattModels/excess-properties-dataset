@@ -1,0 +1,35 @@
+{
+  "name1": "octan-1-ol",
+  "smi1": "CCCCCCCCO",
+  "name2": "N-(2-hydroxyethyl)-N,N-dimethylhexan-1-aminium bromide",
+  "smi2": "CCCCCC[N+](C)(C)CCO.[Br-]",
+  "doi": "10.1016/j.jcis.2008.02.039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9998,
+        0.9996,
+        0.9992
+      ],
+      "values": [
+        822.6,
+        824.5,
+        826.8,
+        828.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

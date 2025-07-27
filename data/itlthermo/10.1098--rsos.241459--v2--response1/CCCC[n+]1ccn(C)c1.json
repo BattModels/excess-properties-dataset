@@ -1,0 +1,72 @@
+{
+  "name1": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "name2": "1,2-ethanediol",
+  "smi2": "OCCO",
+  "doi": "10.1098/rsos.241459/v2/response1",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1758,
+        0.3578,
+        0.4397,
+        0.6482,
+        1.0
+      ],
+      "values": [
+        0.001,
+        0.63,
+        0.727,
+        0.766,
+        0.577,
+        0.243
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0895,
+        0.1758,
+        0.3578,
+        0.4397,
+        0.6482,
+        0.8121,
+        1.0
+      ],
+      "values": [
+        0.01741,
+        0.0155,
+        0.01552,
+        0.01887,
+        0.0213,
+        0.03197,
+        0.0518,
+        0.1047
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

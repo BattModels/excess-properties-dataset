@@ -1,0 +1,97 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-methyl-3-octylimidazolium 2-(2-methoxyethoxy)ethyl sulfate",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-]",
+  "doi": "10.1007/s10953-007-9135-4",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.11,
+        0.307,
+        0.447,
+        0.608,
+        0.803,
+        0.909
+      ],
+      "values": [
+        1112.3,
+        1102.2,
+        1091.0,
+        1070.9,
+        1018.2,
+        947.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.11,
+        0.307,
+        0.447,
+        0.608,
+        0.803,
+        0.909
+      ],
+      "values": [
+        1108.7,
+        1098.6,
+        1087.4,
+        1067.2,
+        1014.3,
+        943.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 315.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.11,
+        0.307,
+        0.447,
+        0.608,
+        0.803,
+        0.909
+      ],
+      "values": [
+        1101.9,
+        1091.8,
+        1080.5,
+        1060.1,
+        1006.6,
+        935.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,37 @@
+{
+  "name1": "1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi1": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "toluene",
+  "smi2": "Cc1ccccc1",
+  "doi": "10.1021/acs.jpcb.0c02813",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "values": [
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

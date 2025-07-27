@@ -1,0 +1,43 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "triisobutylmethylphosphonium p-toluenesulfonate",
+  "smi2": "CC(C)C[P+](C)(CC(C)C)CC(C)C.Cc1ccc(S(=O)(=O)[O-])cc1",
+  "doi": "10.1016/j.jct.2008.04.012",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.875,
+        0.75,
+        0.625,
+        0.5,
+        0.375,
+        0.25,
+        0.128,
+        0.0
+      ],
+      "values": [
+        0.00165,
+        0.0026,
+        0.004,
+        0.0069,
+        0.0116,
+        0.023,
+        0.068,
+        1.32
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

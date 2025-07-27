@@ -1,0 +1,49 @@
+{
+  "name1": "2,4-pentanedione",
+  "smi1": "CC(=O)CC(C)=O",
+  "name2": "trihexyl(tetradecyl)phosphonium chloride",
+  "smi2": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]",
+  "doi": "10.1016/j.fluid.2013.06.013",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0586,
+        0.0977,
+        0.1957,
+        0.2949,
+        0.3989,
+        0.4985,
+        0.6092,
+        0.7096,
+        0.8008,
+        0.9036,
+        0.9508
+      ],
+      "values": [
+        892.92,
+        893.66,
+        895.67,
+        898.11,
+        901.25,
+        905.14,
+        910.91,
+        918.02,
+        926.85,
+        942.76,
+        953.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

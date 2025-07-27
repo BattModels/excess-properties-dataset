@@ -1,0 +1,88 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi1": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "1-butyl-3-methyl-1H-imidazolium ethyl sulfate",
+  "smi2": "CCCC[n+]1ccn(C)c1.CCOS(=O)(=O)[O-]",
+  "doi": "10.1021/ie303238h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1009,
+        0.2031,
+        0.2951,
+        0.4027,
+        0.5013,
+        0.5989,
+        0.7113,
+        0.8024,
+        0.8996,
+        1.0
+      ],
+      "values": [
+        1151.9,
+        1189.5,
+        1227.6,
+        1261.6,
+        1301.5,
+        1337.7,
+        1373.5,
+        1414.5,
+        1447.5,
+        1482.6,
+        1518.9
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1009,
+        0.2031,
+        0.2951,
+        0.4027,
+        0.5013,
+        0.5989,
+        0.7113,
+        0.8024,
+        0.8996,
+        1.0
+      ],
+      "values": [
+        0.2552,
+        0.2124,
+        0.1724,
+        0.1399,
+        0.1093,
+        0.0876,
+        0.0697,
+        0.05711,
+        0.04755,
+        0.03959,
+        0.03255
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

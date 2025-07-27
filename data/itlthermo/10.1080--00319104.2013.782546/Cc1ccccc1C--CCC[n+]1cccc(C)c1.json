@@ -1,0 +1,49 @@
+{
+  "name1": "1,2-dimethylbenzene",
+  "smi1": "Cc1ccccc1C",
+  "name2": "3-methyl-1-propylpyridinium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0479,
+        0.1039,
+        0.2077,
+        0.3042,
+        0.4059,
+        0.4992,
+        0.588,
+        0.6238,
+        0.649,
+        1.0
+      ],
+      "values": [
+        1461.72,
+        1450.35,
+        1435.93,
+        1407.1,
+        1376.72,
+        1341.73,
+        1303.02,
+        1258.48,
+        1238.0,
+        1222.51,
+        888.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

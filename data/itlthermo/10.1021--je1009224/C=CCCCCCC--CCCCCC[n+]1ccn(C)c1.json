@@ -1,0 +1,118 @@
+{
+  "name1": "oct-1-ene",
+  "smi1": "C=CCCCCCC",
+  "name2": "1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/je1009224",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 283.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        1.0
+      ],
+      "values": [
+        0.136,
+        0.127,
+        0.106,
+        0.093,
+        0.00056
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        1.0
+      ],
+      "values": [
+        0.0701,
+        0.0666,
+        0.0562,
+        0.0512,
+        0.00047
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        1.0
+      ],
+      "values": [
+        0.0258,
+        0.0244,
+        0.0216,
+        0.0205,
+        0.00037
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        1.0
+      ],
+      "values": [
+        0.0135,
+        0.013,
+        0.0116,
+        0.0114,
+        0.0003
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,43 @@
+{
+  "name1": "toluene",
+  "smi1": "Cc1ccccc1",
+  "name2": "butyltrimethylammonium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jced.6b00655",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.202,
+        0.316,
+        0.404,
+        0.502,
+        0.61,
+        0.643
+      ],
+      "values": [
+        1346.0,
+        1333.0,
+        1310.0,
+        1280.0,
+        1253.0,
+        1212.0,
+        1168.0,
+        1150.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

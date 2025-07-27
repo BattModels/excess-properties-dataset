@@ -1,0 +1,47 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-hexyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.fluid.2009.07.010",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.902,
+        0.8002,
+        0.7,
+        0.6009,
+        0.4921,
+        0.3877,
+        0.298,
+        0.197,
+        0.1,
+        0.0
+      ],
+      "values": [
+        893.9,
+        964.6,
+        1011.9,
+        1046.1,
+        1073.7,
+        1095.5,
+        1108.8,
+        1123.9,
+        1134.7,
+        1145.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

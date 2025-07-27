@@ -1,0 +1,59 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-methyl-3-octylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2011.12.025",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 296.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9999,
+        0.9998,
+        0.9998,
+        0.9997,
+        0.9997,
+        0.9996,
+        0.9996,
+        0.9995,
+        0.9995,
+        0.9994,
+        0.9993,
+        0.9993,
+        0.9992,
+        0.9991,
+        0.999,
+        0.9989
+      ],
+      "values": [
+        0.067,
+        0.095,
+        0.123,
+        0.149,
+        0.172,
+        0.196,
+        0.22,
+        0.24,
+        0.262,
+        0.284,
+        0.305,
+        0.326,
+        0.346,
+        0.386,
+        0.424,
+        0.463
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

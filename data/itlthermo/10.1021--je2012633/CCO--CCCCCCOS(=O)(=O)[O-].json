@@ -1,0 +1,158 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "3-ethyl-1-methyl-1H-imidazolium hexyl sulfate",
+  "smi2": "CCCCCCOS(=O)(=O)[O-].CCn1cc[n+](C)c1",
+  "doi": "10.1021/je2012633",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9023,
+        0.7798,
+        0.6754,
+        0.5623,
+        0.5053,
+        0.3786,
+        0.2748,
+        0.2545,
+        0.0937,
+        0.0
+      ],
+      "values": [
+        911.2,
+        990.0,
+        1031.7,
+        1063.2,
+        1075.5,
+        1097.3,
+        1110.9,
+        1113.2,
+        1128.5,
+        1136.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9023,
+        0.7798,
+        0.6754,
+        0.5623,
+        0.5053,
+        0.3786,
+        0.2748,
+        0.2545,
+        0.0937,
+        0.0
+      ],
+      "values": [
+        903.4,
+        982.4,
+        1024.3,
+        1056.0,
+        1068.4,
+        1090.4,
+        1104.1,
+        1106.4,
+        1121.8,
+        1129.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9023,
+        0.7798,
+        0.6754,
+        0.5623,
+        0.5053,
+        0.3786,
+        0.2748,
+        0.2545,
+        0.0937,
+        0.0
+      ],
+      "values": [
+        895.3,
+        974.9,
+        1017.1,
+        1048.9,
+        1061.4,
+        1083.5,
+        1097.4,
+        1099.7,
+        1115.2,
+        1123.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9023,
+        0.7798,
+        0.6754,
+        0.5623,
+        0.5053,
+        0.3786,
+        0.2748,
+        0.2545,
+        0.0937,
+        0.0
+      ],
+      "values": [
+        887.4,
+        967.4,
+        1009.8,
+        1042.0,
+        1054.4,
+        1076.8,
+        1090.7,
+        1093.0,
+        1108.8,
+        1116.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

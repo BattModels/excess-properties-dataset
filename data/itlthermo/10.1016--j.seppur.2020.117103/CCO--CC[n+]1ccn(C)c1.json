@@ -1,0 +1,92 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-ethyl-3-methylimidazolium thiocyanate",
+  "smi2": "CC[n+]1ccn(C)c1.N#C[S-]",
+  "doi": "10.1016/j.seppur.2020.117103",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1175,
+        0.2134,
+        0.345,
+        0.3836,
+        0.5009,
+        0.5142,
+        0.6181,
+        0.6948,
+        0.7997,
+        0.8944,
+        1.0
+      ],
+      "values": [
+        1115.1,
+        1101.6,
+        1088.9,
+        1067.7,
+        1060.5,
+        1035.2,
+        1031.8,
+        1003.1,
+        975.7,
+        928.2,
+        873.3,
+        784.6
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1175,
+        0.2134,
+        0.345,
+        0.3836,
+        0.5009,
+        0.5142,
+        0.6181,
+        0.6948,
+        0.7997,
+        0.8944,
+        1.0
+      ],
+      "values": [
+        1851.0,
+        1826.0,
+        1797.0,
+        1751.0,
+        1729.0,
+        1667.0,
+        1662.0,
+        1592.0,
+        1524.0,
+        1412.0,
+        1285.0,
+        1142.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

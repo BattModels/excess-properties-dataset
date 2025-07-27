@@ -1,0 +1,48 @@
+{
+  "name1": "tetrabutylphosphonium chloride",
+  "smi1": "CCCC[P+](CCCC)(CCCC)CCCC.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1039/c7cp01757j",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.4286
+      ],
+      "values": [
+        972.26
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.4286
+      ],
+      "values": [
+        0.002533
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

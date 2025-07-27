@@ -1,0 +1,53 @@
+{
+  "name1": "butanone",
+  "smi1": "CCC(C)=O",
+  "name2": "1-hexyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2005.07.020",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9421,
+        0.9023,
+        0.8094,
+        0.7071,
+        0.5963,
+        0.5005,
+        0.3994,
+        0.2988,
+        0.1964,
+        0.0988,
+        0.0517,
+        0.0
+      ],
+      "values": [
+        799.7,
+        878.3,
+        922.6,
+        1006.3,
+        1075.0,
+        1132.0,
+        1170.9,
+        1204.8,
+        1232.5,
+        1256.5,
+        1276.4,
+        1285.2,
+        1293.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

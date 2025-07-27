@@ -1,0 +1,260 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jtice.2008.09.006",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 293.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.29,
+        0.235,
+        0.199,
+        0.181
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.364,
+        0.361,
+        0.268,
+        0.231
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.448,
+        0.382,
+        0.331,
+        0.291
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.546,
+        0.469,
+        0.401,
+        0.351
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 313.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.652,
+        0.561,
+        0.488,
+        0.423
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 318.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.775,
+        0.675,
+        0.563,
+        0.491
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        0.911,
+        0.792,
+        0.678,
+        0.592
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 333.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        1.06,
+        0.923,
+        0.797,
+        0.701
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 343.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        1.23,
+        1.06,
+        0.928,
+        0.833
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 353.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2,
+        0.15,
+        0.1,
+        0.05
+      ],
+      "values": [
+        1.621,
+        1.405,
+        1.217,
+        1.061
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

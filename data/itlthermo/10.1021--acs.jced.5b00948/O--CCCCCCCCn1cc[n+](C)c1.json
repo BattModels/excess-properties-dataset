@@ -1,0 +1,45 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-methyl-3-octylimidazolium L-glutamate",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.N[C@@H](CCC(=O)O)C(=O)[O-]",
+  "doi": "10.1021/acs.jced.5b00948",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.967,
+        0.91,
+        0.835,
+        0.785,
+        0.706,
+        0.604,
+        0.475,
+        0.342,
+        0.306
+      ],
+      "values": [
+        1002.3,
+        1009.0,
+        1019.0,
+        1024.9,
+        1035.6,
+        1050.1,
+        1066.6,
+        1083.8,
+        1089.2
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

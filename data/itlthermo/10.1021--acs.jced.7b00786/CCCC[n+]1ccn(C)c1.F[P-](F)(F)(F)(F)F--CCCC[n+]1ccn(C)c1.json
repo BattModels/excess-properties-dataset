@@ -1,0 +1,56 @@
+{
+  "name1": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "name2": "1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jced.7b00786",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "values": [
+        1408.7,
+        1393.7,
+        1375.9
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "values": [
+        0.03648,
+        0.0498,
+        0.0732
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

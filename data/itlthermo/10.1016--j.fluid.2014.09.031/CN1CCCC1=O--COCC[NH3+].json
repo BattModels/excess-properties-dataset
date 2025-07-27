@@ -1,0 +1,53 @@
+{
+  "name1": "N-methylpyrrolidone",
+  "smi1": "CN1CCCC1=O",
+  "name2": "2-methoxyethylammonium nitrate",
+  "smi2": "COCC[NH3+].O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.fluid.2014.09.031",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.947,
+        0.891,
+        0.827,
+        0.792,
+        0.633,
+        0.552,
+        0.436,
+        0.33,
+        0.306,
+        0.127,
+        0.037,
+        0.0
+      ],
+      "values": [
+        1028.25,
+        1044.9,
+        1061.24,
+        1078.65,
+        1087.71,
+        1125.26,
+        1142.99,
+        1167.0,
+        1188.5,
+        1193.5,
+        1228.4,
+        1246.0,
+        1253.2
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

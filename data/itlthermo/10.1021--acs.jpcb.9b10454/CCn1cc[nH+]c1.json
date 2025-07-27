@@ -1,0 +1,109 @@
+{
+  "name1": "1-ethylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi1": "CCn1cc[nH+]c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "1H-imidazole",
+  "smi2": "c1c[nH]cn1",
+  "doi": "10.1021/acs.jpcb.9b10454",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.998,
+        0.899,
+        0.798,
+        0.67,
+        0.569,
+        0.5,
+        0.401,
+        0.33,
+        0.25
+      ],
+      "values": [
+        1518.8,
+        1506.1,
+        1492.1,
+        1468.0,
+        1447.7,
+        1427.4,
+        1395.7,
+        1365.2,
+        1325.9
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.948,
+        0.889,
+        0.79,
+        0.597,
+        0.385,
+        0.194
+      ],
+      "values": [
+        0.427,
+        0.512,
+        0.556,
+        0.587,
+        0.616,
+        0.891
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.901,
+        0.802,
+        0.671,
+        0.601,
+        0.501,
+        0.401,
+        0.333,
+        0.252
+      ],
+      "values": [
+        0.0388,
+        0.0267,
+        0.0243,
+        0.0277,
+        0.0256,
+        0.0253,
+        0.0243,
+        0.023,
+        0.0207
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

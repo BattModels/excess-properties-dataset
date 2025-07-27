@@ -1,0 +1,92 @@
+{
+  "name1": "propan-2-ol",
+  "smi1": "CC(C)O",
+  "name2": "1-methyl-3-octylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.fluid.2009.09.015",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0331,
+        0.066,
+        0.105,
+        0.1823,
+        0.2732,
+        0.3284,
+        0.4097,
+        0.5055,
+        0.5848,
+        0.6747,
+        0.7832,
+        0.8966
+      ],
+      "values": [
+        1316.64,
+        1312.4,
+        1307.22,
+        1295.84,
+        1280.29,
+        1269.48,
+        1250.9,
+        1224.1,
+        1196.4,
+        1156.0,
+        1087.5,
+        972.5
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0331,
+        0.066,
+        0.105,
+        0.1823,
+        0.2732,
+        0.3284,
+        0.4097,
+        0.5055,
+        0.5848,
+        0.6747,
+        0.7832,
+        0.8966
+      ],
+      "values": [
+        0.0852,
+        0.0781,
+        0.0715,
+        0.06013,
+        0.04798,
+        0.03987,
+        0.03313,
+        0.02479,
+        0.01909,
+        0.01379,
+        0.00861,
+        0.00462
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

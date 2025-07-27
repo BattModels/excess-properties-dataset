@@ -1,0 +1,29 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium bromide",
+  "smi2": "CCCC[n+]1ccn(C)c1.[Br-]",
+  "doi": "10.1007/s10953-015-0320-6",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9487
+      ],
+      "values": [
+        0.00221
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

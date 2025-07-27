@@ -1,0 +1,127 @@
+{
+  "name1": "1,2-dimethoxyethane",
+  "smi1": "COCCOC",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2007.06.002",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9875,
+        0.9584,
+        0.8945,
+        0.8781,
+        0.7526,
+        0.6256,
+        0.5063,
+        0.2908,
+        0.0671,
+        0.0
+      ],
+      "values": [
+        864.5,
+        879.3,
+        912.1,
+        976.53,
+        991.51,
+        1089.1,
+        1164.2,
+        1219.9,
+        1296.4,
+        1353.8,
+        1367.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9875,
+        0.9584,
+        0.8945,
+        0.8781,
+        0.7526,
+        0.6256,
+        0.5063,
+        0.2908,
+        0.0671,
+        0.0
+      ],
+      "values": [
+        853.5,
+        868.4,
+        901.4,
+        966.23,
+        981.31,
+        1079.6,
+        1155.1,
+        1211.0,
+        1287.7,
+        1345.3,
+        1359.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9875,
+        0.9584,
+        0.8945,
+        0.8781,
+        0.7526,
+        0.6256,
+        0.5063,
+        0.2908,
+        0.0671,
+        0.0
+      ],
+      "values": [
+        842.3,
+        857.2,
+        890.5,
+        955.8,
+        971.0,
+        1070.0,
+        1146.0,
+        1202.2,
+        1279.2,
+        1336.8,
+        1350.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

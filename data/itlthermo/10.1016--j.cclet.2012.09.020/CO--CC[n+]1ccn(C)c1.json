@@ -1,0 +1,49 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-ethyl-3-methylimidazolium nitrate",
+  "smi2": "CC[n+]1ccn(C)c1.O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.cclet.2012.09.020",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9,
+        0.8,
+        0.7,
+        0.6,
+        0.501,
+        0.4005,
+        0.2997,
+        0.2004,
+        0.1005,
+        0.0
+      ],
+      "values": [
+        791.4,
+        918.4,
+        1000.7,
+        1054.6,
+        1091.6,
+        1122.4,
+        1144.3,
+        1158.2,
+        1176.0,
+        1188.6,
+        1208.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

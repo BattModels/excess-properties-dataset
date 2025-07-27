@@ -1,0 +1,67 @@
+{
+  "name1": "tetraethylammonium chloride",
+  "smi1": "CC[N+](CC)(CC)CC.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1039/ct8895500063",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 281.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1201
+      ],
+      "values": [
+        1035.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1201
+      ],
+      "values": [
+        1031.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1201
+      ],
+      "values": [
+        1025.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,45 @@
+{
+  "name1": "toluene",
+  "smi1": "Cc1ccccc1",
+  "name2": "1-ethyl-3-methylpyridinium ethylsulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1cccc(C)c1",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0517,
+        0.1036,
+        0.2023,
+        0.2751,
+        0.3222,
+        0.3501,
+        0.3661,
+        1.0
+      ],
+      "values": [
+        1230.73,
+        1222.55,
+        1214.71,
+        1195.28,
+        1180.33,
+        1170.41,
+        1163.88,
+        1160.27,
+        876.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

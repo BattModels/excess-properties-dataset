@@ -1,0 +1,49 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-hexyl-3-methylimidazolium chloride",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1080/00319100600744993",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1032,
+        0.2001,
+        0.3013,
+        0.389,
+        0.5125,
+        0.5926,
+        0.6972,
+        0.8007,
+        0.9088,
+        1.0
+      ],
+      "values": [
+        1040.4,
+        1041.1,
+        1042.0,
+        1042.2,
+        1042.3,
+        1042.2,
+        1041.2,
+        1038.7,
+        1034.2,
+        1023.6,
+        997.2
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

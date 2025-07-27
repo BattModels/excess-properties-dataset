@@ -1,0 +1,49 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-2,3-dimethylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1C.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2007.10.002",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9915,
+        0.9603,
+        0.8932,
+        0.8003,
+        0.7423,
+        0.6778,
+        0.2942,
+        0.2675,
+        0.1341,
+        0.0
+      ],
+      "values": [
+        997.043,
+        1012.56,
+        1053.33,
+        1100.33,
+        1132.18,
+        1144.22,
+        1154.0,
+        1182.1,
+        1183.2,
+        1187.8,
+        1191.2
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

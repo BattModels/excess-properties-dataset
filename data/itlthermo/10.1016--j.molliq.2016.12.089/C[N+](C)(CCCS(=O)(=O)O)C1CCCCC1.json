@@ -1,0 +1,184 @@
+{
+  "name1": "N,N-dimethyl-N-(3-sulfopropyl)cyclohexanaminium 4-methylbenzenesulfonate",
+  "smi1": "C[N+](C)(CCCS(=O)(=O)O)C1CCCCC1.Cc1ccc(S(=O)(=O)[O-])cc1",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2016.12.089",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.2002,
+        0.4,
+        0.6001,
+        0.7998,
+        1.0
+      ],
+      "values": [
+        0.0007959,
+        0.0014044,
+        0.0026844,
+        0.0079034,
+        0.0788603,
+        113.733
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.2002,
+        0.4,
+        0.6001,
+        0.7998,
+        1.0
+      ],
+      "values": [
+        0.0007218,
+        0.0012567,
+        0.0024065,
+        0.0069246,
+        0.0625838,
+        56.933
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.2002,
+        0.4,
+        0.6001,
+        0.7998,
+        1.0
+      ],
+      "values": [
+        0.0006564,
+        0.0011185,
+        0.0021462,
+        0.0060004,
+        0.0488296,
+        32.65
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.2002,
+        0.4,
+        0.6001,
+        0.7998,
+        1.0
+      ],
+      "values": [
+        0.0006071,
+        0.0010073,
+        0.0019431,
+        0.005145,
+        0.0389321,
+        17.83
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.2002,
+        0.4,
+        0.6001,
+        0.7998,
+        1.0
+      ],
+      "values": [
+        0.0005538,
+        0.0009115,
+        0.0017892,
+        0.0045792,
+        0.0315612,
+        10.187
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.2002,
+        0.4,
+        0.6001,
+        0.7998,
+        1.0
+      ],
+      "values": [
+        0.0005064,
+        0.0008334,
+        0.0016364,
+        0.0039443,
+        0.0255633,
+        6.293
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

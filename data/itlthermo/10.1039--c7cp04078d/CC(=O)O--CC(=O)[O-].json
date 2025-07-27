@@ -1,0 +1,80 @@
+{
+  "name1": "acetic acid",
+  "smi1": "CC(=O)O",
+  "name2": "tetrabutylammonium acetate",
+  "smi2": "CC(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC",
+  "doi": "10.1039/c7cp04078d",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.33,
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        958.0,
+        965.0,
+        978.0,
+        993.0,
+        1017.0,
+        1035.0,
+        1042.0,
+        1041.0,
+        1037.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.33,
+        0.5,
+        0.67,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        0.68,
+        0.46,
+        0.297,
+        0.169,
+        0.083,
+        0.041,
+        0.025,
+        0.019,
+        0.012
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

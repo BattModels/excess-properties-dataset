@@ -1,0 +1,127 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-ethyl-3-methylimidazolium 1,1,2,2,2-pentafluoro-N-[(pentafluoroethyl)sulfonyl]ethanesulfonamide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)F",
+  "doi": "10.1021/je700648c",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0584,
+        0.1116,
+        0.1686,
+        0.2956,
+        0.5104,
+        0.6083,
+        0.706,
+        0.8237,
+        0.9033,
+        1.0
+      ],
+      "values": [
+        1593.2,
+        1586.2,
+        1579.4,
+        1571.3,
+        1549.7,
+        1494.6,
+        1455.3,
+        1398.9,
+        1285.9,
+        1148.2,
+        786.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0584,
+        0.1116,
+        0.1686,
+        0.2956,
+        0.5104,
+        0.6083,
+        0.706,
+        0.8237,
+        0.9033,
+        1.0
+      ],
+      "values": [
+        1587.6,
+        1580.5,
+        1573.7,
+        1565.6,
+        1544.0,
+        1488.9,
+        1449.6,
+        1393.2,
+        1280.2,
+        1142.6,
+        781.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0584,
+        0.1116,
+        0.1686,
+        0.2956,
+        0.5104,
+        0.6083,
+        0.706,
+        0.8237,
+        0.9033,
+        1.0
+      ],
+      "values": [
+        1576.7,
+        1569.5,
+        1562.6,
+        1554.5,
+        1532.8,
+        1477.7,
+        1438.3,
+        1382.0,
+        1269.3,
+        1132.0,
+        772.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

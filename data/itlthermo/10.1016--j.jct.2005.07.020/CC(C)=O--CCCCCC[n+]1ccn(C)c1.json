@@ -1,0 +1,55 @@
+{
+  "name1": "acetone",
+  "smi1": "CC(C)=O",
+  "name2": "1-hexyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2005.07.020",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9538,
+        0.9089,
+        0.8067,
+        0.7225,
+        0.6379,
+        0.532,
+        0.4517,
+        0.3971,
+        0.2873,
+        0.1826,
+        0.089,
+        0.0482,
+        0.0
+      ],
+      "values": [
+        784.4,
+        864.1,
+        925.4,
+        1027.6,
+        1087.3,
+        1132.8,
+        1176.8,
+        1203.2,
+        1218.6,
+        1244.9,
+        1265.4,
+        1280.9,
+        1286.8,
+        1293.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

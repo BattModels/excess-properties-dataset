@@ -1,0 +1,226 @@
+{
+  "name1": "trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",
+  "smi1": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1021/acs.jced.7b00039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9988,
+        0.9971,
+        0.9942,
+        0.9853,
+        0.9683,
+        0.919,
+        0.844,
+        0.0
+      ],
+      "values": [
+        884.1,
+        885.0,
+        886.1,
+        886.8,
+        887.8,
+        890.6,
+        898.1,
+        909.1,
+        997.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 310.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9988,
+        0.9971,
+        0.9942,
+        0.9853,
+        0.9683,
+        0.919,
+        0.854,
+        0.0
+      ],
+      "values": [
+        876.9,
+        877.8,
+        878.9,
+        879.5,
+        880.4,
+        883.0,
+        890.2,
+        900.1,
+        993.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9988,
+        0.9971,
+        0.9942,
+        0.9853,
+        0.9683,
+        0.919,
+        0.858,
+        0.0
+      ],
+      "values": [
+        872.2,
+        873.1,
+        874.1,
+        874.6,
+        875.5,
+        878.1,
+        885.0,
+        893.8,
+        990.2
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9988,
+        0.9971,
+        0.9942,
+        0.9853,
+        0.9683,
+        0.919,
+        0.846,
+        0.844,
+        0.0
+      ],
+      "values": [
+        1.023,
+        1.0,
+        0.92,
+        0.796,
+        0.646,
+        0.431,
+        0.261,
+        0.142,
+        0.142,
+        0.00089
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 310.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9988,
+        0.9971,
+        0.9942,
+        0.9853,
+        0.9683,
+        0.919,
+        0.854,
+        0.854,
+        0.0
+      ],
+      "values": [
+        0.521,
+        0.512,
+        0.476,
+        0.401,
+        0.321,
+        0.211,
+        0.125,
+        0.0797,
+        0.0797,
+        0.000686
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9995,
+        0.9988,
+        0.9971,
+        0.9942,
+        0.9853,
+        0.9683,
+        0.919,
+        0.858,
+        0.858,
+        0.0
+      ],
+      "values": [
+        0.345,
+        0.337,
+        0.313,
+        0.263,
+        0.21,
+        0.137,
+        0.0816,
+        0.0556,
+        0.0556,
+        0.000581
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

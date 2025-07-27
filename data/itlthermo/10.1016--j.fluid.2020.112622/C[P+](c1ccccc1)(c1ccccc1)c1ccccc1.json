@@ -1,0 +1,48 @@
+{
+  "name1": "methyltriphenylphosphonium bromide",
+  "smi1": "C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]",
+  "name2": "1,2-ethanediol",
+  "smi2": "OCCO",
+  "doi": "10.1016/j.fluid.2020.112622",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2
+      ],
+      "values": [
+        1230.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2
+      ],
+      "values": [
+        0.121
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,29 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-(2-hydroxyethyl)-3-methyl-1H-imidazolium chloride",
+  "smi2": "Cn1cc[n+](CCO)c1.[Cl-]",
+  "doi": "10.1016/j.jct.2014.12.017",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 297.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9
+      ],
+      "values": [
+        4.19
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

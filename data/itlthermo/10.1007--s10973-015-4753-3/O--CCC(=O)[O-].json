@@ -1,0 +1,49 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "ethylammonium propionate",
+  "smi2": "CCC(=O)[O-].CC[NH3+]",
+  "doi": "10.1007/s10973-015-4753-3",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.907,
+        0.8,
+        0.675,
+        0.602,
+        0.5,
+        0.376,
+        0.284,
+        0.179,
+        0.105,
+        0.0
+      ],
+      "values": [
+        997.0,
+        1027.3,
+        1025.9,
+        1017.0,
+        1012.0,
+        1005.9,
+        1000.0,
+        996.0,
+        992.5,
+        990.1,
+        987.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

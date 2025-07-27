@@ -1,0 +1,31 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-hexyl-3-methyl-1H-imidazolium bromide",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.[Br-]",
+  "doi": "10.1007/s10953-015-0320-6",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9487,
+        0.9008
+      ],
+      "values": [
+        0.00288,
+        0.00689
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

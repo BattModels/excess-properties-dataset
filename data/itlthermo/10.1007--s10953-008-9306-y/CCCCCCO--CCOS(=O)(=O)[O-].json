@@ -1,0 +1,55 @@
+{
+  "name1": "hexan-1-ol",
+  "smi1": "CCCCCCO",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-008-9306-y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9678,
+        0.92,
+        0.8466,
+        0.7586,
+        0.6807,
+        0.5823,
+        0.4514,
+        0.3963,
+        0.33,
+        0.2602,
+        0.1386,
+        0.0388,
+        0.0
+      ],
+      "values": [
+        815.0,
+        835.43,
+        870.61,
+        905.64,
+        951.93,
+        990.08,
+        1035.05,
+        1088.97,
+        1111.78,
+        1135.31,
+        1158.81,
+        1198.2,
+        1227.5,
+        1238.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

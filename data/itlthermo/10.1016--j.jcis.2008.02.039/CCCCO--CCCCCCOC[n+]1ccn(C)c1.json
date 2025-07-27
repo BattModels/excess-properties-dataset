@@ -1,0 +1,60 @@
+{
+  "name1": "butan-1-ol",
+  "smi1": "CCCCO",
+  "name2": "1-hexyloxymethyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCOC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jcis.2008.02.039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9986,
+        0.9971,
+        0.996
+      ],
+      "values": [
+        797.8,
+        798.2,
+        799.0,
+        799.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.996,
+        0.9954,
+        0.9936
+      ],
+      "values": [
+        789.7,
+        791.6,
+        792.2,
+        793.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

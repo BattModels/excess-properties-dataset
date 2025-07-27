@@ -1,0 +1,135 @@
+{
+  "name1": "1-decyl-3-methylimidazolium bromide",
+  "smi1": "CCCCCCCCCC[n+]1ccn(C)c1.[Br-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2017.09.038",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 288.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "values": [
+        0.00339,
+        0.0046,
+        0.00677,
+        0.00919
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "values": [
+        0.00321,
+        0.0041,
+        0.00599,
+        0.00861
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "values": [
+        0.00277,
+        0.00372,
+        0.00572,
+        0.00809
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "values": [
+        0.0024,
+        0.00333,
+        0.00512,
+        0.00792
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "values": [
+        0.00194,
+        0.00283,
+        0.00422,
+        0.0073
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

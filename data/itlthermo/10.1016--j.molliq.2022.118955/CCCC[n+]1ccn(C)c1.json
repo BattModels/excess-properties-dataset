@@ -1,0 +1,88 @@
+{
+  "name1": "1-butyl-3-methylimidazolium iodide",
+  "smi1": "CCCC[n+]1ccn(C)c1.[I-]",
+  "name2": "ethanol",
+  "smi2": "CCO",
+  "doi": "10.1016/j.molliq.2022.118955",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.8002,
+        0.6999,
+        0.6021,
+        0.5008,
+        0.3926,
+        0.2952,
+        0.1909,
+        0.1047,
+        0.05,
+        0.0
+      ],
+      "values": [
+        1481.0,
+        1274.0,
+        1185.0,
+        1110.0,
+        1042.0,
+        976.0,
+        925.0,
+        870.0,
+        832.0,
+        811.0,
+        789.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.8002,
+        0.6999,
+        0.6021,
+        0.5008,
+        0.3926,
+        0.2952,
+        0.1909,
+        0.1047,
+        0.05,
+        0.0
+      ],
+      "values": [
+        0.0522,
+        1.102,
+        1.532,
+        1.738,
+        1.69,
+        1.472,
+        1.203,
+        0.821,
+        0.493,
+        0.254,
+        0.0000398
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

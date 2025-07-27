@@ -1,0 +1,254 @@
+{
+  "name1": "triethyl((2-methoxyethoxy)methyl)phosphonium bis(trifluoromethylsulfonyl)imide",
+  "smi1": "CC[P+](CC)(CC)COCCOC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "triethylheptylphosphonium 4-nitropyrazolide",
+  "smi2": "CCCCCCC[P+](CC)(CC)CC.O=[N+]([O-])c1cn[n-]c1",
+  "doi": "10.1021/acs.jced.7b00221",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 278.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.899,
+        0.752,
+        0.5,
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.084,
+        0.103,
+        0.135,
+        0.234,
+        0.474,
+        0.76
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.899,
+        0.752,
+        0.5,
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.065,
+        0.08,
+        0.101,
+        0.17,
+        0.328,
+        0.51
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.899,
+        0.752,
+        0.5,
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.051,
+        0.062,
+        0.078,
+        0.126,
+        0.231,
+        0.35
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.899,
+        0.752,
+        0.5,
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.05,
+        0.061,
+        0.096,
+        0.168,
+        0.249
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.752,
+        0.5,
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.05,
+        0.075,
+        0.126,
+        0.182
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5,
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.059,
+        0.097,
+        0.137
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.076,
+        0.105
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.061,
+        0.084
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25,
+        0.099
+      ],
+      "values": [
+        0.05,
+        0.066
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.099
+      ],
+      "values": [
+        0.054
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

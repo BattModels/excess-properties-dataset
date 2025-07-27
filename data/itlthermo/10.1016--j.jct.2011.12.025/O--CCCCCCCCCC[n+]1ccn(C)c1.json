@@ -1,0 +1,59 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-decyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2011.12.025",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 296.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        1.0,
+        0.9999,
+        0.9999,
+        0.9999,
+        0.9999,
+        0.9999,
+        0.9999,
+        0.9999,
+        0.9999,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9997
+      ],
+      "values": [
+        0.018,
+        0.026,
+        0.034,
+        0.042,
+        0.049,
+        0.056,
+        0.063,
+        0.07,
+        0.076,
+        0.082,
+        0.089,
+        0.096,
+        0.101,
+        0.113,
+        0.125,
+        0.137
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

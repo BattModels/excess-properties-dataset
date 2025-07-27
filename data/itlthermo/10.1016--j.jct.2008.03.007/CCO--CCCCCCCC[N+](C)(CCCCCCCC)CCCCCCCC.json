@@ -1,0 +1,121 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "methyltrioctylammonium 1,1,1-trifluoro-N-[(trifluoromethyl)sulfonyl]methanesulfonamide",
+  "smi2": "CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2008.03.007",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9516,
+        0.8269,
+        0.7272,
+        0.6647,
+        0.5714,
+        0.4855,
+        0.3693,
+        0.2662,
+        0.2226,
+        0.0607
+      ],
+      "values": [
+        896.0,
+        1005.0,
+        1041.0,
+        1055.0,
+        1070.0,
+        1080.0,
+        1090.0,
+        1097.0,
+        1099.0,
+        1107.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9516,
+        0.8269,
+        0.7272,
+        0.6647,
+        0.5714,
+        0.4855,
+        0.3693,
+        0.2662,
+        0.2226,
+        0.0507
+      ],
+      "values": [
+        896.0,
+        1003.0,
+        1036.0,
+        1050.0,
+        1063.0,
+        1072.0,
+        1082.0,
+        1090.0,
+        1092.0,
+        1103.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9516,
+        0.8269,
+        0.7272,
+        0.6647,
+        0.5714,
+        0.4855,
+        0.3693,
+        0.2662,
+        0.2226,
+        0.0507
+      ],
+      "values": [
+        883.0,
+        994.0,
+        1029.0,
+        1044.0,
+        1058.0,
+        1068.0,
+        1078.0,
+        1085.0,
+        1087.0,
+        1096.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,226 @@
+{
+  "name1": "3-ethyl-1-methyl-1H-imidazolium L-serinate",
+  "smi1": "CCn1cc[n+](C)c1.N[C@@H](CO)C(=O)[O-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.7498/aps.66.196101",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.0944,
+        0.0964,
+        0.0982,
+        0.1,
+        0.102
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.13,
+        0.132,
+        0.135,
+        0.138,
+        0.14
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.166,
+        0.169,
+        0.172,
+        0.174,
+        0.176
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.213,
+        0.216,
+        0.218,
+        0.221,
+        0.223
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.266,
+        0.269,
+        0.271,
+        0.273,
+        0.276
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.338,
+        0.341,
+        0.343,
+        0.346,
+        0.348
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.423,
+        0.426,
+        0.429,
+        0.432,
+        0.436
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9935,
+        0.9921,
+        0.9906,
+        0.9891,
+        0.9876
+      ],
+      "values": [
+        0.511,
+        0.515,
+        0.518,
+        0.522,
+        0.526
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

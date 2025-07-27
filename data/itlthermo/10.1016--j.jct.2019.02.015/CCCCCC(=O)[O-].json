@@ -1,0 +1,85 @@
+{
+  "name1": "trioctylammonium hexanoate",
+  "smi1": "CCCCCC(=O)[O-].CCCCCCCC[NH+](CCCCCCCC)CCCCCCCC",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.jct.2019.02.015",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9992,
+        0.9987,
+        0.9977,
+        0.9969
+      ],
+      "values": [
+        844.5,
+        844.9,
+        845.4,
+        845.8
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9992,
+        0.9987,
+        0.9977,
+        0.9969
+      ],
+      "values": [
+        1366.2,
+        1366.9,
+        1367.8,
+        1368.8
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9992,
+        0.9987,
+        0.9977,
+        0.9969
+      ],
+      "values": [
+        0.0167,
+        0.0159,
+        0.0145,
+        0.0137
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,92 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "tris(2-hydroxyethyl) methylammonium methylsulfate",
+  "smi2": "COS(=O)(=O)[O-].C[N+](CCO)(CCO)CCO",
+  "doi": "10.1021/je700618y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9522,
+        0.9033,
+        0.8061,
+        0.7579,
+        0.7106,
+        0.6128,
+        0.5142,
+        0.3936,
+        0.3302,
+        0.2178,
+        0.133,
+        0.0602
+      ],
+      "values": [
+        1129.1,
+        1195.06,
+        1258.48,
+        1275.98,
+        1288.49,
+        1306.0,
+        1317.5,
+        1327.1,
+        1331.0,
+        1336.4,
+        1339.6,
+        1342.1
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9522,
+        0.9033,
+        0.8061,
+        0.7579,
+        0.7106,
+        0.6128,
+        0.5142,
+        0.3936,
+        0.3302,
+        0.2178,
+        0.133,
+        0.0602
+      ],
+      "values": [
+        0.002341,
+        0.005054,
+        0.01679,
+        0.027,
+        0.04122,
+        0.0861,
+        0.1595,
+        0.2901,
+        0.391,
+        0.569,
+        0.756,
+        0.961
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

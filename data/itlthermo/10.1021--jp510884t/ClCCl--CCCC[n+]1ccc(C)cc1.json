@@ -1,0 +1,59 @@
+{
+  "name1": "dichloromethane",
+  "smi1": "ClCCl",
+  "name2": "1-butyl-4-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccc(C)cc1.F[B-](F)(F)F",
+  "doi": "10.1021/jp510884t",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9836,
+        0.9582,
+        0.94,
+        0.8969,
+        0.84,
+        0.8127,
+        0.774,
+        0.7362,
+        0.6312,
+        0.4917,
+        0.3995,
+        0.2914,
+        0.2085,
+        0.0927,
+        0.0
+      ],
+      "values": [
+        1316.23,
+        1313.75,
+        1308.26,
+        1303.96,
+        1293.25,
+        1279.64,
+        1273.4,
+        1265.43,
+        1257.95,
+        1240.1,
+        1221.4,
+        1211.46,
+        1201.94,
+        1195.69,
+        1188.27,
+        1183.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

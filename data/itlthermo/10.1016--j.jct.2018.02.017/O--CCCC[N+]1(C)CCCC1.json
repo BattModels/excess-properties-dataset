@@ -1,0 +1,126 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-1-methylpyrrolidinium dicyanamide",
+  "smi2": "CCCC[N+]1(C)CCCC1.N#C[N-]C#N",
+  "doi": "10.1016/j.jct.2018.02.017",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9993,
+        0.9989,
+        0.9985,
+        0.9982,
+        0.9978
+      ],
+      "values": [
+        999.262,
+        999.415,
+        999.558,
+        999.693,
+        999.827,
+        999.945
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9993,
+        0.9989,
+        0.9985,
+        0.9982,
+        0.9978
+      ],
+      "values": [
+        997.161,
+        997.266,
+        997.365,
+        997.458,
+        997.547,
+        997.632
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9993,
+        0.9989,
+        0.9985,
+        0.9982,
+        0.9978
+      ],
+      "values": [
+        994.108,
+        994.175,
+        994.237,
+        994.294,
+        994.349,
+        994.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9996,
+        0.9993,
+        0.9989,
+        0.9985,
+        0.9982,
+        0.9978
+      ],
+      "values": [
+        990.258,
+        990.295,
+        990.326,
+        990.353,
+        990.377,
+        990.398
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

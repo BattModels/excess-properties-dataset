@@ -1,0 +1,226 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "choline bis(trifluoromethylsulfonyl)imide",
+  "smi2": "C[N+](C)(C)CCO.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2016.09.024",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        789.5,
+        907.2,
+        1037.4,
+        1179.2,
+        1274.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        785.2,
+        900.8,
+        1029.8,
+        1174.3,
+        1266.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        780.8,
+        896.3,
+        1026.0,
+        1169.1,
+        1261.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        776.4,
+        891.8,
+        1020.1,
+        1164.0,
+        1256.8
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        1160.4,
+        1162.4,
+        1172.1,
+        1196.0,
+        1221.8
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        1143.3,
+        1145.9,
+        1156.6,
+        1183.2,
+        1207.6
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        1126.1,
+        1130.3,
+        1142.5,
+        1170.0,
+        1195.3
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9601,
+        0.9002,
+        0.801,
+        0.7051
+      ],
+      "values": [
+        1108.9,
+        1115.0,
+        1128.2,
+        1157.2,
+        1183.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

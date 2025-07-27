@@ -1,0 +1,31 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium iodide",
+  "smi2": "CCCC[n+]1ccn(C)c1.[I-]",
+  "doi": "10.1016/j.ces.2010.01.033",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 80.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.99,
+        0.9
+      ],
+      "values": [
+        0.29,
+        2.03
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

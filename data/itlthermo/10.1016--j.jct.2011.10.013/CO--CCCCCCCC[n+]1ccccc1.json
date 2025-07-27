@@ -1,0 +1,47 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-octylpyridinium nitrate",
+  "smi2": "CCCCCCCC[n+]1ccccc1.O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.jct.2011.10.013",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.8974,
+        0.7937,
+        0.6928,
+        0.5775,
+        0.4933,
+        0.3933,
+        0.1466,
+        0.064,
+        0.0
+      ],
+      "values": [
+        785.3,
+        910.2,
+        974.3,
+        1011.3,
+        1038.4,
+        1052.6,
+        1065.0,
+        1084.4,
+        1087.5,
+        1089.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

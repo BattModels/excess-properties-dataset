@@ -1,0 +1,126 @@
+{
+  "name1": "D-glucose",
+  "smi1": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C=O",
+  "name2": "1-butyl-3-methylimidazolium dicyanamide",
+  "smi2": "CCCC[n+]1ccn(C)c1.N#C[N-]C#N",
+  "doi": "10.1021/ie3024752",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0313,
+        0.0937,
+        0.1849,
+        0.228,
+        0.2474
+      ],
+      "values": [
+        1060.59,
+        1069.37,
+        1087.22,
+        1115.65,
+        1129.02,
+        1137.33
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0313,
+        0.0937,
+        0.1849,
+        0.228,
+        0.2474
+      ],
+      "values": [
+        1051.06,
+        1059.85,
+        1077.72,
+        1106.09,
+        1119.44,
+        1127.81
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 328.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0313,
+        0.0937,
+        0.1849,
+        0.228,
+        0.2474
+      ],
+      "values": [
+        1041.67,
+        1050.46,
+        1068.37,
+        1096.64,
+        1109.87,
+        1118.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0313,
+        0.0937,
+        0.1849,
+        0.228,
+        0.2474
+      ],
+      "values": [
+        1032.41,
+        1041.2,
+        1059.12,
+        1087.29,
+        1100.36,
+        1108.89
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

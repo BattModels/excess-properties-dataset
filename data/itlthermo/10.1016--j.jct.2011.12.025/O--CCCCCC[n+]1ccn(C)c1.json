@@ -1,0 +1,59 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-hexyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2011.12.025",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 296.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9995,
+        0.9993,
+        0.9991,
+        0.9988,
+        0.9986,
+        0.9983,
+        0.9981,
+        0.9978,
+        0.9976,
+        0.9973,
+        0.9971,
+        0.9968,
+        0.9966,
+        0.9961,
+        0.9955,
+        0.995
+      ],
+      "values": [
+        0.231,
+        0.329,
+        0.419,
+        0.505,
+        0.584,
+        0.663,
+        0.74,
+        0.812,
+        0.875,
+        0.949,
+        1.014,
+        1.073,
+        1.126,
+        1.251,
+        1.356,
+        1.447
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

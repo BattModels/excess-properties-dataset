@@ -1,0 +1,51 @@
+{
+  "name1": "toluene",
+  "smi1": "Cc1ccccc1",
+  "name2": "1-ethyl-3-methylpyridinium bis((trifluoromethyl)sulfonyl)amide",
+  "smi2": "CC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0484,
+        0.1002,
+        0.2005,
+        0.2952,
+        0.4093,
+        0.4915,
+        0.5929,
+        0.6565,
+        0.6882,
+        0.7161,
+        1.0
+      ],
+      "values": [
+        1503.1,
+        1492.12,
+        1479.54,
+        1452.03,
+        1422.35,
+        1379.8,
+        1344.21,
+        1290.06,
+        1250.54,
+        1228.36,
+        1207.57,
+        876.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

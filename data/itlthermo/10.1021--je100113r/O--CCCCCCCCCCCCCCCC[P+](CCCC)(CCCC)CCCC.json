@@ -1,0 +1,39 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "tributyl(hexadecyl)phosphonium bromide",
+  "smi2": "CCCCCCCCCCCCCCCC[P+](CCCC)(CCCC)CCCC.[Br-]",
+  "doi": "10.1021/je100113r",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 300.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.802,
+        0.603,
+        0.502,
+        0.402,
+        0.302,
+        0.201
+      ],
+      "values": [
+        0.00035,
+        0.00035,
+        0.00035,
+        0.00035,
+        0.00035,
+        0.00035
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

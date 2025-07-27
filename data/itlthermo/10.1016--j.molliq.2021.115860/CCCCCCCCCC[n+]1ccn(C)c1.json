@@ -1,0 +1,31 @@
+{
+  "name1": "1-decyl-3-methylimidazolium chloride",
+  "smi1": "CCCCCCCCCC[n+]1ccn(C)c1.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2021.115860",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.4,
+        0.2
+      ],
+      "values": [
+        4.7,
+        3.25
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

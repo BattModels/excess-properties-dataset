@@ -1,0 +1,80 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-4-methylpyridinium bis((trifluoromethyl)sulfonyl)amide",
+  "smi2": "CCCC[n+]1ccc(C)cc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2015.11.008",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0017,
+        0.0051,
+        0.0105,
+        0.0198,
+        0.0498,
+        0.1002
+      ],
+      "values": [
+        1412.3,
+        1412.0,
+        1411.9,
+        1411.5,
+        1410.5,
+        1408.8
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0017,
+        0.0051,
+        0.0105,
+        0.0198,
+        0.0498,
+        0.1002,
+        0.0017,
+        0.0051,
+        0.0105,
+        0.0198,
+        0.0498,
+        0.1002
+      ],
+      "values": [
+        0.0557,
+        0.0553,
+        0.0548,
+        0.0539,
+        0.0504,
+        0.0456,
+        0.0561,
+        0.056,
+        0.0551,
+        0.0542,
+        0.0513,
+        0.046
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

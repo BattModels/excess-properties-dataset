@@ -1,0 +1,196 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium hydrogen sulfate",
+  "smi1": "CC[n+]1ccn(C)c1.O=S(=O)([O-])O",
+  "name2": "1,2-ethanediol",
+  "smi2": "OCCO",
+  "doi": "10.1016/j.molliq.2022.119417",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125,
+        0.143,
+        0.167,
+        0.2,
+        0.25,
+        0.33,
+        0.5
+      ],
+      "values": [
+        0.019,
+        0.021,
+        0.024,
+        0.028,
+        0.035,
+        0.052,
+        0.095
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125,
+        0.143,
+        0.167,
+        0.2,
+        0.25,
+        0.33,
+        0.5
+      ],
+      "values": [
+        0.015,
+        0.017,
+        0.02,
+        0.023,
+        0.029,
+        0.043,
+        0.076
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125,
+        0.143,
+        0.167,
+        0.2,
+        0.25,
+        0.33,
+        0.5
+      ],
+      "values": [
+        0.013,
+        0.015,
+        0.017,
+        0.019,
+        0.024,
+        0.035,
+        0.062
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125,
+        0.143,
+        0.167,
+        0.2,
+        0.25,
+        0.33,
+        0.5
+      ],
+      "values": [
+        0.011,
+        0.012,
+        0.014,
+        0.016,
+        0.02,
+        0.03,
+        0.05
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125,
+        0.143,
+        0.167,
+        0.2,
+        0.25,
+        0.33,
+        0.5
+      ],
+      "values": [
+        0.009,
+        0.011,
+        0.012,
+        0.014,
+        0.018,
+        0.025,
+        0.042
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.125,
+        0.143,
+        0.167,
+        0.2,
+        0.25,
+        0.33,
+        0.5
+      ],
+      "values": [
+        0.008,
+        0.009,
+        0.01,
+        0.012,
+        0.015,
+        0.021,
+        0.035
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

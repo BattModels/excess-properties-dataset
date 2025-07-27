@@ -1,0 +1,45 @@
+{
+  "name1": "ethylbenzene",
+  "smi1": "CCc1ccccc1",
+  "name2": "1-ethyl-3-methylpyridinium ethylsulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1cccc(C)c1",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0532,
+        0.1241,
+        0.146,
+        0.1639,
+        0.1732,
+        0.1875,
+        0.1934,
+        1.0
+      ],
+      "values": [
+        1230.73,
+        1219.97,
+        1204.82,
+        1199.79,
+        1196.37,
+        1194.88,
+        1190.9,
+        1190.35,
+        875.67
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

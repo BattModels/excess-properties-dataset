@@ -1,0 +1,53 @@
+{
+  "name1": "3,6-dioxa-1-octanol",
+  "smi1": "CCOCCOCCO",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.01.023",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9456,
+        0.8984,
+        0.8508,
+        0.8059,
+        0.7314,
+        0.6785,
+        0.6068,
+        0.4892,
+        0.3984,
+        0.3343,
+        0.3002,
+        0.1696,
+        0.0449
+      ],
+      "values": [
+        1003.36,
+        1018.2,
+        1032.87,
+        1045.1,
+        1065.22,
+        1078.37,
+        1094.93,
+        1119.82,
+        1137.49,
+        1149.16,
+        1155.07,
+        1176.5,
+        1195.04
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

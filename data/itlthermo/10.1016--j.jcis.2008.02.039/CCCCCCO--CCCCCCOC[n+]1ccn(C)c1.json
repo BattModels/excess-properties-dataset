@@ -1,0 +1,60 @@
+{
+  "name1": "hexan-1-ol",
+  "smi1": "CCCCCCO",
+  "name2": "1-hexyloxymethyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCOC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jcis.2008.02.039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9977,
+        0.9959,
+        0.9939
+      ],
+      "values": [
+        808.1,
+        809.5,
+        810.9,
+        812.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9939,
+        0.9917,
+        0.989
+      ],
+      "values": [
+        799.2,
+        803.1,
+        804.5,
+        806.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

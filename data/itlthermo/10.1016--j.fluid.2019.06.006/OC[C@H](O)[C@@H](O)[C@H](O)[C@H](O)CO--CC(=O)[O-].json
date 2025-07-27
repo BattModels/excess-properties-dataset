@@ -1,0 +1,238 @@
+{
+  "name1": "D-sorbitol",
+  "smi1": "OC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+  "name2": "1-ethyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1016/j.fluid.2019.06.006",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "values": [
+        1095.0,
+        1129.0,
+        1154.0,
+        1184.0,
+        1234.0,
+        1247.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "values": [
+        1089.0,
+        1123.0,
+        1148.0,
+        1178.0,
+        1228.0,
+        1240.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "values": [
+        1083.0,
+        1117.0,
+        1142.0,
+        1171.0,
+        1221.0,
+        1232.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "values": [
+        1077.0,
+        1111.0,
+        1136.0,
+        1165.0,
+        1214.0,
+        1224.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.5,
+        0.6
+      ],
+      "values": [
+        0.0894,
+        0.307,
+        0.283,
+        1.4919,
+        2.256
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.5,
+        0.6
+      ],
+      "values": [
+        0.0534,
+        0.155,
+        0.1432,
+        0.572,
+        0.816
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "values": [
+        0.0346,
+        0.088,
+        0.0807,
+        0.292,
+        0.257,
+        0.348
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "values": [
+        0.0238,
+        0.0544,
+        0.0495,
+        0.153,
+        0.1305,
+        0.1706
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

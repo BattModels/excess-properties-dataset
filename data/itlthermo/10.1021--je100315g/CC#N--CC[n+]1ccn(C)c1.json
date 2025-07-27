@@ -1,0 +1,185 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/je100315g",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9467,
+        0.8114,
+        0.663,
+        0.5276,
+        0.348,
+        0.1755,
+        0.076,
+        0.0
+      ],
+      "values": [
+        781.89,
+        946.96,
+        1183.76,
+        1316.94,
+        1390.06,
+        1452.53,
+        1492.64,
+        1510.36,
+        1522.08
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9467,
+        0.8114,
+        0.663,
+        0.5276,
+        0.348,
+        0.1755,
+        0.076,
+        0.0
+      ],
+      "values": [
+        776.52,
+        941.54,
+        1178.5,
+        1311.68,
+        1384.82,
+        1447.4,
+        1487.58,
+        1505.26,
+        1516.96
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.13,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9467,
+        0.8114,
+        0.663,
+        0.5276,
+        0.348,
+        0.1755,
+        0.076,
+        0.0
+      ],
+      "values": [
+        771.12,
+        936.1,
+        1173.4,
+        1306.48,
+        1379.62,
+        1442.24,
+        1482.39,
+        1500.2,
+        1511.85
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9467,
+        0.8114,
+        0.663,
+        0.5276,
+        0.348,
+        0.1755,
+        0.076,
+        0.0
+      ],
+      "values": [
+        765.68,
+        930.61,
+        1168.18,
+        1301.14,
+        1374.57,
+        1437.1,
+        1477.35,
+        1495.13,
+        1506.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9467,
+        0.8114,
+        0.663,
+        0.5276,
+        0.348,
+        0.1755,
+        0.076,
+        0.0
+      ],
+      "values": [
+        760.2,
+        925.26,
+        1162.68,
+        1296.39,
+        1369.51,
+        1432.02,
+        1472.28,
+        1490.11,
+        1501.74
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

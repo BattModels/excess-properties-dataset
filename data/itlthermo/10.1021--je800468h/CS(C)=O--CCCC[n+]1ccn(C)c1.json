@@ -1,0 +1,88 @@
+{
+  "name1": "dimethyl sulfoxide",
+  "smi1": "CS(C)=O",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je800468h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9808,
+        0.9657,
+        0.9216,
+        0.8753,
+        0.8134,
+        0.7446,
+        0.6749,
+        0.5577,
+        0.4754,
+        0.3868,
+        0.2506
+      ],
+      "values": [
+        1101.56,
+        1106.21,
+        1117.8,
+        1128.31,
+        1139.5,
+        1150.71,
+        1159.4,
+        1171.7,
+        1178.2,
+        1184.3,
+        1192.1
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9808,
+        0.9657,
+        0.9216,
+        0.8753,
+        0.8134,
+        0.7446,
+        0.6749,
+        0.5577,
+        0.4754,
+        0.3868,
+        0.2506
+      ],
+      "values": [
+        0.687,
+        1.029,
+        1.558,
+        1.715,
+        1.672,
+        1.502,
+        1.31,
+        1.015,
+        0.854,
+        0.711,
+        0.543
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

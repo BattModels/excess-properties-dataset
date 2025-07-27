@@ -1,0 +1,35 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "2-hydroxy-N,N,N-trimethylethanaminium L-alaninate",
+  "smi2": "C[C@H](N)C(=O)[O-].C[N+](C)(C)CCO",
+  "doi": "10.1016/j.fluid.2017.04.001",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.95,
+        0.9,
+        0.8,
+        0.7
+      ],
+      "values": [
+        0.00087,
+        0.00098,
+        0.00132,
+        0.00192
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

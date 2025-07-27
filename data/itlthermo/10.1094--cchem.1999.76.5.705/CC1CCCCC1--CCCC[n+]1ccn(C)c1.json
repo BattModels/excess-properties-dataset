@@ -1,0 +1,31 @@
+{
+  "name1": "toluene",
+  "smi1": "Cc1ccccc1",
+  "name2": "1-butyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1094/cchem.1999.76.5.705",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.328,
+        0.328
+      ],
+      "values": [
+        1151.0,
+        1153.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

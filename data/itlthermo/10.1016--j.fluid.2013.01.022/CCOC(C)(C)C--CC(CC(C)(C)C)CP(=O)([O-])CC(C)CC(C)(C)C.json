@@ -1,0 +1,49 @@
+{
+  "name1": "2-ethoxy-2-methylpropane",
+  "smi1": "CCOC(C)(C)C",
+  "name2": "trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",
+  "smi2": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "doi": "10.1016/j.fluid.2013.01.022",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0425,
+        0.0954,
+        0.2026,
+        0.2904,
+        0.4013,
+        0.4971,
+        0.6023,
+        0.7002,
+        0.7999,
+        0.8998,
+        0.9503
+      ],
+      "values": [
+        886.0,
+        885.1,
+        882.46,
+        879.48,
+        874.66,
+        869.23,
+        861.11,
+        850.33,
+        832.96,
+        802.31,
+        776.41
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

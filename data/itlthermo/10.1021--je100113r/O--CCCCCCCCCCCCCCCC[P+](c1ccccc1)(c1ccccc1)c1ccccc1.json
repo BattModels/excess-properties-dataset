@@ -1,0 +1,33 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "hexadecyltriphenylphosphonium bromide",
+  "smi2": "CCCCCCCCCCCCCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]",
+  "doi": "10.1021/je100113r",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 300.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.198,
+        0.498,
+        0.598
+      ],
+      "values": [
+        0.00031,
+        0.0003,
+        0.00037
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

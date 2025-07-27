@@ -1,0 +1,88 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium dicyanamide",
+  "smi2": "CCCC[n+]1ccn(C)c1.N#C[N-]C#N",
+  "doi": "10.1021/je800468h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9904,
+        0.9721,
+        0.9457,
+        0.92,
+        0.8888,
+        0.8067,
+        0.6786,
+        0.5314,
+        0.3614,
+        0.1258,
+        0.0
+      ],
+      "values": [
+        1003.22,
+        1011.25,
+        1019.63,
+        1025.43,
+        1031.05,
+        1040.01,
+        1047.31,
+        1051.9,
+        1055.4,
+        1058.3,
+        1059.1
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9904,
+        0.9721,
+        0.9457,
+        0.92,
+        0.8888,
+        0.8067,
+        0.6786,
+        0.5314,
+        0.3614,
+        0.1258,
+        0.0
+      ],
+      "values": [
+        2.02,
+        3.49,
+        4.43,
+        4.8,
+        4.9,
+        4.47,
+        3.55,
+        2.71,
+        2.0,
+        1.366,
+        1.139
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

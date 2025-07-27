@@ -1,0 +1,226 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/je300132e",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        1104.4,
+        1107.2,
+        1108.7,
+        1108.5,
+        1107.7
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        1092.2,
+        1095.1,
+        1097.3,
+        1095.7,
+        1094.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        1080.7,
+        1083.0,
+        1085.1,
+        1083.1,
+        1081.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 353.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        1068.5,
+        1070.6,
+        1073.1,
+        1070.9,
+        1069.5
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        0.0937,
+        0.0594,
+        0.0511,
+        0.0428,
+        0.0327
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        0.0352,
+        0.0244,
+        0.0214,
+        0.0182,
+        0.014
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        0.0169,
+        0.01227,
+        0.011,
+        0.00939,
+        0.00736
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 353.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.347,
+        0.517,
+        0.578,
+        0.627,
+        0.705
+      ],
+      "values": [
+        0.00951,
+        0.00719,
+        0.00646,
+        0.00563,
+        0.00438
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

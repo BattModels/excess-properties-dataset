@@ -1,0 +1,29 @@
+{
+  "name1": "1-carboxy-N,N,N-trimethylmethanaminium bis((trifluoromethyl)sulfonyl)amide",
+  "smi1": "C[N+](C)(C)CC(=O)O.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2018.11.136",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 296.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.862
+      ],
+      "values": [
+        1439.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

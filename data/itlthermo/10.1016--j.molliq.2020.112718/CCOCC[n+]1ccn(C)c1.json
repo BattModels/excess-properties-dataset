@@ -1,0 +1,474 @@
+{
+  "name1": "1-(2-ethoxyethyl)-3- methylimidazolium threonine",
+  "smi1": "CCOCC[n+]1ccn(C)c1.C[C@@H](O)[C@H](N)C(=O)[O-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2020.112718",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 288.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1161.6,
+        1161.3,
+        1161.2,
+        1161.1,
+        1160.9,
+        1160.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1158.0,
+        1157.7,
+        1157.6,
+        1157.4,
+        1157.3,
+        1157.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1154.4,
+        1154.2,
+        1154.0,
+        1153.9,
+        1153.7,
+        1153.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1150.8,
+        1150.6,
+        1150.4,
+        1150.3,
+        1150.1,
+        1150.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1147.2,
+        1146.9,
+        1146.8,
+        1146.7,
+        1146.5,
+        1146.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1143.5,
+        1143.3,
+        1143.2,
+        1143.0,
+        1142.9,
+        1142.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1139.9,
+        1139.7,
+        1139.5,
+        1139.4,
+        1139.3,
+        1139.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1136.3,
+        1136.0,
+        1135.9,
+        1135.8,
+        1135.7,
+        1135.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.875,
+        0.875
+      ],
+      "values": [
+        1132.5,
+        1132.3,
+        1132.2,
+        1132.0,
+        1131.7,
+        1131.9
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        1.133,
+        1.04,
+        0.99,
+        0.938,
+        0.889,
+        0.834
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        0.73,
+        0.671,
+        0.638,
+        0.604,
+        0.571,
+        0.538
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        0.439,
+        0.41,
+        0.393,
+        0.376,
+        0.36,
+        0.344
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        0.313,
+        0.287,
+        0.273,
+        0.259,
+        0.245,
+        0.231
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        0.207,
+        0.195,
+        0.1872,
+        0.1806,
+        0.1745,
+        0.167
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.897,
+        0.875
+      ],
+      "values": [
+        0.1538,
+        0.1435,
+        0.1362,
+        0.1308,
+        0.1255,
+        0.1185
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.961,
+        0.94,
+        0.918,
+        0.875,
+        0.875
+      ],
+      "values": [
+        0.1154,
+        0.1096,
+        0.106,
+        0.1026,
+        0.0961,
+        0.0995
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

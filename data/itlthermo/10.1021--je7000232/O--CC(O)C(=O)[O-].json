@@ -1,0 +1,41 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "choline lactate",
+  "smi2": "CC(O)C(=O)[O-].C[N+](C)(C)CCO",
+  "doi": "10.1021/je7000232",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0272,
+        0.382,
+        0.546,
+        0.731,
+        0.878,
+        0.915,
+        0.941
+      ],
+      "values": [
+        5.8,
+        0.94,
+        0.336,
+        0.075,
+        0.0125,
+        0.0065,
+        0.0039
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

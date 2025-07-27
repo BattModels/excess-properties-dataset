@@ -1,0 +1,144 @@
+{
+  "name1": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "name2": "aniline",
+  "smi2": "Nc1ccccc1",
+  "doi": "10.1016/j.jct.2019.105891",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1001,
+        0.4991,
+        0.6032,
+        0.7021,
+        0.7907,
+        0.9026,
+        1.0
+      ],
+      "values": [
+        0.00438,
+        0.00766,
+        0.0368,
+        0.0501,
+        0.0653,
+        0.0812,
+        0.105,
+        0.1357
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1001,
+        0.4991,
+        0.6032,
+        0.7021,
+        0.7907,
+        0.9026,
+        1.0
+      ],
+      "values": [
+        0.00324,
+        0.00546,
+        0.0221,
+        0.0311,
+        0.0408,
+        0.0508,
+        0.0662,
+        0.0804
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1001,
+        0.4991,
+        0.6032,
+        0.7021,
+        0.7907,
+        0.9026,
+        1.0
+      ],
+      "values": [
+        0.00247,
+        0.00404,
+        0.01467,
+        0.0208,
+        0.0269,
+        0.0335,
+        0.0427,
+        0.0514
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1001,
+        0.2028,
+        0.4991,
+        0.6032,
+        0.7021,
+        0.7907,
+        0.9026,
+        1.0
+      ],
+      "values": [
+        0.00195,
+        0.00308,
+        0.00456,
+        0.01052,
+        0.01473,
+        0.0186,
+        0.0231,
+        0.0296,
+        0.0349
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,88 @@
+{
+  "name1": "1-allyl-3-methyl-1H-imidazolium bis((trifluoromethyl)sulfonyl)amide",
+  "smi1": "C=CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "propan-1-ol",
+  "smi2": "CCCO",
+  "doi": "10.1016/j.molliq.2019.01.150",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        799.0,
+        1000.0,
+        1131.0,
+        1223.0,
+        1292.0,
+        1346.0,
+        1389.0,
+        1423.0,
+        1454.0,
+        1477.0,
+        1499.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        0.00191,
+        0.00331,
+        0.00511,
+        0.00661,
+        0.00851,
+        0.01041,
+        0.01342,
+        0.01623,
+        0.02034,
+        0.02556,
+        0.0343
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

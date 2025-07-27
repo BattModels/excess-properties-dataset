@@ -1,0 +1,88 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je800468h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9926,
+        0.9846,
+        0.9756,
+        0.9664,
+        0.9428,
+        0.9141,
+        0.8758,
+        0.8245,
+        0.752,
+        0.6376,
+        0.4417
+      ],
+      "values": [
+        802.48,
+        818.28,
+        834.29,
+        849.76,
+        885.02,
+        921.13,
+        961.01,
+        1002.48,
+        1046.31,
+        1094.85,
+        1145.3
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9926,
+        0.9846,
+        0.9756,
+        0.9664,
+        0.9428,
+        0.9141,
+        0.8758,
+        0.8245,
+        0.752,
+        0.6376,
+        0.4417
+      ],
+      "values": [
+        0.867,
+        1.451,
+        1.97,
+        2.4,
+        3.3,
+        3.81,
+        4.18,
+        4.26,
+        3.92,
+        3.09,
+        1.76
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,88 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butyl-3-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1cccc(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je700294p",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9507,
+        0.9371,
+        0.9014,
+        0.8501,
+        0.7993,
+        0.7044,
+        0.5948,
+        0.4872,
+        0.3991,
+        0.3087,
+        0.2389
+      ],
+      "values": [
+        873.4,
+        893.1,
+        934.4,
+        979.6,
+        1014.7,
+        1061.6,
+        1098.2,
+        1122.8,
+        1138.7,
+        1151.7,
+        1159.7
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9443,
+        0.8948,
+        0.8507,
+        0.7521,
+        0.6984,
+        0.6056,
+        0.503,
+        0.4132,
+        0.2912,
+        0.145,
+        0.0535
+      ],
+      "values": [
+        865.7,
+        924.3,
+        964.0,
+        1025.1,
+        1048.4,
+        1079.5,
+        1104.7,
+        1121.6,
+        1139.8,
+        1156.2,
+        1164.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

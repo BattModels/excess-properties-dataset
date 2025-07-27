@@ -1,0 +1,158 @@
+{
+  "name1": "1-butyl-3-methylimidazolium chloride",
+  "smi1": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "name2": "methanol",
+  "smi2": "CO",
+  "doi": "10.1016/j.molliq.2019.111804",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.006,
+        0.012,
+        0.019,
+        0.024,
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054
+      ],
+      "values": [
+        0.003,
+        0.18,
+        0.34,
+        0.48,
+        0.6,
+        0.72,
+        0.83,
+        0.93,
+        1.024,
+        1.13
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.006,
+        0.012,
+        0.019,
+        0.024,
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054
+      ],
+      "values": [
+        0.004,
+        0.2,
+        0.38,
+        0.53,
+        0.66,
+        0.79,
+        0.9,
+        1.014,
+        1.106,
+        1.218
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.006,
+        0.012,
+        0.019,
+        0.024,
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054
+      ],
+      "values": [
+        0.007,
+        0.23,
+        0.42,
+        0.6,
+        0.75,
+        0.87,
+        1.009,
+        1.118,
+        1.226,
+        1.331
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.006,
+        0.012,
+        0.019,
+        0.024,
+        0.03,
+        0.036,
+        0.042,
+        0.048,
+        0.054
+      ],
+      "values": [
+        0.011,
+        0.26,
+        0.48,
+        0.67,
+        0.83,
+        0.96,
+        1.098,
+        1.239,
+        1.346,
+        1.452
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

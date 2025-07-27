@@ -1,0 +1,41 @@
+{
+  "name1": "acetone",
+  "smi1": "CC(C)=O",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.molliq.2016.04.026",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 296.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.1,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "values": [
+        0.15,
+        0.84,
+        3.91,
+        3.84,
+        2.99,
+        1.73,
+        0.05
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,64 @@
+{
+  "name1": "aluminum chloride",
+  "smi1": "Cl[Al](Cl)Cl",
+  "name2": "1-ethyl-3-methylimidazolium chloride",
+  "smi2": "CC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1016/j.molliq.2020.114482",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5,
+        0.57,
+        0.6,
+        0.63,
+        0.67
+      ],
+      "values": [
+        1280.0,
+        1314.0,
+        1336.0,
+        1355.0,
+        1376.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5,
+        0.57,
+        0.6,
+        0.63,
+        0.67
+      ],
+      "values": [
+        2.4861,
+        2.1247,
+        1.9148,
+        1.8022,
+        1.6348
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

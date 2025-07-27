@@ -1,0 +1,53 @@
+{
+  "name1": "diisopropyl ether",
+  "smi1": "CC(C)OC(C)C",
+  "name2": "trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",
+  "smi2": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "doi": "10.1002/cjce.20546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0457,
+        0.108,
+        0.1956,
+        0.2971,
+        0.4005,
+        0.5002,
+        0.5996,
+        0.7003,
+        0.8001,
+        0.8998,
+        0.9499,
+        1.0
+      ],
+      "values": [
+        886.4,
+        885.6,
+        884.1,
+        881.6,
+        877.8,
+        872.6,
+        866.0,
+        857.2,
+        844.4,
+        824.9,
+        790.9,
+        762.3,
+        718.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

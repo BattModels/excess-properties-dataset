@@ -1,0 +1,53 @@
+{
+  "name1": "heptan-1-ol",
+  "smi1": "CCCCCCCO",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-008-9306-y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9579,
+        0.9012,
+        0.8236,
+        0.696,
+        0.5831,
+        0.4646,
+        0.3861,
+        0.2898,
+        0.1927,
+        0.0813,
+        0.029,
+        0.0
+      ],
+      "values": [
+        818.95,
+        843.05,
+        872.09,
+        911.77,
+        972.32,
+        1022.57,
+        1072.18,
+        1103.83,
+        1140.03,
+        1176.2,
+        1213.1,
+        1229.1,
+        1238.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

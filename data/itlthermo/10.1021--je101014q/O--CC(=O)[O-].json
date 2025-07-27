@@ -1,0 +1,85 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "N,N,N-triethylbutanaminium acetate",
+  "smi2": "CC(=O)[O-].CCCC[N+](CC)(CC)CC",
+  "doi": "10.1021/je101014q",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.83,
+        0.67,
+        0.5,
+        0.0
+      ],
+      "values": [
+        0.013,
+        0.066,
+        0.079,
+        0.439
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.83,
+        0.67,
+        0.5,
+        0.0
+      ],
+      "values": [
+        0.0109,
+        0.0394,
+        0.0555,
+        0.307
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.83,
+        0.67,
+        0.5,
+        0.0
+      ],
+      "values": [
+        0.00515,
+        0.0126,
+        0.0156,
+        0.0473
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

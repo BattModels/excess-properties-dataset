@@ -1,0 +1,72 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1016/j.jct.2014.01.031",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1999,
+        0.4037,
+        0.617,
+        0.7937,
+        0.9437,
+        0.992,
+        0.9977
+      ],
+      "values": [
+        0.126,
+        0.247,
+        0.4,
+        0.799,
+        1.772,
+        3.416,
+        1.92,
+        0.849
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1999,
+        0.4037,
+        0.617,
+        0.7937,
+        1.0
+      ],
+      "values": [
+        0.223,
+        0.112,
+        0.0631,
+        0.0276,
+        0.0115,
+        0.00089
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

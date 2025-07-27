@@ -1,0 +1,48 @@
+{
+  "name1": "1-ethyl-1-methylpyrrolidinium bromide",
+  "smi1": "CC[N+]1(C)CCCC1.[Br-]",
+  "name2": "glycerol",
+  "smi2": "OCC(O)CO",
+  "doi": "10.1016/j.fluid.2021.113266",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.3333
+      ],
+      "values": [
+        1251.1
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.3333
+      ],
+      "values": [
+        1870.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

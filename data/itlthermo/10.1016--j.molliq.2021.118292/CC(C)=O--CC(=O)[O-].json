@@ -1,0 +1,88 @@
+{
+  "name1": "acetone",
+  "smi1": "CC(C)=O",
+  "name2": "1-butyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1016/j.molliq.2021.118292",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.109,
+        0.2024,
+        0.3155,
+        0.3988,
+        0.49,
+        0.5915,
+        0.689,
+        0.8036,
+        0.8357,
+        1.0
+      ],
+      "values": [
+        1050.8,
+        1041.4,
+        1031.8,
+        1018.3,
+        1006.2,
+        989.9,
+        968.5,
+        942.1,
+        901.0,
+        886.8,
+        784.8
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.109,
+        0.2024,
+        0.3155,
+        0.3988,
+        0.49,
+        0.5915,
+        0.689,
+        0.8036,
+        0.8357,
+        1.0
+      ],
+      "values": [
+        1650.0,
+        1624.0,
+        1600.0,
+        1566.0,
+        1537.0,
+        1497.0,
+        1445.0,
+        1384.0,
+        1301.0,
+        1276.0,
+        1163.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,88 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "n-butylammonium nitrate",
+  "smi2": "CCCC[NH3+].O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.molliq.2021.115610",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.112,
+        0.2,
+        0.294,
+        0.397,
+        0.494,
+        0.596,
+        0.698,
+        0.801,
+        0.9,
+        0.95
+      ],
+      "values": [
+        1105.9,
+        1105.1,
+        1104.4,
+        1103.3,
+        1101.8,
+        1099.6,
+        1096.2,
+        1093.3,
+        1085.3,
+        1063.8,
+        1037.3
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.112,
+        0.2,
+        0.294,
+        0.397,
+        0.494,
+        0.596,
+        0.698,
+        0.801,
+        0.9,
+        0.95
+      ],
+      "values": [
+        0.1085,
+        0.0698,
+        0.0495,
+        0.03393,
+        0.02317,
+        0.01553,
+        0.01022,
+        0.00654,
+        0.00393,
+        0.00218,
+        0.00153
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

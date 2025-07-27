@@ -1,0 +1,49 @@
+{
+  "name1": "N-methylpyrrolidone",
+  "smi1": "CN1CCCC1=O",
+  "name2": "n-butylammonium nitrate",
+  "smi2": "CCCC[NH3+].O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.fluid.2014.09.031",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.952,
+        0.892,
+        0.837,
+        0.733,
+        0.635,
+        0.561,
+        0.462,
+        0.33,
+        0.157,
+        0.0
+      ],
+      "values": [
+        1028.25,
+        1036.44,
+        1044.94,
+        1051.72,
+        1062.31,
+        1069.91,
+        1074.93,
+        1080.43,
+        1088.1,
+        1097.2,
+        1105.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

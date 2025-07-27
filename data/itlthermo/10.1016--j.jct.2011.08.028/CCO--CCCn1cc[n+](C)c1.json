@@ -1,0 +1,96 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-methyl-3-propylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2011.08.028",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.053,
+        0.099,
+        0.1914,
+        0.2948,
+        0.3909,
+        0.4992,
+        0.5912,
+        0.6978,
+        0.7938,
+        0.895,
+        0.9431,
+        1.0
+      ],
+      "values": [
+        1474.44,
+        1465.87,
+        1458.19,
+        1441.04,
+        1418.06,
+        1391.82,
+        1354.59,
+        1313.64,
+        1249.77,
+        1167.28,
+        1033.88,
+        940.65,
+        785.33
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.053,
+        0.099,
+        0.1914,
+        0.2948,
+        0.3909,
+        0.4992,
+        0.5912,
+        0.6978,
+        0.7938,
+        0.895,
+        0.9431,
+        1.0
+      ],
+      "values": [
+        1232.0,
+        1230.0,
+        1227.0,
+        1223.0,
+        1216.0,
+        1209.0,
+        1200.0,
+        1190.0,
+        1176.0,
+        1162.0,
+        1146.0,
+        1142.0,
+        1144.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

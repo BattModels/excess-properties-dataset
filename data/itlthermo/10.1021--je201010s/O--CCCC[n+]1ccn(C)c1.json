@@ -1,0 +1,61 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je201010s",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0,
+        0.0098,
+        0.0167,
+        0.0205,
+        0.029,
+        0.0396,
+        0.0585,
+        0.0982,
+        0.154,
+        0.2046,
+        0.2517,
+        0.3043,
+        0.3966,
+        0.5061,
+        0.6986,
+        0.8897,
+        1.0
+      ],
+      "values": [
+        1202.9,
+        1199.5,
+        1197.0,
+        1195.8,
+        1193.1,
+        1189.9,
+        1184.2,
+        1173.5,
+        1159.3,
+        1147.2,
+        1136.6,
+        1125.1,
+        1106.0,
+        1084.3,
+        1048.7,
+        1015.8,
+        997.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

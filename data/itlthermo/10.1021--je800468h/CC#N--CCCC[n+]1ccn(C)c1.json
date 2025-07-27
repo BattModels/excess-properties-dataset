@@ -1,0 +1,100 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1021/je800468h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9924,
+        0.9842,
+        0.9751,
+        0.9655,
+        0.9416,
+        0.9122,
+        0.8739,
+        0.8228,
+        0.7479,
+        0.6351,
+        0.4409,
+        0.2709,
+        0.1271,
+        0.0
+      ],
+      "values": [
+        795.63,
+        815.17,
+        835.56,
+        855.89,
+        901.77,
+        950.71,
+        1004.47,
+        1062.7,
+        1128.61,
+        1199.7,
+        1278.1,
+        1322.0,
+        1349.8,
+        1368.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9924,
+        0.9842,
+        0.9751,
+        0.9655,
+        0.9416,
+        0.9122,
+        0.8739,
+        0.8228,
+        0.7479,
+        0.6351,
+        0.4409,
+        0.2709,
+        0.1271,
+        0.0
+      ],
+      "values": [
+        1.485,
+        2.54,
+        3.39,
+        4.05,
+        5.0,
+        5.39,
+        5.27,
+        4.68,
+        3.63,
+        2.3,
+        0.995,
+        0.469,
+        0.253,
+        0.1469
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

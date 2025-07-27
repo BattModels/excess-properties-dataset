@@ -1,0 +1,49 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccccc1.F[B-](F)(F)F",
+  "doi": "10.52783/jheu.v45i07.3229",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9688,
+        0.951,
+        0.9087,
+        0.8495,
+        0.7624,
+        0.6546,
+        0.5381,
+        0.3916,
+        0.1591,
+        0.0
+      ],
+      "values": [
+        786.5,
+        847.0,
+        878.0,
+        934.2,
+        992.1,
+        1052.1,
+        1102.9,
+        1139.9,
+        1172.3,
+        1205.0,
+        1220.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,41 @@
+{
+  "name1": "1-butyl-3-methylimidazolium methyl sulfate",
+  "smi1": "CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "name2": "1-methylbutyl butanoate",
+  "smi2": "CCCC(=O)OC(C)CCC",
+  "doi": "10.1016/j.dib.2018.04.127",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.8986,
+        0.9199,
+        0.9426,
+        0.9602,
+        0.98,
+        0.9901,
+        1.0
+      ],
+      "values": [
+        1183.8,
+        1187.8,
+        1192.2,
+        1195.8,
+        1199.7,
+        1202.1,
+        1204.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,79 @@
+{
+  "name1": "tetrabutylphosphonium tetrafluoroborate",
+  "smi1": "CCCC[P+](CCCC)(CCCC)CCCC.F[B-](F)(F)F",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.fluid.2013.03.030",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        997.2,
+        998.7,
+        1000.0
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        1498.9,
+        1502.6,
+        1507.5
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        0.000901,
+        0.000909,
+        0.000914
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

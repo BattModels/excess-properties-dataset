@@ -1,0 +1,226 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "diethylmethylammonium methanesulfonate",
+  "smi2": "CC[NH+](C)CC.CS(=O)(=O)[O-]",
+  "doi": "10.1021/je300132e",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        1134.9,
+        1133.6,
+        1133.0,
+        1128.4,
+        1122.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        1122.9,
+        1120.5,
+        1120.1,
+        1115.4,
+        1110.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        1109.7,
+        1107.1,
+        1106.7,
+        1102.3,
+        1096.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 353.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        1096.7,
+        1094.2,
+        1093.5,
+        1089.5,
+        1083.2
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        0.06526,
+        0.04994,
+        0.04192,
+        0.02793,
+        0.021
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        0.02727,
+        0.02155,
+        0.01869,
+        0.01336,
+        0.01009
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        0.01395,
+        0.01137,
+        0.00998,
+        0.00734,
+        0.00572
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 353.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.372,
+        0.449,
+        0.507,
+        0.624,
+        0.707
+      ],
+      "values": [
+        0.0082,
+        0.00683,
+        0.00608,
+        0.00458,
+        0.0036
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,166 @@
+{
+  "name1": "trichloromethane",
+  "smi1": "ClC(Cl)Cl",
+  "name2": "1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jced.5b00503",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 288.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.926,
+        0.814,
+        0.734,
+        0.582,
+        0.489,
+        0.435,
+        0.349,
+        0.293,
+        0.195,
+        0.094,
+        0.0
+      ],
+      "values": [
+        0.0017,
+        0.00456,
+        0.00857,
+        0.02036,
+        0.0302,
+        0.038,
+        0.0506,
+        0.0606,
+        0.0784,
+        0.0957,
+        0.1178
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.926,
+        0.814,
+        0.734,
+        0.582,
+        0.489,
+        0.435,
+        0.349,
+        0.293,
+        0.195,
+        0.094,
+        0.0
+      ],
+      "values": [
+        0.001462,
+        0.00367,
+        0.00663,
+        0.01463,
+        0.02092,
+        0.0255,
+        0.0333,
+        0.0389,
+        0.0496,
+        0.0591,
+        0.0704
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.926,
+        0.814,
+        0.734,
+        0.582,
+        0.489,
+        0.435,
+        0.349,
+        0.293,
+        0.195,
+        0.094,
+        0.0
+      ],
+      "values": [
+        0.001265,
+        0.003,
+        0.00525,
+        0.01096,
+        0.01519,
+        0.01818,
+        0.0231,
+        0.0266,
+        0.0337,
+        0.0395,
+        0.0454
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.926,
+        0.814,
+        0.734,
+        0.582,
+        0.489,
+        0.435,
+        0.349,
+        0.293,
+        0.195,
+        0.094,
+        0.0
+      ],
+      "values": [
+        0.001104,
+        0.0025,
+        0.00429,
+        0.0085,
+        0.01149,
+        0.01358,
+        0.01697,
+        0.01916,
+        0.024,
+        0.0277,
+        0.0312
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

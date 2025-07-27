@@ -1,0 +1,43 @@
+{
+  "name1": "tetrabutylphosphonium bromide",
+  "smi1": "CCCC[P+](CCCC)(CCCC)CCCC.[Br-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1021/acs.jpcb.0c04837",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.012,
+        0.027,
+        0.031,
+        0.05,
+        0.062,
+        0.08,
+        0.11,
+        0.119
+      ],
+      "values": [
+        1026.7,
+        1040.1,
+        1042.7,
+        1052.1,
+        1055.3,
+        1059.3,
+        1063.1,
+        1064.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,37 @@
+{
+  "name1": "1,2-ethanediol",
+  "smi1": "OCCO",
+  "name2": "1-butyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1021/je1007235",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.081,
+        0.248,
+        0.464,
+        0.678,
+        1.0
+      ],
+      "values": [
+        0.291,
+        0.102,
+        0.039,
+        0.026,
+        0.0161
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

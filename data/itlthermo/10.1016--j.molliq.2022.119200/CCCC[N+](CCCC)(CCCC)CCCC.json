@@ -1,0 +1,48 @@
+{
+  "name1": "tetrabutylammonium chloride",
+  "smi1": "CCCC[N+](CCCC)(CCCC)CCCC.[Cl-]",
+  "name2": "hexanoic acid",
+  "smi2": "CCCCCC(=O)O",
+  "doi": "10.1016/j.molliq.2022.119200",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        956.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        0.32
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,29 @@
+{
+  "name1": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi1": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1039/c6cp06300d",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        1287.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,53 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1021/je700338t",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9497,
+        0.9007,
+        0.8483,
+        0.8031,
+        0.6976,
+        0.6469,
+        0.5894,
+        0.549,
+        0.498,
+        0.3985,
+        0.2918,
+        0.2011,
+        0.1111
+      ],
+      "values": [
+        0.000913,
+        0.00148,
+        0.00233,
+        0.00306,
+        0.00606,
+        0.00807,
+        0.01103,
+        0.01352,
+        0.0173,
+        0.0274,
+        0.046,
+        0.0668,
+        0.108
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

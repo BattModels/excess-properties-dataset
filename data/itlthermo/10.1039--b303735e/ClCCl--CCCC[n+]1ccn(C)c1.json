@@ -1,0 +1,98 @@
+{
+  "name1": "dichloromethane",
+  "smi1": "ClCCl",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1039/b303735e",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.325,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9477,
+        0.9015,
+        0.8019,
+        0.6958,
+        0.6471,
+        0.5958,
+        0.5452,
+        0.4507,
+        0.3985,
+        0.2854,
+        0.199,
+        0.0993,
+        0.0
+      ],
+      "values": [
+        1318.2,
+        1309.1,
+        1303.9,
+        1288.3,
+        1272.4,
+        1265.2,
+        1258.2,
+        1251.0,
+        1240.5,
+        1235.5,
+        1226.6,
+        1221.3,
+        1215.7,
+        1211.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.325,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9477,
+        0.9015,
+        0.8019,
+        0.6958,
+        0.6471,
+        0.5958,
+        0.5452,
+        0.4507,
+        0.3985,
+        0.2854,
+        0.199,
+        0.0
+      ],
+      "values": [
+        0.000401,
+        0.000715,
+        0.00112,
+        0.00259,
+        0.0046,
+        0.00592,
+        0.00769,
+        0.01005,
+        0.0143,
+        0.017,
+        0.0263,
+        0.0372,
+        0.11
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

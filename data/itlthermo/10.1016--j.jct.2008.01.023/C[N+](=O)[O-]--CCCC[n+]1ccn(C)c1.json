@@ -1,0 +1,53 @@
+{
+  "name1": "nitromethane",
+  "smi1": "C[N+](=O)[O-]",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.01.023",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9488,
+        0.9009,
+        0.8608,
+        0.7974,
+        0.7014,
+        0.6435,
+        0.6028,
+        0.5447,
+        0.4769,
+        0.4051,
+        0.3137,
+        0.1927,
+        0.1366
+      ],
+      "values": [
+        1148.2,
+        1158.6,
+        1165.2,
+        1173.1,
+        1181.4,
+        1185.1,
+        1187.3,
+        1189.9,
+        1192.3,
+        1194.5,
+        1196.7,
+        1198.9,
+        1199.69
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

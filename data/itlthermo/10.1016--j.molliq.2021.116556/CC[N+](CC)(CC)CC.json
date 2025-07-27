@@ -1,0 +1,29 @@
+{
+  "name1": "tetraethylammonium chloride",
+  "smi1": "CC[N+](CC)(CC)CC.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2021.116556",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2
+      ],
+      "values": [
+        4.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,37 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methylimidazolium lactate",
+  "smi2": "CC(O)C(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/ie4001647",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0082,
+        0.0104,
+        0.0121,
+        0.0158,
+        0.0205
+      ],
+      "values": [
+        1190.6,
+        1191.8,
+        1192.7,
+        1194.8,
+        1197.3
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

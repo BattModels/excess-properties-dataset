@@ -1,0 +1,208 @@
+{
+  "name1": "1-methyl-3-octylimidazolium tetrafluoroborate",
+  "smi1": "CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1021/acs.jced.8b00854",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.3005,
+        0.4006,
+        0.5002,
+        0.6001,
+        0.7006,
+        0.8004,
+        0.9015
+      ],
+      "values": [
+        998.2,
+        1084.3,
+        1089.2,
+        1094.1,
+        1098.2,
+        1100.5,
+        1103.3,
+        1104.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.3005,
+        0.4006,
+        0.5002,
+        0.6001,
+        0.7006,
+        0.8004,
+        0.9015
+      ],
+      "values": [
+        995.6,
+        1077.0,
+        1082.1,
+        1087.1,
+        1091.2,
+        1093.6,
+        1096.4,
+        1098.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.3005,
+        0.4006,
+        0.5002,
+        0.6001,
+        0.7006,
+        0.8004,
+        0.9015
+      ],
+      "values": [
+        992.2,
+        1069.7,
+        1074.9,
+        1080.0,
+        1084.2,
+        1086.7,
+        1089.6,
+        1091.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.3005,
+        0.4006,
+        0.5002,
+        0.6001,
+        0.7006,
+        0.8004,
+        0.9015
+      ],
+      "values": [
+        988.0,
+        1061.9,
+        1067.5,
+        1072.9,
+        1077.2,
+        1079.8,
+        1082.8,
+        1084.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.3005,
+        0.4006,
+        0.5002,
+        0.6001,
+        0.7006,
+        0.8004,
+        0.9015
+      ],
+      "values": [
+        988.0,
+        1061.9,
+        1067.5,
+        1072.9,
+        1077.2,
+        1079.8,
+        1082.8,
+        1084.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.3005,
+        0.4006,
+        0.5002,
+        0.6001,
+        0.7006,
+        0.8004,
+        0.9015
+      ],
+      "values": [
+        972.8,
+        1041.4,
+        1049.8,
+        1057.4,
+        1062.2,
+        1065.1,
+        1069.3,
+        1071.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

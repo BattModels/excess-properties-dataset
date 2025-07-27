@@ -1,0 +1,45 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "ethylammonium nitrate",
+  "smi2": "CC[NH3+].O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.molliq.2016.07.107",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9059,
+        0.839,
+        0.7879,
+        0.755,
+        0.6682,
+        0.5719,
+        0.4397,
+        0.3298,
+        0.1991
+      ],
+      "values": [
+        851.7,
+        892.9,
+        921.6,
+        939.0,
+        982.7,
+        1025.5,
+        1077.4,
+        1115.2,
+        1154.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

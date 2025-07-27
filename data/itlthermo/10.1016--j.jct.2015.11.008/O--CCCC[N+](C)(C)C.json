@@ -1,0 +1,80 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "butyltrimethylammonium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2015.11.008",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0001,
+        0.0049,
+        0.01,
+        0.02,
+        0.0501,
+        0.0998
+      ],
+      "values": [
+        1392.9,
+        1392.7,
+        1392.6,
+        1392.2,
+        1391.7,
+        1390.2
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0001,
+        0.0049,
+        0.01,
+        0.02,
+        0.0501,
+        0.0998,
+        0.0001,
+        0.0049,
+        0.01,
+        0.02,
+        0.0501,
+        0.0998
+      ],
+      "values": [
+        0.105,
+        0.1036,
+        0.1028,
+        0.0996,
+        0.0882,
+        0.073,
+        0.104,
+        0.1035,
+        0.1014,
+        0.0986,
+        0.0873,
+        0.073
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

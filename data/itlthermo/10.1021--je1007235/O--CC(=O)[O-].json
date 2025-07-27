@@ -1,0 +1,41 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/je1007235",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.023,
+        0.045,
+        0.084,
+        0.192,
+        0.374,
+        0.556,
+        1.0
+      ],
+      "values": [
+        0.122,
+        0.081,
+        0.057,
+        0.032,
+        0.012,
+        0.004,
+        0.00089
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

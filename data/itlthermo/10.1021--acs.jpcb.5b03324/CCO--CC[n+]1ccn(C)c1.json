@@ -1,0 +1,35 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-ethyl-3-methylimidazolium tetracyanoborate",
+  "smi2": "CC[n+]1ccn(C)c1.N#C[B-](C#N)(C#N)C#N",
+  "doi": "10.1021/acs.jpcb.5b03324",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4,
+        0.2
+      ],
+      "values": [
+        914.0,
+        969.0,
+        1001.0,
+        1022.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

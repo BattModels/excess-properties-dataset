@@ -1,0 +1,39 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-ethyl-3-methylimidazolium chloride",
+  "smi2": "CC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1021/jp911372j",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 373.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.158,
+        0.284,
+        0.472,
+        0.641,
+        0.781
+      ],
+      "values": [
+        0.036,
+        0.019,
+        0.012,
+        0.007,
+        0.003,
+        0.003
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

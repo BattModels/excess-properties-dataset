@@ -1,0 +1,59 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].Cn1cc[nH+]c1",
+  "doi": "10.3866/pku.whxb202001015",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9725,
+        0.9648,
+        0.9522,
+        0.9371,
+        0.8486,
+        0.8291,
+        0.7865,
+        0.7397,
+        0.6604,
+        0.4978,
+        0.3985,
+        0.2701,
+        0.0975,
+        0.0616,
+        0.0
+      ],
+      "values": [
+        0.0,
+        0.139,
+        0.199,
+        0.312,
+        0.448,
+        1.314,
+        1.518,
+        1.92,
+        2.34,
+        2.27,
+        1.7,
+        1.328,
+        0.821,
+        0.527,
+        0.449,
+        0.326
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

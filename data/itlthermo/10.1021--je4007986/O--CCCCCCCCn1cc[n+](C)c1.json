@@ -1,0 +1,47 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-methyl-3-octylimidazolium chloride",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.[Cl-]",
+  "doi": "10.1021/je4007986",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9913,
+        0.9827,
+        0.974,
+        0.9653,
+        0.9567,
+        0.9479,
+        0.9393,
+        0.9306,
+        0.922,
+        0.9133
+      ],
+      "values": [
+        997.27,
+        997.52,
+        997.76,
+        998.01,
+        998.22,
+        998.46,
+        998.65,
+        998.84,
+        998.98,
+        999.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

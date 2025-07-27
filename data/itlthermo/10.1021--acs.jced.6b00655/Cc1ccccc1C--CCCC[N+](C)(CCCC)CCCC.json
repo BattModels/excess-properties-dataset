@@ -1,0 +1,41 @@
+{
+  "name1": "1,2-dimethylbenzene",
+  "smi1": "Cc1ccccc1C",
+  "name2": "tributylmethylammonium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CCCC[N+](C)(CCCC)CCCC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jced.6b00655",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.152,
+        0.26,
+        0.365,
+        0.506,
+        0.623,
+        0.751
+      ],
+      "values": [
+        1224.0,
+        1205.0,
+        1188.0,
+        1168.0,
+        1134.0,
+        1097.0,
+        1047.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

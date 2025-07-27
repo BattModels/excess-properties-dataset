@@ -1,0 +1,45 @@
+{
+  "name1": "hexan-1-ol",
+  "smi1": "CCCCCCO",
+  "name2": "1-butyl-3-methylimidazolium octyl sulfate",
+  "smi2": "CCCCCCCCOS(=O)(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-005-9002-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9001,
+        0.8247,
+        0.74,
+        0.6343,
+        0.5425,
+        0.4352,
+        0.3348,
+        0.2503,
+        0.1328
+      ],
+      "values": [
+        873.1,
+        906.2,
+        936.5,
+        966.9,
+        988.4,
+        1009.5,
+        1026.4,
+        1038.8,
+        1053.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

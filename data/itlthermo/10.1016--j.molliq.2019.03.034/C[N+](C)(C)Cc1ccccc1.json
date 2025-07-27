@@ -1,0 +1,125 @@
+{
+  "name1": "trimethylbenzylammonium chloride",
+  "smi1": "C[N+](C)(C)Cc1ccccc1.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2019.03.034",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        0.000895,
+        0.000897,
+        0.000901
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        0.000806,
+        0.000808,
+        0.000813
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        0.000723,
+        0.000726,
+        0.00073
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        0.000627,
+        0.000623,
+        0.000638
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.001,
+        0.003,
+        0.005
+      ],
+      "values": [
+        0.000541,
+        0.000537,
+        0.000552
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

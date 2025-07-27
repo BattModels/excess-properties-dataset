@@ -1,0 +1,53 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je9008624",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0517,
+        0.104,
+        0.1995,
+        0.2975,
+        0.3993,
+        0.5002,
+        0.599,
+        0.6994,
+        0.7997,
+        0.9,
+        0.9501,
+        1.0
+      ],
+      "values": [
+        1192.78,
+        1188.58,
+        1183.87,
+        1174.09,
+        1162.14,
+        1146.82,
+        1127.34,
+        1102.37,
+        1067.86,
+        1016.59,
+        934.6,
+        872.82,
+        786.72
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

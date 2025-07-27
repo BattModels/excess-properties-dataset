@@ -1,0 +1,51 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1007/s10953-005-9002-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9502,
+        0.8577,
+        0.7338,
+        0.6387,
+        0.5428,
+        0.4356,
+        0.3279,
+        0.2305,
+        0.1385,
+        0.0923,
+        0.0604,
+        0.0217
+      ],
+      "values": [
+        1079.4,
+        1140.9,
+        1172.8,
+        1184.8,
+        1192.3,
+        1197.9,
+        1201.8,
+        1204.6,
+        1206.5,
+        1207.5,
+        1208.0,
+        1208.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

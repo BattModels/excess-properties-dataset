@@ -1,0 +1,35 @@
+{
+  "name1": "1-butyl-3-methylimidazolium chloride",
+  "smi1": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "name2": "aluminum chloride",
+  "smi2": "Cl[Al](Cl)Cl",
+  "doi": "10.1016/j.molliq.2021.116147",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 306.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.625,
+        0.588,
+        0.556,
+        0.5
+      ],
+      "values": [
+        0.2266,
+        0.3731,
+        0.603,
+        1.289
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

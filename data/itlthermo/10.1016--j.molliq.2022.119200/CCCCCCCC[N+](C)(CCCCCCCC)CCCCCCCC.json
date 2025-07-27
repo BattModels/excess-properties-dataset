@@ -1,0 +1,48 @@
+{
+  "name1": "N-methyl-N,N-dioctyl-1-octanaminium chloride",
+  "smi1": "CCCCCCCC[N+](C)(CCCCCCCC)CCCCCCCC.[Cl-]",
+  "name2": "propanoic acid",
+  "smi2": "CCC(=O)O",
+  "doi": "10.1016/j.molliq.2022.119200",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        1222.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        0.65
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,191 @@
+{
+  "name1": "tetraethylammonium chloride",
+  "smi1": "CC[N+](CC)(CC)CC.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.fluid.2017.04.007",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0173,
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        1000.2,
+        1005.7,
+        1014.9,
+        1027.0,
+        1035.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0173,
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        996.7,
+        1001.1,
+        1009.5,
+        1020.8,
+        1029.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0173,
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        992.3,
+        996.5,
+        1003.9,
+        1014.4,
+        1022.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        990.9,
+        998.3,
+        1008.0,
+        1016.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        982.8,
+        992.2,
+        1001.5,
+        1010.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        971.4,
+        985.7,
+        995.1,
+        1003.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 358.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0403,
+        0.0727,
+        0.1213,
+        0.1994
+      ],
+      "values": [
+        953.1,
+        977.1,
+        988.4,
+        997.2
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

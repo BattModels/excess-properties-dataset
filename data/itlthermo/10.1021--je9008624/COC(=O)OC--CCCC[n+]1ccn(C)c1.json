@@ -1,0 +1,51 @@
+{
+  "name1": "dimethyl carbonate",
+  "smi1": "COC(=O)OC",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je9008624",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.051,
+        0.1014,
+        0.1987,
+        0.2999,
+        0.4012,
+        0.5,
+        0.6005,
+        0.7007,
+        0.8003,
+        0.9,
+        1.0
+      ],
+      "values": [
+        1192.78,
+        1191.17,
+        1189.24,
+        1184.98,
+        1179.76,
+        1173.39,
+        1165.72,
+        1155.89,
+        1143.06,
+        1125.52,
+        1100.22,
+        1063.28
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

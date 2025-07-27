@@ -1,0 +1,150 @@
+{
+  "name1": "N-methylpyrrolidone",
+  "smi1": "CN1CCCC1=O",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2008.09.003",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9047,
+        0.809,
+        0.7116,
+        0.6131,
+        0.5149,
+        0.4127,
+        0.3116,
+        0.2152,
+        0.1062
+      ],
+      "values": [
+        1095.91,
+        1149.65,
+        1193.8,
+        1230.8,
+        1261.8,
+        1289.4,
+        1312.9,
+        1332.3,
+        1351.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9047,
+        0.809,
+        0.7116,
+        0.6131,
+        0.5149,
+        0.4127,
+        0.3116,
+        0.2152,
+        0.1062
+      ],
+      "values": [
+        1092.57,
+        1146.52,
+        1190.9,
+        1228.0,
+        1259.1,
+        1286.7,
+        1310.3,
+        1329.7,
+        1348.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9047,
+        0.809,
+        0.7116,
+        0.6131,
+        0.5149,
+        0.4127,
+        0.3116,
+        0.2152,
+        0.1062
+      ],
+      "values": [
+        1087.71,
+        1141.68,
+        1186.1,
+        1223.2,
+        1254.3,
+        1281.9,
+        1305.5,
+        1324.9,
+        1343.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9047,
+        0.809,
+        0.7116,
+        0.6131,
+        0.5149,
+        0.4127,
+        0.3116,
+        0.2152,
+        0.1062
+      ],
+      "values": [
+        1083.51,
+        1137.6,
+        1182.1,
+        1219.3,
+        1250.5,
+        1278.1,
+        1301.6,
+        1321.0,
+        1339.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

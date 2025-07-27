@@ -1,0 +1,57 @@
+{
+  "name1": "1-butyl-1-methylpyrrolidinium acetate",
+  "smi1": "CC(=O)[O-].CCCC[N+]1(C)CCCC1",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2022.120564",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.658,
+        0.5,
+        0.396,
+        0.305,
+        0.253,
+        0.215,
+        0.163,
+        0.138,
+        0.111,
+        0.095,
+        0.069,
+        0.046,
+        0.029,
+        0.017,
+        0.005
+      ],
+      "values": [
+        0.142,
+        0.193,
+        0.339,
+        0.495,
+        0.575,
+        0.8,
+        0.985,
+        1.184,
+        1.264,
+        1.786,
+        2.166,
+        2.634,
+        2.797,
+        2.616,
+        1.837
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

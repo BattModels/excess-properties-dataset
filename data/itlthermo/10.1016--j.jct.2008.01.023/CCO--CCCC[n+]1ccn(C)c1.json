@@ -1,0 +1,49 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2008.01.023",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9483,
+        0.9082,
+        0.8005,
+        0.7505,
+        0.7482,
+        0.6772,
+        0.5781,
+        0.4644,
+        0.3756,
+        0.291,
+        0.1705
+      ],
+      "values": [
+        850.0,
+        892.0,
+        976.0,
+        1007.0,
+        1043.0,
+        1082.0,
+        1117.0,
+        1139.0,
+        1157.0,
+        1180.0,
+        1190.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

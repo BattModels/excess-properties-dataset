@@ -1,0 +1,51 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium (S)-2-amino-4-carboxybutanoate",
+  "smi2": "CCCC[n+]1ccn(C)c1.N[C@@H](CCC(=O)O)C(=O)[O-]",
+  "doi": "10.1021/acs.jced.5b00948",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.889,
+        0.817,
+        0.727,
+        0.647,
+        0.58,
+        0.509,
+        0.439,
+        0.372,
+        0.283,
+        0.227,
+        0.164,
+        0.137
+      ],
+      "values": [
+        1022.7,
+        1038.8,
+        1058.6,
+        1075.4,
+        1091.0,
+        1105.2,
+        1122.2,
+        1136.6,
+        1153.7,
+        1167.1,
+        1181.6,
+        1185.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

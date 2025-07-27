@@ -1,0 +1,29 @@
+{
+  "name1": "n-butylammonium bis(trifluoromethylsulfonyl)imide",
+  "smi1": "CCCC[NH3+].O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1039/c6cp08247e",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.3
+      ],
+      "values": [
+        1501.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

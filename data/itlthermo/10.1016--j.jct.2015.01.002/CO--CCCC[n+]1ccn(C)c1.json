@@ -1,0 +1,127 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butyl-3-methylimidazolium L-lactate",
+  "smi2": "CCCC[n+]1ccn(C)c1.C[C@H](O)C(=O)[O-]",
+  "doi": "10.1016/j.jct.2015.01.002",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9002,
+        0.8032,
+        0.7,
+        0.6001,
+        0.5,
+        0.4004,
+        0.2999,
+        0.1998,
+        0.1012,
+        0.0
+      ],
+      "values": [
+        786.4,
+        960.5,
+        1022.4,
+        1063.1,
+        1075.9,
+        1082.9,
+        1088.0,
+        1090.5,
+        1091.5,
+        1097.8,
+        1111.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9002,
+        0.8032,
+        0.7,
+        0.6001,
+        0.5,
+        0.4004,
+        0.2999,
+        0.1998,
+        0.1012,
+        0.0
+      ],
+      "values": [
+        776.9,
+        956.6,
+        1019.4,
+        1057.4,
+        1070.5,
+        1077.4,
+        1084.2,
+        1085.4,
+        1087.2,
+        1089.0,
+        1104.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9002,
+        0.8032,
+        0.7,
+        0.6001,
+        0.5,
+        0.4004,
+        0.2999,
+        0.1998,
+        0.1012,
+        0.0
+      ],
+      "values": [
+        767.2,
+        953.2,
+        1014.3,
+        1051.9,
+        1066.8,
+        1074.7,
+        1077.7,
+        1078.0,
+        1078.9,
+        1079.9,
+        1097.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

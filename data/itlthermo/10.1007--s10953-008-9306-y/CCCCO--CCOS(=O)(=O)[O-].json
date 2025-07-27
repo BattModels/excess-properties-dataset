@@ -1,0 +1,59 @@
+{
+  "name1": "butan-1-ol",
+  "smi1": "CCCCO",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-008-9306-y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9613,
+        0.9019,
+        0.8577,
+        0.7746,
+        0.6716,
+        0.5936,
+        0.5145,
+        0.4114,
+        0.3116,
+        0.2539,
+        0.1874,
+        0.1579,
+        0.1247,
+        0.0734,
+        0.0
+      ],
+      "values": [
+        805.71,
+        839.4,
+        885.9,
+        917.15,
+        969.25,
+        1024.35,
+        1060.42,
+        1092.94,
+        1130.24,
+        1161.71,
+        1178.06,
+        1195.4,
+        1202.6,
+        1210.4,
+        1221.7,
+        1236.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

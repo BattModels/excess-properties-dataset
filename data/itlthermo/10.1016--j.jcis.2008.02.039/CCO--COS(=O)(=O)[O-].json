@@ -1,0 +1,45 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1,3-dimethylimidazolium methylsulfate",
+  "smi2": "COS(=O)(=O)[O-].Cn1cc[n+](C)c1",
+  "doi": "10.1016/j.jcis.2008.02.039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.8628,
+        0.6742,
+        0.5312,
+        0.3567,
+        0.2821,
+        0.1996,
+        0.1089,
+        0.0297
+      ],
+      "values": [
+        784.8,
+        959.2,
+        1106.8,
+        1182.5,
+        1249.1,
+        1271.6,
+        1293.1,
+        1312.7,
+        1326.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

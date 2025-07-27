@@ -1,0 +1,60 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-hexyloxymethyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCOC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jcis.2008.02.039",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9979,
+        0.9968,
+        0.9963
+      ],
+      "values": [
+        771.3,
+        772.3,
+        772.9,
+        773.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9974,
+        0.9964,
+        0.9956
+      ],
+      "values": [
+        766.4,
+        765.3,
+        766.2,
+        766.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

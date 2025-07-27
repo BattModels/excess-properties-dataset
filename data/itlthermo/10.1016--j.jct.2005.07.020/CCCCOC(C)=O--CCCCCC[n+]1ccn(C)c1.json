@@ -1,0 +1,53 @@
+{
+  "name1": "butyl ethanoate",
+  "smi1": "CCCCOC(C)=O",
+  "name2": "1-hexyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2005.07.020",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9635,
+        0.9087,
+        0.7946,
+        0.7055,
+        0.5891,
+        0.4934,
+        0.4216,
+        0.3082,
+        0.2035,
+        0.106,
+        0.0504,
+        0.0
+      ],
+      "values": [
+        876.3,
+        905.2,
+        945.2,
+        1017.8,
+        1066.0,
+        1119.5,
+        1157.1,
+        1182.3,
+        1217.8,
+        1246.7,
+        1270.5,
+        1283.0,
+        1293.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

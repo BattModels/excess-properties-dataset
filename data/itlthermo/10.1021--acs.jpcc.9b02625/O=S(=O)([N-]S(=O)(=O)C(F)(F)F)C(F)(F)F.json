@@ -1,0 +1,91 @@
+{
+  "name1": "lithium bis((trifluoromethyl)sulfonyl)amide",
+  "smi1": "O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Li+]",
+  "name2": "sulfolane",
+  "smi2": "O=S1(=O)CCCC1",
+  "doi": "10.1021/acs.jpcc.9b02625",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1,
+        0.111,
+        0.2,
+        0.25,
+        0.333
+      ],
+      "values": [
+        1367.0,
+        1377.0,
+        1459.0,
+        1502.0,
+        1568.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1,
+        0.111,
+        0.2,
+        0.25,
+        0.333
+      ],
+      "values": [
+        0.274,
+        0.262,
+        0.166,
+        0.104,
+        0.042
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1,
+        0.111,
+        0.2,
+        0.25,
+        0.333
+      ],
+      "values": [
+        0.028,
+        0.031,
+        0.0903,
+        0.175,
+        0.627
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

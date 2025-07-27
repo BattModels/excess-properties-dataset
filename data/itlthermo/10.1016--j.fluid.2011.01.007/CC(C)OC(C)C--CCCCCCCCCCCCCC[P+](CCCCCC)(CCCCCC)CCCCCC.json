@@ -1,0 +1,49 @@
+{
+  "name1": "diisopropyl ether",
+  "smi1": "CC(C)OC(C)C",
+  "name2": "trihexyl(tetradecyl)phosphonium chloride",
+  "smi2": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]",
+  "doi": "10.1016/j.fluid.2011.01.007",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0515,
+        0.0994,
+        0.2017,
+        0.2989,
+        0.4018,
+        0.4997,
+        0.5994,
+        0.7017,
+        0.8004,
+        0.8993,
+        0.9491
+      ],
+      "values": [
+        889.99,
+        888.06,
+        883.38,
+        878.11,
+        871.47,
+        863.46,
+        852.63,
+        836.78,
+        814.03,
+        778.62,
+        752.99
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

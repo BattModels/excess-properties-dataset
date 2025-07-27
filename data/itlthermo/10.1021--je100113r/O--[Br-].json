@@ -1,0 +1,33 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "triphenyltetradecylphosphonium bromide",
+  "smi2": "[Br-].[PH3+]CCCCCCCCCCCCCC(c1ccccc1)(c1ccccc1)c1ccccc1",
+  "doi": "10.1021/je100113r",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 300.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.802,
+        0.603,
+        0.503
+      ],
+      "values": [
+        0.00038,
+        0.00058,
+        0.00198
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

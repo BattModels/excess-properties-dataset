@@ -1,0 +1,29 @@
+{
+  "name1": "1-decyl-3-methylimidazolium glycinate",
+  "smi1": "CCCCCCCCCC[n+]1ccn(C)c1.NCC(=O)[O-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2022.120054",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 297.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.87
+      ],
+      "values": [
+        1350.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

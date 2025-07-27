@@ -1,0 +1,98 @@
+{
+  "name1": "dimethylformamide",
+  "smi1": "CN(C)C=O",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je0504515",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 295.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.088,
+        0.161,
+        0.224,
+        0.324,
+        0.366,
+        0.434,
+        0.49,
+        0.535,
+        0.606,
+        0.658,
+        0.728,
+        0.793,
+        0.828,
+        0.852,
+        0.906,
+        0.957,
+        0.973,
+        0.981
+      ],
+      "values": [
+        0.375,
+        0.464,
+        0.551,
+        0.629,
+        0.79,
+        0.871,
+        1.033,
+        1.169,
+        1.296,
+        1.549,
+        1.724,
+        2.011,
+        2.315,
+        2.403,
+        2.437,
+        2.436,
+        1.827,
+        1.392,
+        1.128
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 295.2,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.14,
+        0.23,
+        0.33,
+        0.44,
+        0.53,
+        0.61,
+        0.73
+      ],
+      "values": [
+        0.123,
+        0.066,
+        0.0454,
+        0.0263,
+        0.0161,
+        0.0112,
+        0.0098,
+        0.0047
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

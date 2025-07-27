@@ -1,0 +1,100 @@
+{
+  "name1": "propan-1-ol",
+  "smi1": "CCCO",
+  "name2": "1-methyl-3-propylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2011.08.028",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0787,
+        0.1022,
+        0.247,
+        0.39,
+        0.442,
+        0.4877,
+        0.569,
+        0.6455,
+        0.703,
+        0.75,
+        0.8048,
+        0.8492,
+        1.0
+      ],
+      "values": [
+        1474.44,
+        1457.82,
+        1452.69,
+        1417.04,
+        1372.22,
+        1352.74,
+        1333.71,
+        1294.62,
+        1250.12,
+        1209.58,
+        1170.92,
+        1117.65,
+        1066.16,
+        800.09
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0787,
+        0.1022,
+        0.247,
+        0.39,
+        0.442,
+        0.4877,
+        0.569,
+        0.6455,
+        0.703,
+        0.75,
+        0.8048,
+        0.8492,
+        1.0
+      ],
+      "values": [
+        1232.0,
+        1228.0,
+        1227.0,
+        1220.0,
+        1212.0,
+        1208.0,
+        1205.0,
+        1198.0,
+        1191.0,
+        1187.0,
+        1183.0,
+        1179.0,
+        1178.0,
+        1207.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,49 @@
+{
+  "name1": "2,4-pentanedione",
+  "smi1": "CC(=O)CC(C)=O",
+  "name2": "trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",
+  "smi2": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "doi": "10.1016/j.fluid.2013.06.013",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0517,
+        0.0958,
+        0.2082,
+        0.2986,
+        0.3991,
+        0.499,
+        0.6013,
+        0.7004,
+        0.7998,
+        0.9,
+        0.95
+      ],
+      "values": [
+        888.3,
+        889.4,
+        892.5,
+        895.0,
+        898.0,
+        901.5,
+        905.75,
+        911.47,
+        919.31,
+        933.94,
+        946.89
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

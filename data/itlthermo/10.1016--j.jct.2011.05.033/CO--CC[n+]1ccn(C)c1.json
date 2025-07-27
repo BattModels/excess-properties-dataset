@@ -1,0 +1,57 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1016/j.jct.2011.05.033",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9999,
+        0.9268,
+        0.8918,
+        0.8615,
+        0.7855,
+        0.7515,
+        0.7032,
+        0.6612,
+        0.3998,
+        0.3645,
+        0.2075,
+        0.163,
+        0.0,
+        0.0
+      ],
+      "values": [
+        794.6,
+        792.6,
+        1040.6,
+        1115.5,
+        1165.2,
+        1258.1,
+        1289.7,
+        1325.3,
+        1351.2,
+        1451.0,
+        1459.6,
+        1487.2,
+        1497.3,
+        1518.6,
+        1518.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

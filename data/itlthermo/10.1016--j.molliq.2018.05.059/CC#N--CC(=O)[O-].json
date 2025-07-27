@@ -1,0 +1,59 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "N,N'-dimethyl-N-propylpiperazinium acetate",
+  "smi2": "CC(=O)[O-].CCC[N+]1(C)CCN(C)CC1",
+  "doi": "10.1016/j.molliq.2018.05.059",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.791,
+        0.806,
+        0.819,
+        0.832,
+        0.843,
+        0.852,
+        0.859,
+        0.874,
+        0.884,
+        0.895,
+        0.902,
+        0.911,
+        0.919,
+        0.931,
+        0.937,
+        0.95
+      ],
+      "values": [
+        1.76,
+        1.82,
+        1.89,
+        1.95,
+        1.98,
+        1.98,
+        2.04,
+        2.01,
+        2.04,
+        2.06,
+        2.06,
+        2.04,
+        2.04,
+        2.01,
+        1.94,
+        1.85
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

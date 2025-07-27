@@ -1,0 +1,47 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-methyl-3-octylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.fluid.2009.07.010",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.8988,
+        0.7966,
+        0.7,
+        0.5904,
+        0.4875,
+        0.3844,
+        0.2793,
+        0.185,
+        0.0986,
+        0.0
+      ],
+      "values": [
+        893.0,
+        957.9,
+        996.6,
+        1026.4,
+        1047.8,
+        1065.2,
+        1079.3,
+        1088.8,
+        1095.6,
+        1104.2
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,47 @@
+{
+  "name1": "octan-1-ol",
+  "smi1": "CCCCCCCCO",
+  "name2": "1-butyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1007/s10953-005-9002-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9227,
+        0.8308,
+        0.7249,
+        0.6461,
+        0.5442,
+        0.4344,
+        0.3345,
+        0.2358,
+        0.1421,
+        0.0395
+      ],
+      "values": [
+        861.9,
+        903.8,
+        950.2,
+        983.2,
+        1024.0,
+        1065.9,
+        1102.0,
+        1136.4,
+        1167.5,
+        1200.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

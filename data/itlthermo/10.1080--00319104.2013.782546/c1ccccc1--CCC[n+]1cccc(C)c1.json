@@ -1,0 +1,57 @@
+{
+  "name1": "benzene",
+  "smi1": "c1ccccc1",
+  "name2": "3-methyl-1-propylpyridinium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCC[n+]1cccc(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0521,
+        0.0999,
+        0.1999,
+        0.2994,
+        0.3991,
+        0.5139,
+        0.6107,
+        0.7003,
+        0.7273,
+        0.7395,
+        0.7492,
+        0.7847,
+        0.7959,
+        1.0
+      ],
+      "values": [
+        1461.72,
+        1452.91,
+        1444.17,
+        1424.14,
+        1400.71,
+        1372.46,
+        1332.6,
+        1288.73,
+        1236.85,
+        1218.3,
+        1209.14,
+        1202.4,
+        1173.05,
+        1163.08,
+        889.58
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

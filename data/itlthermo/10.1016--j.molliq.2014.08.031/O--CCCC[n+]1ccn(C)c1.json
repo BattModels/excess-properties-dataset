@@ -1,0 +1,2554 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium methanesulfonate",
+  "smi2": "CCCC[n+]1ccn(C)c1.CS(=O)(=O)[O-]",
+  "doi": "10.1016/j.molliq.2014.08.031",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.166,
+        2.081,
+        3.251,
+        3.965,
+        4.059,
+        3.585,
+        2.949,
+        2.325,
+        1.226,
+        1.151,
+        0.578
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 299.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.203,
+        2.114,
+        3.328,
+        4.038,
+        4.12,
+        3.671,
+        2.962,
+        2.391,
+        1.287,
+        1.183,
+        0.601
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 300.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.242,
+        2.172,
+        3.395,
+        4.13,
+        4.226,
+        3.755,
+        3.022,
+        2.496,
+        1.305,
+        1.229,
+        0.634
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 301.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.271,
+        2.233,
+        3.498,
+        4.047,
+        4.329,
+        3.865,
+        3.111,
+        2.528,
+        1.359,
+        1.277,
+        0.661
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 302.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.289,
+        2.264,
+        3.763,
+        4.284,
+        4.427,
+        3.973,
+        3.202,
+        2.608,
+        1.414,
+        1.33,
+        0.663
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.314,
+        2.306,
+        3.662,
+        4.409,
+        4.542,
+        4.163,
+        3.3,
+        1.468,
+        1.392,
+        0.72
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 304.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.336,
+        2.372,
+        3.727,
+        4.555,
+        4.614,
+        4.216,
+        3.397,
+        2.785,
+        1.442,
+        1.437,
+        0.753
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 305.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.369,
+        2.403,
+        3.775,
+        4.509,
+        4.743,
+        4.354,
+        3.513,
+        2.844,
+        1.565,
+        1.463,
+        0.784
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 306.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.402,
+        2.452,
+        3.855,
+        4.731,
+        5.016,
+        4.494,
+        3.605,
+        1.622,
+        1.492,
+        0.815
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 307.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.423,
+        2.512,
+        4.024,
+        4.781,
+        4.982,
+        4.59,
+        3.74,
+        3.04,
+        1.639,
+        1.589,
+        0.851
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.438,
+        2.625,
+        4.058,
+        4.936,
+        5.051,
+        4.72,
+        3.827,
+        3.078,
+        1.685,
+        1.637,
+        0.882
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 309.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.704
+      ],
+      "values": [
+        1.474,
+        2.615,
+        4.138,
+        5.025,
+        5.221,
+        4.795,
+        3.927,
+        3.169,
+        1.75,
+        0.921
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 310.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.503,
+        2.658,
+        4.225,
+        5.109,
+        5.353,
+        4.929,
+        4.033,
+        3.251,
+        1.799,
+        1.736,
+        0.956
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 311.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.539,
+        2.733,
+        4.215,
+        5.199,
+        5.467,
+        5.043,
+        4.155,
+        3.353,
+        1.859,
+        1.794,
+        0.987
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 312.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.566,
+        2.747,
+        4.393,
+        5.276,
+        5.647,
+        5.152,
+        4.284,
+        3.444,
+        1.923,
+        1.857,
+        1.0559
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.583,
+        2.802,
+        4.462,
+        5.4,
+        5.765,
+        5.27,
+        4.424,
+        3.55,
+        1.982,
+        1.894,
+        1.067
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 314.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.613,
+        2.856,
+        4.581,
+        5.533,
+        5.971,
+        5.425,
+        3.706,
+        2.043,
+        1.955,
+        1.1027
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 315.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.642,
+        2.91,
+        4.652,
+        5.628,
+        6.114,
+        5.537,
+        4.577,
+        3.747,
+        2.11,
+        2.016,
+        1.1436
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 316.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.704
+      ],
+      "values": [
+        1.672,
+        2.966,
+        4.732,
+        5.714,
+        6.44,
+        5.634,
+        4.746,
+        3.842,
+        2.168,
+        1.1761
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 317.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.701,
+        3.004,
+        4.823,
+        5.825,
+        6.52,
+        5.78,
+        4.863,
+        3.941,
+        2.224,
+        2.096,
+        1.2206
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.722,
+        3.055,
+        4.921,
+        5.943,
+        6.369,
+        5.895,
+        4.99,
+        4.048,
+        2.286,
+        2.153,
+        1.2656
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 319.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.765,
+        3.108,
+        5.066,
+        6.081,
+        6.727,
+        6.059,
+        5.116,
+        4.145,
+        2.346,
+        2.205,
+        1.3082
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 320.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.794,
+        3.168,
+        5.148,
+        6.172,
+        6.703,
+        6.198,
+        5.234,
+        4.251,
+        2.404,
+        2.283,
+        1.4018
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 321.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.823,
+        3.215,
+        5.196,
+        6.296,
+        6.784,
+        6.318,
+        5.349,
+        4.38,
+        2.483,
+        2.361,
+        1.3945
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 322.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.851,
+        3.276,
+        5.28,
+        6.41,
+        6.941,
+        6.422,
+        5.483,
+        4.473,
+        2.548,
+        2.438,
+        1.4445
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.704
+      ],
+      "values": [
+        1.88,
+        3.327,
+        5.402,
+        6.557,
+        7.081,
+        6.514,
+        5.616,
+        4.598,
+        2.621,
+        1.4871
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 324.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.913,
+        3.386,
+        5.477,
+        6.601,
+        7.186,
+        6.653,
+        5.72,
+        4.699,
+        2.68,
+        2.572,
+        1.5358
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 325.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.938,
+        3.446,
+        5.568,
+        6.737,
+        7.314,
+        6.932,
+        5.854,
+        4.815,
+        2.759,
+        2.631,
+        1.5793
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 326.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.982,
+        3.427,
+        5.626,
+        6.875,
+        6.923,
+        5.98,
+        4.904,
+        2.825,
+        2.699,
+        1.6261
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 327.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        1.989,
+        3.539,
+        5.554,
+        6.873,
+        7.053,
+        6.111,
+        5.018,
+        2.895,
+        2.749,
+        1.7587
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.007,
+        3.602,
+        5.735,
+        6.996,
+        7.597,
+        7.208,
+        6.234,
+        5.12,
+        3.013,
+        2.826,
+        1.7362
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 329.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.036,
+        3.667,
+        5.81,
+        7.245,
+        7.825,
+        7.347,
+        6.26,
+        5.246,
+        3.051,
+        2.902,
+        1.8779
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 330.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.088,
+        3.716,
+        5.882,
+        7.377,
+        7.948,
+        7.496,
+        6.36,
+        5.373,
+        3.129,
+        2.977,
+        1.844
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 331.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.131,
+        3.774,
+        6.082,
+        7.39,
+        8.051,
+        7.607,
+        6.465,
+        5.49,
+        3.2,
+        3.044,
+        1.9046
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 332.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.15,
+        3.828,
+        6.061,
+        7.573,
+        8.156,
+        7.742,
+        6.571,
+        5.612,
+        3.285,
+        3.133,
+        1.9867
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.175,
+        3.78,
+        6.166,
+        7.656,
+        8.296,
+        7.902,
+        6.732,
+        5.754,
+        3.362,
+        3.214,
+        2.04
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 334.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.178,
+        3.933,
+        6.349,
+        7.779,
+        8.462,
+        8.025,
+        6.95,
+        5.942,
+        3.434,
+        3.28,
+        2.119
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 335.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.243,
+        3.983,
+        6.325,
+        7.931,
+        8.586,
+        8.184,
+        7.118,
+        5.975,
+        3.524,
+        3.351,
+        2.172
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 336.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.269,
+        4.041,
+        6.421,
+        8.021,
+        8.704,
+        8.299,
+        7.275,
+        6.094,
+        3.591,
+        3.422,
+        2.185
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 337.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.293,
+        4.098,
+        6.526,
+        8.193,
+        8.903,
+        8.443,
+        7.406,
+        6.314,
+        3.684,
+        3.515,
+        2.303
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.704
+      ],
+      "values": [
+        2.309,
+        4.154,
+        6.522,
+        8.143,
+        8.963,
+        8.573,
+        7.534,
+        6.33,
+        3.771,
+        2.345
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 339.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.35,
+        4.19,
+        6.732,
+        8.408,
+        9.106,
+        8.726,
+        7.693,
+        6.473,
+        3.855,
+        3.673,
+        2.423
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 340.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.387,
+        4.245,
+        6.832,
+        8.559,
+        9.223,
+        8.847,
+        7.768,
+        6.597,
+        3.932,
+        3.745,
+        2.471
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 341.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.424,
+        4.295,
+        6.961,
+        8.566,
+        9.153,
+        9.026,
+        7.89,
+        6.71,
+        4.074,
+        3.844,
+        2.538
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 342.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.441,
+        4.351,
+        6.932,
+        8.656,
+        9.546,
+        9.179,
+        7.963,
+        6.887,
+        4.11,
+        3.918,
+        2.614
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.465,
+        4.377,
+        7.165,
+        8.726,
+        9.422,
+        9.326,
+        8.051,
+        7.011,
+        4.192,
+        4.027,
+        2.678
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 344.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.524,
+        4.459,
+        7.239,
+        9.807,
+        9.454,
+        8.055,
+        7.129,
+        4.32,
+        4.104,
+        2.749
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 345.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.531,
+        4.428,
+        7.322,
+        8.985,
+        10.0,
+        9.537,
+        8.285,
+        7.27,
+        4.393,
+        4.2,
+        2.814
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 346.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.549,
+        4.556,
+        7.404,
+        9.299,
+        10.114,
+        9.688,
+        8.435,
+        7.497,
+        4.516,
+        4.256,
+        2.887
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 347.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.579,
+        4.704,
+        7.348,
+        9.399,
+        10.225,
+        9.835,
+        8.624,
+        7.626,
+        4.543,
+        4.316,
+        2.951
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 348.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.613,
+        4.656,
+        7.566,
+        9.348,
+        10.403,
+        9.936,
+        8.757,
+        7.681,
+        4.638,
+        4.409,
+        3.029
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 349.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.624,
+        4.725,
+        7.54,
+        9.587,
+        10.555,
+        10.087,
+        8.908,
+        7.794,
+        4.807,
+        4.521,
+        3.083
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 350.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.666,
+        4.849,
+        7.748,
+        9.734,
+        10.72,
+        10.275,
+        9.06,
+        7.929,
+        4.8,
+        4.574,
+        3.156
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 351.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.683,
+        4.841,
+        7.881,
+        9.913,
+        10.835,
+        10.463,
+        9.202,
+        8.29,
+        4.908,
+        4.677,
+        3.269
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 352.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.712,
+        4.894,
+        7.98,
+        9.862,
+        10.862,
+        10.587,
+        9.33,
+        8.208,
+        4.993,
+        4.801,
+        3.369
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 353.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.76,
+        4.925,
+        8.056,
+        10.069,
+        11.096,
+        10.715,
+        9.442,
+        8.329,
+        5.09,
+        4.914,
+        3.46
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 354.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.79,
+        4.984,
+        8.033,
+        10.179,
+        11.128,
+        10.821,
+        9.598,
+        8.441,
+        5.01,
+        4.979,
+        3.549
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 355.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.828,
+        5.045,
+        8.254,
+        10.33,
+        11.11,
+        10.977,
+        9.731,
+        8.548,
+        5.26,
+        5.053,
+        3.648
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 356.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.822,
+        5.089,
+        8.343,
+        10.436,
+        11.22,
+        11.092,
+        9.89,
+        8.432,
+        5.339,
+        5.149,
+        3.735
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 357.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.86,
+        5.131,
+        8.425,
+        10.61,
+        11.348,
+        11.257,
+        10.034,
+        8.598,
+        5.412,
+        5.233,
+        3.825
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 358.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.996,
+        0.992,
+        0.981,
+        0.968,
+        0.951,
+        0.929,
+        0.892,
+        0.861,
+        0.796,
+        0.785,
+        0.704
+      ],
+      "values": [
+        2.904,
+        5.182,
+        8.475,
+        10.642,
+        11.477,
+        11.312,
+        10.101,
+        8.732,
+        5.467,
+        5.224,
+        3.885
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.75,
+        0.595,
+        0.488,
+        0.41,
+        0.307,
+        0.237,
+        0.187,
+        0.153,
+        0.127,
+        0.089
+      ],
+      "values": [
+        0.001643,
+        0.00273,
+        0.00405,
+        0.00545,
+        0.00887,
+        0.01345,
+        0.01909,
+        0.0252,
+        0.0319,
+        0.05
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.75,
+        0.595,
+        0.488,
+        0.41,
+        0.307,
+        0.237,
+        0.187,
+        0.153,
+        0.127,
+        0.089
+      ],
+      "values": [
+        0.001148,
+        0.001854,
+        0.00267,
+        0.00371,
+        0.00548,
+        0.00817,
+        0.01111,
+        0.01443,
+        0.01783,
+        0.0268
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.75,
+        0.595,
+        0.488,
+        0.41,
+        0.307,
+        0.237,
+        0.187,
+        0.153,
+        0.127,
+        0.089
+      ],
+      "values": [
+        0.000939,
+        0.001503,
+        0.00213,
+        0.00287,
+        0.00418,
+        0.00616,
+        0.00822,
+        0.01057,
+        0.01284,
+        0.019
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.75,
+        0.595,
+        0.488,
+        0.41,
+        0.307,
+        0.237,
+        0.187,
+        0.153,
+        0.127,
+        0.089
+      ],
+      "values": [
+        0.00079,
+        0.00124,
+        0.001742,
+        0.0023,
+        0.00329,
+        0.00467,
+        0.00625,
+        0.00805,
+        0.00962,
+        0.014
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.75,
+        0.595,
+        0.488,
+        0.41,
+        0.307,
+        0.237,
+        0.187,
+        0.153,
+        0.127,
+        0.089
+      ],
+      "values": [
+        0.000672,
+        0.00105,
+        0.00145,
+        0.001902,
+        0.00267,
+        0.00373,
+        0.00495,
+        0.00627,
+        0.00744,
+        0.0106
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

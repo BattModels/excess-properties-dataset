@@ -1,0 +1,79 @@
+{
+  "name1": "2-hydroxy-N,N,N-trimethylethanaminium glycinate",
+  "smi1": "C[N+](C)(C)CCO.NCC(=O)[O-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.molliq.2022.120983",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.1,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4
+      ],
+      "values": [
+        0.0209,
+        0.01,
+        0.00409
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4
+      ],
+      "values": [
+        0.0123,
+        0.0064,
+        0.00273
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.8,
+        0.6,
+        0.4
+      ],
+      "values": [
+        0.0073,
+        0.00364,
+        0.00182
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

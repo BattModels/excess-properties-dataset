@@ -1,0 +1,49 @@
+{
+  "name1": "butan-1-ol",
+  "smi1": "CCCCO",
+  "name2": "1-octylpyridinium nitrate",
+  "smi2": "CCCCCCCC[n+]1ccccc1.O=[N+]([O-])[O-]",
+  "doi": "10.1016/j.jct.2011.10.013",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.8755,
+        0.7992,
+        0.6962,
+        0.5981,
+        0.4988,
+        0.3975,
+        0.299,
+        0.1995,
+        0.101,
+        0.0
+      ],
+      "values": [
+        805.6,
+        875.3,
+        910.0,
+        948.6,
+        978.1,
+        1002.0,
+        1023.0,
+        1041.7,
+        1059.0,
+        1074.9,
+        1089.5
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

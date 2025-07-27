@@ -1,0 +1,37 @@
+{
+  "name1": "1,5-dibromopentane",
+  "smi1": "BrCCCCCBr",
+  "name2": "1-butyl-3-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1cccc(C)c1.F[B-](F)(F)F",
+  "doi": "10.1039/c0cp02169e",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.238,
+        0.1668,
+        0.1295,
+        0.1099,
+        0.0443
+      ],
+      "values": [
+        1272.93,
+        1244.44,
+        1230.12,
+        1222.64,
+        1198.72
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

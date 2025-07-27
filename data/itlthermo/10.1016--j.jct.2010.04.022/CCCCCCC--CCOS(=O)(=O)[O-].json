@@ -1,0 +1,48 @@
+{
+  "name1": "heptane",
+  "smi1": "CCCCCCC",
+  "name2": "1-ethylpyridinium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccccc1",
+  "doi": "10.1016/j.jct.2010.04.022",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.007
+      ],
+      "values": [
+        1260.51
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.007
+      ],
+      "values": [
+        1250.63
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

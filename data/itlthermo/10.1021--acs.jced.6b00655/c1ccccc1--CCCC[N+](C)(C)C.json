@@ -1,0 +1,43 @@
+{
+  "name1": "benzene",
+  "smi1": "c1ccccc1",
+  "name2": "butyltrimethylammonium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCC[N+](C)(C)C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jced.6b00655",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.096,
+        0.2,
+        0.308,
+        0.414,
+        0.512,
+        0.613,
+        0.762
+      ],
+      "values": [
+        1348.0,
+        1336.0,
+        1317.0,
+        1288.0,
+        1262.0,
+        1230.0,
+        1186.0,
+        1106.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,55 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-butyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1021/je700338t",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9504,
+        0.8984,
+        0.853,
+        0.7978,
+        0.7005,
+        0.6476,
+        0.5964,
+        0.5663,
+        0.5045,
+        0.4108,
+        0.3143,
+        0.1954,
+        0.1945,
+        0.0824
+      ],
+      "values": [
+        0.000556,
+        0.000864,
+        0.00119,
+        0.00187,
+        0.00379,
+        0.00531,
+        0.00767,
+        0.00915,
+        0.0144,
+        0.0238,
+        0.0407,
+        0.082,
+        0.086,
+        0.154
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

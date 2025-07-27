@@ -1,0 +1,51 @@
+{
+  "name1": "N-methylformamide",
+  "smi1": "CNC=O",
+  "name2": "1-ethyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.molliq.2005.06.001",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.999,
+        0.91,
+        0.86,
+        0.78,
+        0.72,
+        0.66,
+        0.57,
+        0.47,
+        0.31,
+        0.21,
+        0.11,
+        0.05
+      ],
+      "values": [
+        0.34,
+        2.62,
+        3.05,
+        3.26,
+        3.15,
+        2.95,
+        2.97,
+        2.73,
+        2.26,
+        2.08,
+        1.79,
+        1.59
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

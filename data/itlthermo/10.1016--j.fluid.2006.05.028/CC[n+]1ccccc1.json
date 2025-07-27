@@ -1,0 +1,48 @@
+{
+  "name1": "1-ethylpyridinium bromide",
+  "smi1": "CC[n+]1ccccc1.[Br-]",
+  "name2": "aluminum bromide",
+  "smi2": "Br[Al](Br)Br",
+  "doi": "10.1016/j.fluid.2006.05.028",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.65
+      ],
+      "values": [
+        1626.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.65
+      ],
+      "values": [
+        0.292
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

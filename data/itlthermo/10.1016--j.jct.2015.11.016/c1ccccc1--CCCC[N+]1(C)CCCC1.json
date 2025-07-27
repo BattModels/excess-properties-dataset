@@ -1,0 +1,29 @@
+{
+  "name1": "benzene",
+  "smi1": "c1ccccc1",
+  "name2": "1-butyl-1-methylpyrrolidinium dicyanamide",
+  "smi2": "CCCC[N+]1(C)CCCC1.N#C[N-]C#N",
+  "doi": "10.1016/j.jct.2015.11.016",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.706
+      ],
+      "values": [
+        964.8
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

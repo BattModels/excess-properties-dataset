@@ -1,0 +1,70 @@
+{
+  "name1": "1-ethylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi1": "CCn1cc[nH+]c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1021/acs.jpcb.7b06376",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 297.55,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.888,
+        0.799,
+        0.667,
+        0.494
+      ],
+      "values": [
+        1571.4,
+        1566.2,
+        1563.4,
+        1560.6,
+        1541.4,
+        1522.3
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 297.55,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.889,
+        0.8,
+        0.667,
+        0.5,
+        0.359
+      ],
+      "values": [
+        0.0571,
+        0.0508,
+        0.0449,
+        0.0327,
+        0.0241,
+        0.0158,
+        0.0112
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

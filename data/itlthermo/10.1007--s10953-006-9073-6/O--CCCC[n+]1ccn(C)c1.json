@@ -1,0 +1,47 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butyl-3-methylimidazolium chloride",
+  "smi2": "CCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1007/s10953-006-9073-6",
+  "mixture_data": [
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.2213,
+        0.308,
+        0.3852,
+        0.5017,
+        0.5976,
+        0.6987,
+        0.8012,
+        0.8967,
+        0.9504,
+        1.0
+      ],
+      "values": [
+        1838.3,
+        1828.2,
+        1831.3,
+        1845.0,
+        1859.6,
+        1872.8,
+        1881.5,
+        1853.7,
+        1754.7,
+        1496.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

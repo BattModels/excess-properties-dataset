@@ -1,0 +1,39 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium chloride",
+  "smi1": "CC[n+]1ccn(C)c1.[Cl-]",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1021/jp911372j",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 373.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9756,
+        0.9524,
+        0.9302,
+        0.87,
+        0.8
+      ],
+      "values": [
+        0.036,
+        0.032,
+        0.027,
+        0.024,
+        0.023,
+        0.02
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

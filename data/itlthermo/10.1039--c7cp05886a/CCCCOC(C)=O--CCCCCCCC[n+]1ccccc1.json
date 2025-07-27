@@ -1,0 +1,115 @@
+{
+  "name1": "butyl ethanoate",
+  "smi1": "CCCCOC(C)=O",
+  "name2": "1-octylpyridinium bis((trifluoromethyl)sulfonyl)amide",
+  "smi2": "CCCCCCCC[n+]1ccccc1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1039/c7cp05886a",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.2556,
+        0.501,
+        0.6984,
+        0.7522,
+        0.7996,
+        0.8487,
+        0.8996,
+        0.9493
+      ],
+      "values": [
+        1329.0,
+        1279.4,
+        1208.74,
+        1124.14,
+        1091.88,
+        1061.32,
+        1021.78,
+        984.05,
+        934.89
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.2414,
+        0.481,
+        0.6824,
+        0.7372,
+        0.7923,
+        0.8427,
+        0.8928,
+        0.9456
+      ],
+      "values": [
+        0.097,
+        0.166,
+        0.271,
+        0.371,
+        0.384,
+        0.377,
+        0.333,
+        0.258,
+        0.124
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.2556,
+        0.501,
+        0.6984,
+        0.7522,
+        0.7996,
+        0.8487,
+        0.8996,
+        0.9493
+      ],
+      "values": [
+        0.1041,
+        0.0496,
+        0.01843,
+        0.00682,
+        0.00487,
+        0.00357,
+        0.00247,
+        0.001732,
+        0.001227
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

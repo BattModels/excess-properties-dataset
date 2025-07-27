@@ -1,0 +1,51 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-ethyl-3-methylimidazolium 2-(2-methoxyethoxy) ethylsulfate",
+  "smi2": "CCn1cc[n+](C)c1.COCCOCCOS(=O)(=O)[O-]",
+  "doi": "10.1021/je700648c",
+  "mixture_data": [
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.1791,
+        0.356,
+        0.4548,
+        0.5356,
+        0.6298,
+        0.7412,
+        0.7987,
+        0.8527,
+        0.9011,
+        0.9298,
+        0.962,
+        0.9829
+      ],
+      "values": [
+        1677.6,
+        1647.0,
+        1620.0,
+        1597.2,
+        1563.6,
+        1499.4,
+        1453.2,
+        1387.5,
+        1324.8,
+        1270.8,
+        1201.2,
+        1158.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

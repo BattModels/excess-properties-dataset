@@ -1,0 +1,53 @@
+{
+  "name1": "dibromomethane",
+  "smi1": "BrCBr",
+  "name2": "1-butyl-3-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1cccc(C)c1.F[B-](F)(F)F",
+  "doi": "10.1039/c0cp02169e",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9733,
+        0.9323,
+        0.875,
+        0.8044,
+        0.7184,
+        0.61,
+        0.5399,
+        0.4706,
+        0.3851,
+        0.293,
+        0.1855,
+        0.133,
+        0.078
+      ],
+      "values": [
+        2387.1,
+        2259.0,
+        2106.2,
+        1950.4,
+        1796.3,
+        1642.9,
+        1561.3,
+        1491.3,
+        1416.6,
+        1347.64,
+        1279.11,
+        1249.61,
+        1220.85
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

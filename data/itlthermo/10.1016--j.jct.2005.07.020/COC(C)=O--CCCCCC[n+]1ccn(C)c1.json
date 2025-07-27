@@ -1,0 +1,53 @@
+{
+  "name1": "methyl ethanoate",
+  "smi1": "COC(C)=O",
+  "name2": "1-hexyl-3-methylimidazolium hexafluorophosphate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.F[P-](F)(F)(F)(F)F",
+  "doi": "10.1016/j.jct.2005.07.020",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.9589,
+        0.9033,
+        0.7934,
+        0.712,
+        0.5925,
+        0.4577,
+        0.3753,
+        0.298,
+        0.1957,
+        0.0998,
+        0.0501,
+        0.0
+      ],
+      "values": [
+        926.9,
+        976.4,
+        1029.7,
+        1105.1,
+        1144.6,
+        1188.1,
+        1223.6,
+        1240.9,
+        1254.8,
+        1270.3,
+        1282.6,
+        1288.3,
+        1293.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

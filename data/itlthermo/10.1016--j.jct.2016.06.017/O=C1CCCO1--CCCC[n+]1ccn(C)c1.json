@@ -1,0 +1,255 @@
+{
+  "name1": ".gamma.-butyrolactone",
+  "smi1": "O=C1CCCO1",
+  "name2": "1-butyl-3-methylimidazolium dicyanamide",
+  "smi2": "CCCC[n+]1ccn(C)c1.N#C[N-]C#N",
+  "doi": "10.1016/j.jct.2016.06.017",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 273.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        1.046,
+        1.399,
+        1.518,
+        1.35,
+        1.131,
+        0.924,
+        0.639,
+        0.454,
+        0.383
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        1.269,
+        1.707,
+        1.918,
+        1.77,
+        1.542,
+        1.321,
+        0.968,
+        0.736,
+        0.636
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        1.498,
+        2.034,
+        2.353,
+        2.239,
+        2.012,
+        1.78,
+        1.374,
+        1.089,
+        0.972
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        1.616,
+        2.204,
+        2.581,
+        2.489,
+        2.267,
+        2.028,
+        1.606,
+        1.297,
+        1.171
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        1.742,
+        2.375,
+        2.814,
+        2.748,
+        2.533,
+        2.293,
+        1.854,
+        1.528,
+        1.39
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        1.979,
+        2.728,
+        3.301,
+        3.293,
+        3.101,
+        2.867,
+        2.401,
+        2.04,
+        1.886
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9496,
+        0.8998,
+        0.7998,
+        0.7016,
+        0.5995,
+        0.5046,
+        0.3043,
+        0.1129,
+        0.0
+      ],
+      "values": [
+        2.23,
+        3.091,
+        3.805,
+        3.867,
+        3.707,
+        3.484,
+        3.009,
+        2.625,
+        2.459
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

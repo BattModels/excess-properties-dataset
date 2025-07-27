@@ -1,0 +1,49 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-hexyl-3-methylimidazolium trifluoromethanesulfonate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)F",
+  "doi": "10.1016/j.fluid.2012.10.004",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.008,
+        0.015,
+        0.031,
+        0.056,
+        0.082,
+        0.123,
+        0.179,
+        0.252,
+        0.366,
+        0.551,
+        0.72
+      ],
+      "values": [
+        1219.8,
+        1214.6,
+        1203.9,
+        1187.4,
+        1170.7,
+        1144.9,
+        1111.8,
+        1071.5,
+        1013.6,
+        931.5,
+        865.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

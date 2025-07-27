@@ -1,0 +1,51 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-hexyl-3-methylimidazolium chloride",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.[Cl-]",
+  "doi": "10.1080/00319100600744993",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.098,
+        0.196,
+        0.2898,
+        0.4075,
+        0.568,
+        0.7044,
+        0.7955,
+        0.903,
+        0.9047,
+        0.9445,
+        1.0
+      ],
+      "values": [
+        1040.4,
+        1032.8,
+        1024.0,
+        1014.0,
+        999.7,
+        972.7,
+        940.5,
+        909.7,
+        857.5,
+        857.0,
+        831.5,
+        785.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

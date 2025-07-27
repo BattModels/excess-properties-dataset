@@ -1,0 +1,31 @@
+{
+  "name1": "trihexylammonium octanoate",
+  "smi1": "CCCCCCCC(=O)[O-].CCCCCC[NH+](CCCCCC)CCCCCC",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.fluid.2022.113391",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9366,
+        0.9366
+      ],
+      "values": [
+        0.01508,
+        0.01576
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

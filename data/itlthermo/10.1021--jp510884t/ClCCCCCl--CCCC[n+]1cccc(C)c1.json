@@ -1,0 +1,78 @@
+{
+  "name1": "1,4-dichlorobutane",
+  "smi1": "ClCCCCCl",
+  "name2": "1-butyl-3-methylpyridinium tetrafluoroborate",
+  "smi2": "CCCC[n+]1cccc(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/jp510884t",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.6067,
+        0.5001,
+        0.4043,
+        0.3006,
+        0.196,
+        0.1041,
+        0.0
+      ],
+      "values": [
+        1133.24,
+        1165.18,
+        1169.83,
+        1173.22,
+        1176.32,
+        1178.98,
+        1181.04,
+        1183.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.6685,
+        0.6035,
+        0.5025,
+        0.4115,
+        0.3033,
+        0.1945,
+        0.1034,
+        0.0
+      ],
+      "values": [
+        1111.24,
+        1144.89,
+        1148.8,
+        1154.04,
+        1157.81,
+        1161.59,
+        1164.55,
+        1166.9,
+        1169.42
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

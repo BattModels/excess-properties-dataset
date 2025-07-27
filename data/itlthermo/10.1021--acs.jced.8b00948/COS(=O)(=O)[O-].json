@@ -1,0 +1,142 @@
+{
+  "name1": "1,3-dimethylimidazolium methylsulfate",
+  "smi1": "COS(=O)(=O)[O-].Cn1cc[n+](C)c1",
+  "name2": "propan-1-ol",
+  "smi2": "CCCO",
+  "doi": "10.1021/acs.jced.8b00948",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.039,
+        0.208,
+        0.382,
+        0.561,
+        0.702,
+        0.912,
+        1.0
+      ],
+      "values": [
+        0.00194,
+        0.00315,
+        0.0107,
+        0.0196,
+        0.0313,
+        0.0425,
+        0.0652,
+        0.078
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.039,
+        0.208,
+        0.382,
+        0.561,
+        0.702,
+        0.912,
+        1.0
+      ],
+      "values": [
+        0.00172,
+        0.00297,
+        0.00855,
+        0.0154,
+        0.0251,
+        0.0347,
+        0.0529,
+        0.0619
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.039,
+        0.208,
+        0.382,
+        0.561,
+        0.702,
+        0.912,
+        1.0
+      ],
+      "values": [
+        0.00154,
+        0.00253,
+        0.00676,
+        0.0122,
+        0.0201,
+        0.0281,
+        0.0427,
+        0.0499
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.039,
+        0.208,
+        0.382,
+        0.561,
+        0.702,
+        0.912,
+        1.0
+      ],
+      "values": [
+        0.00138,
+        0.0022,
+        0.00605,
+        0.0105,
+        0.0168,
+        0.0232,
+        0.0353,
+        0.0409
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

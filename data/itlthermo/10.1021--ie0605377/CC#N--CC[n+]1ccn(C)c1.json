@@ -1,0 +1,78 @@
+{
+  "name1": "acetonitrile",
+  "smi1": "CC#N",
+  "name2": "1-ethyl-3-methylimidazolium bis((trifluoromethyl)sulfonyl)imide",
+  "smi2": "CC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/ie0605377",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.02,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1024,
+        0.2554,
+        0.4878,
+        0.5514,
+        0.7615,
+        0.9441,
+        1.0
+      ],
+      "values": [
+        1513.7,
+        1498.2,
+        1467.9,
+        1397.3,
+        1369.2,
+        1224.6,
+        939.1,
+        771.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 322.41,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.1196,
+        0.2243,
+        0.4481,
+        0.5104,
+        0.585,
+        0.8367,
+        0.9354,
+        1.0
+      ],
+      "values": [
+        1494.2,
+        1476.3,
+        1456.5,
+        1394.2,
+        1369.7,
+        1333.9,
+        1116.5,
+        938.0,
+        750.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,329 @@
+{
+  "name1": "1-hexylpyridinium trifluoroacetate",
+  "smi1": "CCCCCC[n+]1ccccc1.O=C([O-])C(F)(F)F",
+  "name2": "water",
+  "smi2": "O",
+  "doi": "10.1016/j.jct.2020.106366",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1284.1,
+        1279.9,
+        1274.9,
+        1273.3,
+        1268.6,
+        1263.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1280.2,
+        1276.0,
+        1271.0,
+        1269.4,
+        1264.8,
+        1259.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1276.4,
+        1272.3,
+        1267.2,
+        1265.7,
+        1261.0,
+        1255.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1272.4,
+        1268.3,
+        1263.2,
+        1261.7,
+        1257.0,
+        1251.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1268.3,
+        1264.2,
+        1259.1,
+        1257.6,
+        1252.9,
+        1247.3
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1264.4,
+        1260.2,
+        1255.2,
+        1253.6,
+        1248.9,
+        1243.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1260.4,
+        1256.2,
+        1251.2,
+        1249.6,
+        1245.0,
+        1239.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 328.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1256.6,
+        1252.5,
+        1247.4,
+        1245.9,
+        1241.2,
+        1235.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1252.8,
+        1248.7,
+        1243.6,
+        1242.1,
+        1237.4,
+        1231.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 338.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1248.8,
+        1244.7,
+        1239.6,
+        1238.1,
+        1233.4,
+        1227.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.9975,
+        0.9952,
+        0.9929,
+        0.9919,
+        0.9893,
+        0.987
+      ],
+      "values": [
+        1245.4,
+        1241.3,
+        1236.2,
+        1234.7,
+        1230.0,
+        1224.4
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,47 @@
+{
+  "name1": "toluene",
+  "smi1": "Cc1ccccc1",
+  "name2": "1-hexyl-3-methylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1080/00319104.2013.782546",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 283.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0492,
+        0.1025,
+        0.2018,
+        0.3065,
+        0.4026,
+        0.4983,
+        0.7015,
+        0.811,
+        1.0
+      ],
+      "values": [
+        1385.92,
+        1378.08,
+        1369.22,
+        1350.95,
+        1327.21,
+        1300.75,
+        1269.42,
+        1174.61,
+        1095.9,
+        876.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

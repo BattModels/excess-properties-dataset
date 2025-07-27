@@ -1,0 +1,47 @@
+{
+  "name1": "methanol",
+  "smi1": "CO",
+  "name2": "1-butyl-3-methylimidazolium methyl sulfate",
+  "smi2": "CCCC[n+]1ccn(C)c1.COS(=O)(=O)[O-]",
+  "doi": "10.1007/s10953-005-9002-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9493,
+        0.845,
+        0.7654,
+        0.6573,
+        0.5662,
+        0.4635,
+        0.3668,
+        0.2629,
+        0.1777,
+        0.0692
+      ],
+      "values": [
+        886.6,
+        1002.8,
+        1054.8,
+        1102.5,
+        1130.2,
+        1153.2,
+        1169.5,
+        1182.6,
+        1192.9,
+        1202.9
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

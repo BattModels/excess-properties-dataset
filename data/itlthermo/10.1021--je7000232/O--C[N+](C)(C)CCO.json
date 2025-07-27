@@ -1,0 +1,39 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "choline glycolate",
+  "smi2": "C[N+](C)(C)CCO.O=C([O-])CO",
+  "doi": "10.1021/je7000232",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.366,
+        0.536,
+        0.718,
+        0.813,
+        0.871,
+        0.937
+      ],
+      "values": [
+        0.66,
+        0.209,
+        0.0532,
+        0.0199,
+        0.0092,
+        0.0033
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,41 @@
+{
+  "name1": "1-butyl-3-methylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi1": "CCCC[n+]1ccn(C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "name2": "1-butyl-3-methylimidazolium ferrocenylsulfonyl(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)c1ccc[cH-]1.[Fe+2].c1cc[cH-]c1",
+  "doi": "10.1021/acs.jpcc.5b11911",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.92,
+        0.839,
+        0.749,
+        0.661,
+        0.56,
+        0.461
+      ],
+      "values": [
+        0.0438,
+        0.0733,
+        0.1085,
+        0.1845,
+        0.2954,
+        0.5428,
+        1.2261
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

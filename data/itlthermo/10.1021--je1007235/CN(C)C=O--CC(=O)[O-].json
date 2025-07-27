@@ -1,0 +1,37 @@
+{
+  "name1": "dimethylformamide",
+  "smi1": "CN(C)C=O",
+  "name2": "1-butyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "doi": "10.1021/je1007235",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.062,
+        0.191,
+        0.389,
+        0.606,
+        1.0
+      ],
+      "values": [
+        0.231,
+        0.054,
+        0.011,
+        0.004,
+        0.00092
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,48 @@
+{
+  "name1": "tetrapropylammonium bromide",
+  "smi1": "CCC[N+](CCC)(CCC)CCC.[Br-]",
+  "name2": "glycerol",
+  "smi2": "OCC(O)CO",
+  "doi": "10.1016/j.molliq.2021.118315",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        1189.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333
+      ],
+      "values": [
+        0.221
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

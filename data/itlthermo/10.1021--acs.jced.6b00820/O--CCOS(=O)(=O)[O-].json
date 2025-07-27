@@ -1,0 +1,39 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/acs.jced.6b00820",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.99,
+        0.95,
+        0.9,
+        0.8,
+        0.7,
+        0.6
+      ],
+      "values": [
+        998.74,
+        1005.44,
+        1014.6,
+        1034.17,
+        1056.73,
+        1081.98
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

@@ -1,0 +1,49 @@
+{
+  "name1": "2-ethoxy-2-methylpropane",
+  "smi1": "CCOC(C)(C)C",
+  "name2": "trihexyl(tetradecyl)phosphonium chloride",
+  "smi2": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]",
+  "doi": "10.1016/j.fluid.2013.01.022",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0473,
+        0.1037,
+        0.1961,
+        0.3076,
+        0.3968,
+        0.5075,
+        0.5981,
+        0.6992,
+        0.7993,
+        0.8987,
+        0.9496
+      ],
+      "values": [
+        890.24,
+        888.11,
+        884.09,
+        878.3,
+        872.72,
+        864.28,
+        855.37,
+        841.62,
+        821.34,
+        790.03,
+        767.05
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

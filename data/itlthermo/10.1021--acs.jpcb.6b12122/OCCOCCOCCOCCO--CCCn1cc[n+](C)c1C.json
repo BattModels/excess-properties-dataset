@@ -1,0 +1,33 @@
+{
+  "name1": "tetraethylene glycol",
+  "smi1": "OCCOCCOCCOCCO",
+  "name2": "1,2-dimethyl-3-propylimidazolium bis[(trifluoromethyl)sulfonyl]imide",
+  "smi2": "CCCn1cc[n+](C)c1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/acs.jpcb.6b12122",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "values": [
+        0.0856,
+        0.0561,
+        0.0458
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

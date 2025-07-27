@@ -1,0 +1,110 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "N-(2-hydroxyethyl)benzenaminium butyrate",
+  "smi2": "CCCC(=O)[O-].OCC[NH2+]c1ccccc1",
+  "doi": "10.1016/j.molliq.2017.06.010",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0013,
+        0.0032,
+        0.0046,
+        0.0062
+      ],
+      "values": [
+        1056.7,
+        1057.2,
+        1057.7,
+        1058.3
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0013,
+        0.0032,
+        0.0046,
+        0.0062
+      ],
+      "values": [
+        0.000469,
+        0.00047,
+        0.000471,
+        0.000472
+      ]
+    },
+    {
+      "measurement": "speed of sound",
+      "units": "m/s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0013,
+        0.0032,
+        0.0046,
+        0.0062
+      ],
+      "values": [
+        1508.9,
+        1509.4,
+        1509.8,
+        1510.4
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0013,
+        0.0032,
+        0.0046,
+        0.0062
+      ],
+      "values": [
+        0.0181,
+        0.0169,
+        0.0163,
+        0.0154
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

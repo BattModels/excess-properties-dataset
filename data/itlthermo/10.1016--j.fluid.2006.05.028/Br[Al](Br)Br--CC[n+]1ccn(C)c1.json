@@ -1,0 +1,52 @@
+{
+  "name1": "aluminum bromide",
+  "smi1": "Br[Al](Br)Br",
+  "name2": "1-ethyl-3-methylimidazolium bromide",
+  "smi2": "CC[n+]1ccn(C)c1.[Br-]",
+  "doi": "10.1016/j.fluid.2006.05.028",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.35,
+        0.6
+      ],
+      "values": [
+        1620.0,
+        1699.0
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.35,
+        0.6
+      ],
+      "values": [
+        0.625,
+        0.877
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

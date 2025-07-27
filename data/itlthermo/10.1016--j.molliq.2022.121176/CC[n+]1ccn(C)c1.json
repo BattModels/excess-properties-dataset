@@ -1,0 +1,52 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium iodide",
+  "smi1": "CC[n+]1ccn(C)c1.[I-]",
+  "name2": "iodine",
+  "smi2": "II",
+  "doi": "10.1016/j.molliq.2022.121176",
+  "mixture_data": [
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.25,
+        0.2
+      ],
+      "values": [
+        5.08,
+        6.5,
+        7.17
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.0,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.25
+      ],
+      "values": [
+        0.0188
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

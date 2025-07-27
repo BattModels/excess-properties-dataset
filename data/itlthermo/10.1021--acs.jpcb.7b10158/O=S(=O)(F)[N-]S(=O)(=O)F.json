@@ -1,0 +1,48 @@
+{
+  "name1": "sodium bis(fluorosulfonyl)amide",
+  "smi1": "O=S(=O)(F)[N-]S(=O)(=O)F.[Na+]",
+  "name2": "2,5,8,11-tetraoxadodecane",
+  "smi2": "COCCOCCOCCOC",
+  "doi": "10.1021/acs.jpcb.7b10158",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        1380.0
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.5
+      ],
+      "values": [
+        0.496
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

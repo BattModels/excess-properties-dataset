@@ -1,0 +1,88 @@
+{
+  "name1": "propylene carbonate",
+  "smi1": "CC1COC(=O)O1",
+  "name2": "1-butyl-3-methylimidazolium tetrafluoroborate",
+  "smi2": "CCCC[n+]1ccn(C)c1.F[B-](F)(F)F",
+  "doi": "10.1021/je800468h",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9768,
+        0.9516,
+        0.8972,
+        0.8399,
+        0.7723,
+        0.6944,
+        0.593,
+        0.4874,
+        0.3808,
+        0.2827,
+        0.1503
+      ],
+      "values": [
+        1201.32,
+        1202.51,
+        1204.3,
+        1205.43,
+        1206.17,
+        1206.51,
+        1206.4,
+        1206.0,
+        1205.5,
+        1204.4,
+        1203.4
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.9768,
+        0.9516,
+        0.8972,
+        0.8399,
+        0.7723,
+        0.6944,
+        0.593,
+        0.4874,
+        0.3808,
+        0.2827,
+        0.1503
+      ],
+      "values": [
+        0.537,
+        0.873,
+        1.23,
+        1.346,
+        1.332,
+        1.229,
+        1.055,
+        0.875,
+        0.715,
+        0.593,
+        0.463
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

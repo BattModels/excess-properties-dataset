@@ -1,0 +1,110 @@
+{
+  "name1": "propylene carbonate",
+  "smi1": "CC1COC(=O)O1",
+  "name2": "1-methyl-3-octylimidazolium tetrafluoroborate",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.F[B-](F)(F)F",
+  "doi": "10.1016/j.jct.2019.106017",
+  "mixture_data": [
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 99.7,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.8,
+        0.5,
+        0.2
+      ],
+      "values": [
+        0.00221,
+        0.00284,
+        0.00522,
+        0.0389
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 99.7,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.8,
+        0.5,
+        0.2
+      ],
+      "values": [
+        0.002,
+        0.00261,
+        0.00501,
+        0.0261
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 99.7,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.8,
+        0.5,
+        0.2
+      ],
+      "values": [
+        0.00177,
+        0.00236,
+        0.00481,
+        0.0181
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 99.7,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.8,
+        0.5,
+        0.2
+      ],
+      "values": [
+        0.0016,
+        0.00216,
+        0.00462,
+        0.0129
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

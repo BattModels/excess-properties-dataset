@@ -1,0 +1,568 @@
+{
+  "name1": "ammonium acetate",
+  "smi1": "CC(=O)[O-].[NH4+]",
+  "name2": "1-ethyl-3-methylimidazolium acetate",
+  "smi2": "CC(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1021/je5008857",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        1098.3,
+        1098.3,
+        1099.1,
+        1100.1,
+        1100.9,
+        1101.5,
+        1102.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        1095.2,
+        1095.2,
+        1096.0,
+        1097.0,
+        1097.7,
+        1098.3,
+        1098.9
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        1092.4,
+        1092.1,
+        1092.9,
+        1093.9,
+        1094.6,
+        1095.1,
+        1095.6
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        1089.4,
+        1089.1,
+        1089.8,
+        1090.8,
+        1091.5,
+        1091.9,
+        1092.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        1086.4,
+        1086.0,
+        1086.7,
+        1087.6,
+        1088.3,
+        1088.8,
+        1089.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        1083.4,
+        1082.9,
+        1083.5,
+        1084.5,
+        1085.2,
+        1085.7,
+        1086.2
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.2875,
+        0.2553,
+        0.2261,
+        0.1806,
+        0.1458,
+        0.1136,
+        0.0734
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.3736,
+        0.3365,
+        0.2995,
+        0.2425,
+        0.1988,
+        0.158,
+        0.1056
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.473,
+        0.4309,
+        0.3888,
+        0.3188,
+        0.2656,
+        0.2151,
+        0.1476
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.587,
+        0.542,
+        0.4936,
+        0.4103,
+        0.3486,
+        0.2857,
+        0.2009
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.76,
+        0.671,
+        0.617,
+        0.519,
+        0.4486,
+        0.3706,
+        0.2673
+      ]
+    },
+    {
+      "measurement": "electrical conductivity",
+      "units": "S/m",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.918,
+        0.862,
+        0.796,
+        0.641,
+        0.562,
+        0.4714,
+        0.3469
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.1263,
+        0.153,
+        0.186,
+        0.261,
+        0.389,
+        0.572,
+        1.0201
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.0936,
+        0.1117,
+        0.1347,
+        0.186,
+        0.271,
+        0.39,
+        0.673
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 308.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.0713,
+        0.0839,
+        0.1001,
+        0.1355,
+        0.194,
+        0.273,
+        0.458
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.0555,
+        0.0646,
+        0.0762,
+        0.1013,
+        0.1423,
+        0.197,
+        0.321
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 318.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.0442,
+        0.0507,
+        0.0591,
+        0.0772,
+        0.1066,
+        0.1446,
+        0.23
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0,
+        0.0503,
+        0.0999,
+        0.1703,
+        0.2498,
+        0.328,
+        0.4491
+      ],
+      "values": [
+        0.0357,
+        0.0405,
+        0.0466,
+        0.0599,
+        0.0813,
+        0.1084,
+        0.169
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

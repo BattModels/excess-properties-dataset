@@ -1,0 +1,49 @@
+{
+  "name1": "3-methyl-2-butanone",
+  "smi1": "CC(=O)C(C)C",
+  "name2": "trihexyl(tetradecyl)phosphonium chloride",
+  "smi2": "CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC.[Cl-]",
+  "doi": "10.1007/s11814-016-0233-0",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0502,
+        0.1002,
+        0.1995,
+        0.2994,
+        0.4005,
+        0.5005,
+        0.6003,
+        0.7001,
+        0.8,
+        0.8999,
+        0.95
+      ],
+      "values": [
+        888.8,
+        888.1,
+        886.4,
+        884.1,
+        881.2,
+        877.4,
+        872.4,
+        865.3,
+        854.5,
+        836.3,
+        821.6
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

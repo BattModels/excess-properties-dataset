@@ -1,0 +1,102 @@
+{
+  "name1": "1-ethyl-3-methylimidazolium perfluorooctylsulfonate",
+  "smi1": "CC[n+]1ccn(C)c1.O=S(=O)([O-])C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+  "name2": "perfluoropentanoic acid",
+  "smi2": "O=C(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+  "doi": "10.1021/acs.iecr.0c01893",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 293.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5,
+        0.667
+      ],
+      "values": [
+        1689.3,
+        1672.1,
+        1687.5
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 303.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5,
+        0.667
+      ],
+      "values": [
+        1673.9,
+        1662.0,
+        1673.2
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5,
+        0.667
+      ],
+      "values": [
+        1656.4,
+        1649.0,
+        1660.8
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.333,
+        0.5,
+        0.667
+      ],
+      "values": [
+        1642.8,
+        1635.1,
+        1647.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

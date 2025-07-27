@@ -1,0 +1,47 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-hexyl-3-methylimidazolium L-glutamate",
+  "smi2": "CCCCCC[n+]1ccn(C)c1.N[C@@H](CCC(=O)O)C(=O)[O-]",
+  "doi": "10.1021/acs.jced.5b00948",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        1.0,
+        0.941,
+        0.896,
+        0.848,
+        0.788,
+        0.707,
+        0.649,
+        0.569,
+        0.47,
+        0.332
+      ],
+      "values": [
+        997.1,
+        1006.5,
+        1011.6,
+        1020.5,
+        1029.3,
+        1042.6,
+        1051.4,
+        1063.2,
+        1080.8,
+        1101.7
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

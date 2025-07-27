@@ -1,0 +1,49 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "trihexyltetradecylphosphonium bis(2,4,4-trimethylpentyl)phosphinate",
+  "smi2": "CC(CC(C)(C)C)CP(=O)([O-])CC(C)CC(C)(C)C.CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC",
+  "doi": "10.1016/j.fluid.2013.01.022",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.051,
+        0.1022,
+        0.2136,
+        0.305,
+        0.4024,
+        0.5019,
+        0.5976,
+        0.6989,
+        0.7998,
+        0.9003,
+        0.9499
+      ],
+      "values": [
+        886.25,
+        886.05,
+        885.54,
+        885.0,
+        884.17,
+        882.93,
+        881.05,
+        877.74,
+        871.0,
+        854.34,
+        840.31
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

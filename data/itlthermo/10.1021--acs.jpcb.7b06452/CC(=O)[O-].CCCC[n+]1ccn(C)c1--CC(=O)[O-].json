@@ -1,0 +1,232 @@
+{
+  "name1": "1-butyl-3-methylimidazolium acetate",
+  "smi1": "CC(=O)[O-].CCCC[n+]1ccn(C)c1",
+  "name2": "tetrabutylphosphonium acetate",
+  "smi2": "CC(=O)[O-].CCCC[P+](CCCC)(CCCC)CCCC",
+  "doi": "10.1021/acs.jpcb.7b06452",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018
+      ],
+      "values": [
+        999.1,
+        968.0
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018
+      ],
+      "values": [
+        993.1,
+        962.1
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018,
+        0.0
+      ],
+      "values": [
+        987.2,
+        956.3,
+        916.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018,
+        0.0
+      ],
+      "values": [
+        981.3,
+        950.5,
+        910.4
+      ]
+    },
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 353.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018,
+        0.0
+      ],
+      "values": [
+        975.5,
+        944.7,
+        904.5
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 313.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018
+      ],
+      "values": [
+        0.246,
+        0.323
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 323.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018
+      ],
+      "values": [
+        0.133,
+        0.1692
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 333.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018,
+        0.0
+      ],
+      "values": [
+        0.078,
+        0.0967,
+        0.0671
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 343.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018,
+        0.0
+      ],
+      "values": [
+        0.0496,
+        0.0592,
+        0.0431
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 353.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.0,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.751,
+        0.5018,
+        0.0
+      ],
+      "values": [
+        0.0332,
+        0.0387,
+        0.0291
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

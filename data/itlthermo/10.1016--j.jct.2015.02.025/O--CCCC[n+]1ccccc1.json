@@ -1,0 +1,37 @@
+{
+  "name1": "water",
+  "smi1": "O",
+  "name2": "1-butylpyridinium dicyanamide",
+  "smi2": "CCCC[n+]1ccccc1.N#C[N-]C#N",
+  "doi": "10.1016/j.jct.2015.02.025",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 100.0,
+        "unit": "kPa"
+      },
+      "xtype": "mass fraction",
+      "x1": [
+        0.0012,
+        0.0027,
+        0.0042,
+        0.0057,
+        0.0071
+      ],
+      "values": [
+        1068.7,
+        1068.6,
+        1068.4,
+        1068.3,
+        1068.1
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

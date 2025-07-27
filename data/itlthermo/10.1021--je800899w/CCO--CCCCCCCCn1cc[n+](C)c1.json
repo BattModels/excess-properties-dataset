@@ -1,0 +1,88 @@
+{
+  "name1": "ethanol",
+  "smi1": "CCO",
+  "name2": "1-methyl-3-octylimidazolium bis(trifluoromethylsulfonyl)imide",
+  "smi2": "CCCCCCCCn1cc[n+](C)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F",
+  "doi": "10.1021/je800899w",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0959,
+        0.1162,
+        0.1935,
+        0.2269,
+        0.3304,
+        0.4164,
+        0.5412,
+        0.6012,
+        0.7033,
+        0.8067,
+        0.8967
+      ],
+      "values": [
+        1311.3,
+        1309.2,
+        1300.3,
+        1296.0,
+        1280.8,
+        1265.2,
+        1235.2,
+        1216.2,
+        1173.46,
+        1106.85,
+        1010.5
+      ]
+    },
+    {
+      "measurement": "viscosity",
+      "units": "Pa•s",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        0.0959,
+        0.1162,
+        0.1935,
+        0.2269,
+        0.3304,
+        0.4164,
+        0.5412,
+        0.6012,
+        0.7033,
+        0.8067,
+        0.8967
+      ],
+      "values": [
+        0.07128,
+        0.06763,
+        0.05553,
+        0.05154,
+        0.03923,
+        0.02989,
+        0.01992,
+        0.01586,
+        0.01025,
+        0.00583,
+        0.003079
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}

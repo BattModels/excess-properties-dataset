@@ -1,0 +1,55 @@
+{
+  "name1": "pentan-1-ol",
+  "smi1": "CCCCCO",
+  "name2": "1-ethyl-3-methylimidazolium ethyl sulfate",
+  "smi2": "CCOS(=O)(=O)[O-].CC[n+]1ccn(C)c1",
+  "doi": "10.1007/s10953-008-9306-y",
+  "mixture_data": [
+    {
+      "measurement": "density",
+      "units": "kg/m**3",
+      "temperature": {
+        "value": 298.15,
+        "unit": "K"
+      },
+      "pressure": {
+        "value": 101.3,
+        "unit": "kPa"
+      },
+      "xtype": "mole fraction",
+      "x1": [
+        1.0,
+        0.98,
+        0.936,
+        0.8853,
+        0.8435,
+        0.78,
+        0.7205,
+        0.6432,
+        0.5411,
+        0.4099,
+        0.2862,
+        0.1561,
+        0.0256,
+        0.0
+      ],
+      "values": [
+        813.0,
+        833.0,
+        857.0,
+        890.0,
+        916.0,
+        950.0,
+        984.0,
+        1029.0,
+        1066.0,
+        1118.0,
+        1160.0,
+        1198.0,
+        1232.0,
+        1238.0
+      ]
+    }
+  ],
+  "pure_compound_data": null
+}
