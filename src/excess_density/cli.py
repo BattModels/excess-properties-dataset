@@ -5,18 +5,23 @@ import unicodedata
 from itertools import chain
 from pathlib import Path
 from typing import Annotated
+import logging
 
 import pandas as pd
-from pandas.core.frame import rec_array_to_mgr
 import pubchempy
 import typer
 from pydantic import ValidationError
 from rdkit import Chem
 
-from .data_model import MixtureRecord
+from excess_density.itlthermo import retrieve_mixture_records
+
+from .data_model import MixtureRecord, smiles_filename
 from .export import mixture_records_df
+from .citations import generate_bibtex_bibliography
 
 app = typer.Typer()
+
+logging.basicConfig(level=logging.INFO)
 
 
 def _validate_file(file: Path):
@@ -114,8 +119,8 @@ def add(
     }
 
     # Clean up smiles for file system
-    smi1 = smi1.replace("/", "--").replace("\\", "---")
-    smi2 = smi2.replace("/", "--").replace("\\", "---")
+    smi1 = smiles_filename(smi1)
+    smi2 = smiles_filename(smi2)
     output = Path(doi_path, f"{smi1}--{smi2}.json")
     if output.exists():
         raise FileExistsError(output)
@@ -164,3 +169,39 @@ def parse_data(columns: list[str]):
     result = parse_round_robin_columns(raw_text, columns)
     for k, v in result.items():
         print(f"{k}:", json.dumps(v))
+
+
+@app.command()
+def cite(path: Path, output: str = "references.bib", cite_itlthermo: bool = True):
+    """Construct a BibTeX bibliography for a set of mixture records"""
+    doi = set()
+    for file in _get_files(path):
+        if "itlthermo" in file.parents and cite_itlthermo:
+            continue
+        m = MixtureRecord.parse_jsonfile(file)
+        doi.add(m.doi)
+
+    if cite_itlthermo:
+        doi.add("10.1021/je700171f")
+
+    bib = generate_bibtex_bibliography(list(doi))
+    Path(output).write_text(bib)
+
+
+@app.command()
+def itlthermo(
+    properties: list[str] = [
+        "Density",
+        "Enthalpy",
+        "Viscosity",
+        "Thermal diffusivity",
+        "Electrical conductivity",
+        "Speed of sound",
+    ],
+    output: Path = Path("data", "itlthermo"),
+):
+    for record in retrieve_mixture_records(properties):
+        rec_file = Path(output, record.prefered_filename).with_suffix(".json")
+        rec_file.parent.mkdir(exist_ok=True, parents=True)
+        with open(rec_file, "w") as f:
+            f.write(record.model_dump_json(indent=2))

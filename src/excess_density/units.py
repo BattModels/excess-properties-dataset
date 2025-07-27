@@ -22,15 +22,17 @@ DEFAULT_UNITS: dict[str, UnitField] = {
     "temperature": "K",
     "pressure": "MPa",
     "molar volume": "cm^3/mol",
+    "thermal diffusivity": "mm**2/s",
+    "viscosity": "mPa*s",
+    "speed of sound": "m/s",
+    "electrical conductivity": "S/m",
 }
-DEFAULT_UNITS["excess density"] = DEFAULT_UNITS["density"]
-DEFAULT_UNITS["excess molar enthalpy"] = DEFAULT_UNITS["molar enthalpy"]
-DEFAULT_UNITS["excess molar volume"] = DEFAULT_UNITS["molar volume"]
 
 
 def get_preferred_unit(
     measurement: str, units_map: dict[str, str] | None = None
 ) -> str:
+    measurement = measurement.removeprefix("excess").strip()
     if units_map is None:
         return DEFAULT_UNITS[measurement]
     return units_map.get(measurement, DEFAULT_UNITS[measurement])

@@ -7,8 +7,12 @@ from pint import Quantity
 from pydantic import BaseModel, Field, model_validator
 
 from .chem import SMILES, inchi_key, molecular_weight
-from .units import UnitField, get_preferred_unit, ureg
+from .units import UnitField, DEFAULT_UNITS, get_preferred_unit, ureg
 from .utils import parse_jsonc
+
+
+def smiles_filename(smi: str) -> str:
+    return smi.replace("/", "--").replace("\\", "---")
 
 
 class Measurement(BaseModel):
@@ -23,7 +27,6 @@ class Measurement(BaseModel):
     @classmethod
     def coerce_float(cls, data):
         if isinstance(data, (int, float)):
-            # Look up default value for the `unit` field
             unit_default = (
                 cls.model_fields.get("unit") and cls.model_fields["unit"].default
             )
@@ -66,6 +69,10 @@ class MixtureDatum(BaseModel):
         "excess molar enthalpy",
         "excess molar volume",
         "molar enthalpy",
+        "thermal diffusivity",
+        "viscosity",
+        "speed of sound",
+        "electrical conductivity",
     ]
     units: UnitField
     temperature: TemperatureMeasurement
@@ -80,18 +87,21 @@ class MixtureDatum(BaseModel):
     @model_validator(mode="after")
     @classmethod
     def check_units_with_pint(cls, datum):
-        # define the expected dimensionality for each measurement
         expected = {
-            "density": ureg("g/cm**3").dimensionality,
-            "excess density": ureg("g/cm**3").dimensionality,
-            "excess molar density": ureg("mol/cm**3").dimensionality,
-            "excess molar enthalpy": ureg("J/mol").dimensionality,
-            "excess molar volume": ureg("cm**3/mol").dimensionality,
-            "molar volume": ureg("cm**3/mol").dimensionality,
-            "molar enthalpy": ureg("J/mol").dimensionality,
+            "density": "g/cm**3",
+            "excess density": "g/cm**3",
+            "excess molar density": "mol/cm**3",
+            "excess molar enthalpy": "J/mol",
+            "excess molar volume": "cm**3/mol",
+            "molar volume": "cm**3/mol",
+            "molar enthalpy": "J/mol",
+            "thermal diffusivity": "m**2/s",
+            "viscosity": "Pa*s",
+            "speed of sound": "m/s",
         }
+        expected = {k: ureg(v).dimensionality for k, v in DEFAULT_UNITS.items()}
 
-        exp_dim = expected[datum.measurement]
+        exp_dim = expected[datum.measurement.removeprefix("excess").strip()]
         try:
             u = ureg.Unit(datum.units)
         except Exception as e:
@@ -160,7 +170,6 @@ class PureCompoundDatum(BaseModel):
         raise ValueError(f"Invalid format: {data}")
 
     def get_temperature_value(self, T: Quantity, units="g/cm^3") -> float | None:
-        """Returns the density value closest to the given temperature (exact match)."""
         if self.temperature is None:
             if len(self.density) == 1:
                 return self.density[0].to_units(units)
@@ -216,27 +225,31 @@ class MixtureRecord(BaseModel):
         )
 
     @property
-    def measurment_types(self):
-        mt = set()
-        for m in self.mixture_data:
-            mt.add(m.measurement)
+    def prefered_filename(self) -> Path:
+        folder = self.doi.replace("/", "--")
+        file = "{smi1}--{smi2}".format(
+            smi1=smiles_filename(self.smi1),
+            smi2=smiles_filename(self.smi2),
+        )
+        return Path(folder, file)
 
-        return mt
+    @property
+    def measurment_types(self):
+        return {m.measurement for m in self.mixture_data}
 
     def get_pure_density(
         self, temperature: Quantity, units: str = get_preferred_unit("density")
     ):
         if self.pure_compound_data is None:
-            return {f"density1": None, f"density2": None}
-        else:
-            return {
-                f"density1": self.pure_compound_data[self.smi1].get_temperature_value(
-                    temperature, units
-                ),
-                f"density2": self.pure_compound_data[self.smi2].get_temperature_value(
-                    temperature, units
-                ),
-            }
+            return {"density1": None, "density2": None}
+        return {
+            "density1": self.pure_compound_data[self.smi1].get_temperature_value(
+                temperature, units
+            ),
+            "density2": self.pure_compound_data[self.smi2].get_temperature_value(
+                temperature, units
+            ),
+        }
 
     @property
     def metadata(self):
@@ -254,15 +267,19 @@ class MixtureRecord(BaseModel):
 
     def temperatures(self, unit: str = "K"):
         t = set()
-        if self.pure_compound_data is not None:
+        if self.pure_compound_data:
             for v in self.pure_compound_data.values():
-                if v.temperature is not None:
+                if v.temperature:
                     t.update([d.to_units(unit) for d in v.temperature])
-
         for m in self.mixture_data:
             t.add(m.temperature.to_units(unit))
-
         return t
+
+    def pressures(self, unit: str = "MPa"):
+        p = set()
+        for m in self.mixture_data:
+            p.add(m.pressure.to_units(unit))
+        return p
 
     def as_mole_fraction(self, x1: list[float], xtype: str) -> list[float]:
         if xtype == "mole fraction":
@@ -280,6 +297,7 @@ class MixtureRecord(BaseModel):
         self,
         measurement_type: str,
         temperature: Quantity,
+        pressure: Quantity,
         units_map: dict[str, str] | None = None,
     ):
         m_units = get_preferred_unit(measurement_type, units_map)
@@ -287,6 +305,8 @@ class MixtureRecord(BaseModel):
             if m.measurement != measurement_type:
                 continue
             if m.temperature.quantity != temperature:
+                continue
+            if m.pressure.quantity != pressure:
                 continue
 
             for x1, value in zip(self.as_mole_fraction(m.x1, m.xtype), m.values):
@@ -297,6 +317,8 @@ class MixtureRecord(BaseModel):
                     "measurement_units": str(q.units),
                     "temperature": temperature.magnitude,
                     "temperature_units": str(temperature.units),
+                    "pressure": pressure.magnitude,
+                    "pressure_units": str(pressure.units),
                     "xtype": m.xtype,
                     "x1": x1,
                     "x2": 1 - x1,
@@ -304,14 +326,20 @@ class MixtureRecord(BaseModel):
 
     def as_records(self, units_map: dict[str, str] | None = None):
         temperature_unit = get_preferred_unit("temperature", units_map)
+        pressure_unit = get_preferred_unit("pressure", units_map)
         for T in self.temperatures(temperature_unit):
             temperature = ureg.Quantity(T, temperature_unit).to(temperature_unit)
-            pure_density = self.get_pure_density(temperature)
-            for mtype in self.measurment_types:
-                for m_record in self.get_measurements(
-                    mtype, temperature=temperature, units_map=units_map
-                ):
-                    yield {
-                        **m_record,
-                        **pure_density,
-                    }
+            for P in self.pressures(pressure_unit):
+                pressure = ureg.Quantity(P, pressure_unit).to(pressure_unit)
+                pure_density = self.get_pure_density(temperature)
+                for mtype in self.measurment_types:
+                    for m_record in self.get_measurements(
+                        mtype,
+                        temperature=temperature,
+                        pressure=pressure,
+                        units_map=units_map,
+                    ):
+                        yield {
+                            **m_record,
+                            **pure_density,
+                        }
