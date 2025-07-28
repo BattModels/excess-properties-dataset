@@ -305,21 +305,19 @@ def df_to_mixture_records(df: pd.DataFrame):
 
 
 def retrieve_mixture_records(properties: list[str], n_compounds: int = 2):
-    # dfs = []
-    # for property in properties:
-    #     logging.info(f"Searching for {property}")
-    #     df: pd.DataFrame = ilt.Search(prop=property, n_compounds=n_compounds)
-    #     df = df[df["num_phases"] == 1]
-    #     df = df[df["phases"] == "Liquid"]
-    #     for id, row in tqdm(df.iterrows(), total=len(df)):
-    #         try:
-    #             if (entry_df := extract_entry(row["id"], property)) is not None:
-    #                 entry_df["ilthermo_id"] = row["id"]
-    #                 dfs.append(entry_df)
-    #         except Exception as e:
-    #             logging.warning("Failed to extract entry for {}: {}", property, e)
-    #
-    # df_data = pd.concat(dfs, ignore_index=True)
-    # df_data.to_csv("data/itlthermo/ilthermo_data.csv")
-    df_data = pd.read_csv("data/itlthermo/ilthermo_data.csv")
+    dfs = []
+    for property in properties:
+        logging.info(f"Searching for {property}")
+        df: pd.DataFrame = ilt.Search(prop=property, n_compounds=n_compounds)
+        df = df[df["num_phases"] == 1]
+        df = df[df["phases"] == "Liquid"]
+        for _, row in tqdm(df.iterrows(), total=len(df)):
+            try:
+                if (entry_df := extract_entry(row["id"], property)) is not None:
+                    entry_df["ilthermo_id"] = row["id"]
+                    dfs.append(entry_df)
+            except Exception as e:
+                logging.warning("Failed to extract entry for {}: {}", property, e)
+
+    df_data = pd.concat(dfs, ignore_index=True)
     yield from df_to_mixture_records(df_data)
