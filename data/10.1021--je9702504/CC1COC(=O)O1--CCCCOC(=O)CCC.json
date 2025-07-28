@@ -1,0 +1,17 @@
+{
+  "name1": "Propylene Carbonate",
+  "name2": "Butyl Butyrate",
+  "smi1": "CC1COC(=O)O1",
+  "smi2": "CCCCOC(=O)CCC",
+  "doi": "10.1021/je9702504",
+  "mixture_data": [
+    {
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [0.0751, 0.1397, 0.1959, 0.2451, 0.3276, 0.3937, 0.4935, 0.565, 0.6608, 0.7451, 0.7958, 0.8539, 0.9212, 0.9397, 0.959, 0.9791],
+      "values": [234.0, 402.0, 524.0, 610.0, 712.0, 773.0, 826.0, 816.0, 769.0, 685.0, 607.0, 493.0, 315.0, 237.0, 175.0, 94.0]
+    }
+  ]
+}

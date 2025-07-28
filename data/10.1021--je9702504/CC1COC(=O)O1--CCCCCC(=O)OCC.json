@@ -1,0 +1,17 @@
+{
+  "name1": "Propylene Carbonate",
+  "name2": "Ethyl Hexanoate",
+  "smi1": "CC1COC(=O)O1",
+  "smi2": "CCCCCC(=O)OCC",
+  "doi": "10.1021/je9702504",
+  "mixture_data": [
+    {
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [0.0753, 0.1401, 0.1964, 0.2451, 0.3283, 0.3946, 0.4944, 0.5659, 0.6617, 0.7458, 0.7964, 0.8544, 0.9215, 0.9399, 0.9591, 0.9791],
+      "values": [237.0, 404.0, 523.0, 606.0, 710.0, 775.0, 810.0, 811.0, 767.0, 683.0, 608.0, 493.0, 307.0, 243.0, 176.0, 94.0]
+    }
+  ]
+}

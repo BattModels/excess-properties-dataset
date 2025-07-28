@@ -1,0 +1,17 @@
+{
+  "name1": "Propylene Carbonate",
+  "name2": "Methyl Pentanoate",
+  "smi1": "CC1COC(=O)O1",
+  "smi2": "CCCCC(=O)OC",
+  "doi": "10.1021/je9702504",
+  "mixture_data": [
+    {
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [0.0604, 0.1139, 0.1616, 0.2045, 0.2783, 0.3395, 0.4354, 0.5096, 0.6067, 0.6982, 0.7552, 0.8223, 0.9025, 0.914, 0.9487, 0.9737],
+      "values": [119.0, 206.0, 272.0, 328.0, 403.0, 447.0, 490.0, 500.0, 486.0, 438.0, 396.0, 315.0, 187.0, 175.0, 111.0, 58.0]
+    }
+  ]
+}

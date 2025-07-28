@@ -1,0 +1,17 @@
+{
+  "name1": "Propylene Carbonate",
+  "name2": "Isobutyl Acetate",
+  "smi1": "CC1COC(=O)O1",
+  "smi2": "CC(=O)OCC(C)C",
+  "doi": "10.1021/je9702504",
+  "mixture_data": [
+    {
+      "measurement": "excess molar enthalpy",
+      "units": "J/mol",
+      "temperature": 298.15,
+      "xtype": "mole fraction",
+      "x1": [0.0616, 0.1161, 0.1646, 0.2081, 0.2828, 0.3445, 0.4408, 0.5125, 0.6119, 0.7029, 0.7593, 0.8255, 0.9044, 0.9266, 0.9498, 0.9743],
+      "values": [124.0, 218.0, 286.0, 336.0, 408.0, 443.0, 480.0, 493.0, 474.0, 429.0, 384.0, 311.0, 198.0, 150.0, 110.0, 61.0]
+    }
+  ]
+}
