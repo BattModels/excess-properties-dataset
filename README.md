@@ -3,6 +3,7 @@
 <div align="center" display="flex" >
     
 [![DOI](https://zenodo.org/badge/1009318553.svg)](https://doi.org/10.5281/zenodo.19825668)
+
 ![GitHub License](https://img.shields.io/github/license/BattModels/excess-properties-dataset?style=flat&label=License)
 [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-sm.svg)](https://huggingface.co/datasets/mist-models/excess-properties)
 
@@ -608,7 +609,20 @@ Instead, molar volumes were computed from the reported densities with molecular 
 
 ## Citation
 
-If you use this dataset in your research, please cite:
+If you use this dataset in your research, please cite the following:
+
+```bibtex
+@software{wadell_2026_19825669,
+  author       = {Wadell, Alexius and Bhutani, Anoushka and Viswanathan, Venkatasubramanian},
+  title        = {BattModels/excess-properties-dataset: v1.0.1},
+  month        = apr,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.1},
+  doi          = {10.5281/zenodo.19825669},
+  url          = {https://doi.org/10.5281/zenodo.19825669},
+}
+```
 
 ```bibtex
 @online{MIST,
