@@ -2,7 +2,7 @@
 
 <div align="center" display="flex" >
 
-![GitHub License](https://img.shields.io/github/license/BattModels/excess-properties-dataset)
+![GitHub License](https://img.shields.io/github/license/BattModels/excess-properties-dataset?style=flat&label=License)
 [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-sm.svg)](https://huggingface.co/datasets/mist-models/excess-properties)
 
 </div>
