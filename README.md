@@ -2,10 +2,11 @@
 
 <div align="center" display="flex" >
     
-[![DOI](https://zenodo.org/badge/1009318553.svg)](https://doi.org/10.5281/zenodo.19825668)
-
 ![GitHub License](https://img.shields.io/github/license/BattModels/excess-properties-dataset?style=flat&label=License)
 [![Model on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-sm.svg)](https://huggingface.co/datasets/mist-models/excess-properties)
+
+[![DOI](https://zenodo.org/badge/1009318553.svg)](https://doi.org/10.5281/zenodo.19825668)
+
 
 </div>
 
